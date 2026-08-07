@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Drafting Professional Local Fund Audit Reports for Urban Local Bodies in Sikkim"
 date: 2026-08-05 18:32:00 +0530
 categories: [Audit, Local Fund Audit]
@@ -31,7 +32,7 @@ Unlike internal audits, statutory audits also examine compliance with legal prov
 
 # Essential Structure of an Audit Report
 
-A professional Local Fund Audit Report generally contains the following sections.
+A professional Local Fund Audit Report generally contains the following sections:
 
 1. Executive Summary
 2. Scope of Audit
@@ -46,19 +47,9 @@ Each observation should be concise, evidence-based, and objective.
 
 A recommended structure is:
 
-```
-Observation
-
-Impact
-
-Recommendation
-```
-
-This format clearly explains:
-
-* what was found,
-* why it matters, and
-* how it should be corrected.
+* **Observation:** What was found during verification.
+* **Impact:** Why the finding matters and its financial/legal implication.
+* **Recommendation:** How the issue should be corrected or mitigated.
 
 ---
 
@@ -280,13 +271,13 @@ A standard ATR process includes:
 
 # Suggested ATR Format
 
-| Sl. No. | Audit Observation  | Action Taken                        | Present Status | Supporting Documents |
-| ------- | ------------------ | ----------------------------------- | -------------- | -------------------- |
-| 1       | Delay in CA Report | CA appointed and accounts finalized | Completed      | Copy enclosed        |
-| 2       | Revenue Records    | Monthly revenue register introduced | Ongoing        | Revenue Register     |
-| 3       | Security Deposit   | Tender conditions revised           | Completed      | Tender Copy          |
-| 4       | Offset Price       | Reserve price revised               | Completed      | Tender Notification  |
-| 5       | 15th FC Fund       | Separate ledger opened              | Completed      | Ledger Extract       |
+| Sl. No. | Audit Observation | Action Taken | Present Status | Supporting Documents |
+| --- | --- | --- | --- | --- |
+| 1 | Delay in CA Report | CA appointed and accounts finalized | Completed | Copy enclosed |
+| 2 | Revenue Records | Monthly revenue register introduced | Ongoing | Revenue Register |
+| 3 | Security Deposit | Tender conditions revised | Completed | Tender Copy |
+| 4 | Offset Price | Reserve price revised | Completed | Tender Notification |
+| 5 | 15th FC Fund | Separate ledger opened | Completed | Ledger Extract |
 
 ---
 
