@@ -161,8 +161,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
-
+baseurl: "/sikkimlfa.github.io" # Must start with a slash and NOT end with a slash
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
