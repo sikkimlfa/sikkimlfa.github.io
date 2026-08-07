@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Creating a Google Calendar (.ICS) from a Holiday List: A Practical Guide"
 date: 2026-08-05 18:31:00 +0530
 categories: [productivity]
@@ -21,7 +22,6 @@ The objective was to:
 * Create a Google Calendar compatible **ICS** file.
 * Create a **VCS** calendar file for older calendar applications.
 * Include recurring holidays such as:
-
   * Second Saturday
   * Fourth Saturday
 * Identify holidays whose dates change every year.
@@ -45,15 +45,15 @@ The source was a holiday notification containing:
 
 These holidays occur on the same calendar date every year.
 
-| Holiday                    | Date        |
-| -------------------------- | ----------- |
-| New Year's Day             | 1 January   |
-| Republic Day               | 26 January  |
-| Dr. B. R. Ambedkar Jayanti | 14 April    |
-| State Day                  | 16 May      |
-| Independence Day           | 15 August   |
-| Gandhi Jayanti             | 2 October   |
-| Christmas                  | 25 December |
+| Holiday | Date |
+| --- | --- |
+| New Year's Day | 1 January |
+| Republic Day | 26 January |
+| Dr. B. R. Ambedkar Jayanti | 14 April |
+| State Day | 16 May |
+| Independence Day | 15 August |
+| Gandhi Jayanti | 2 October |
+| Christmas | 25 December |
 
 These are ideal candidates for annual recurring events in an ICS calendar.
 
@@ -63,21 +63,21 @@ These are ideal candidates for annual recurring events in an ICS calendar.
 
 The following holidays do **not** occur on the same Gregorian calendar date every year because they are determined using lunar, Tibetan, Buddhist, or ecclesiastical calendars.
 
-| Holiday                   |
-| ------------------------- |
-| Maghe Sankranti           |
-| Losar                     |
-| Holi                      |
-| Good Friday               |
+| Holiday |
+| --- |
+| Maghe Sankranti |
+| Losar |
+| Holi |
+| Good Friday |
 | Ramnawami (Chaite Dasain) |
-| Drukpa Tshe-zi            |
-| Tendong Lho Rum Faat      |
-| Janmashtami               |
-| Indrajatra                |
-| Pang-Lhabsol              |
-| Durga Puja (Dasain)       |
-| Laxmi Puja (Deepawali)    |
-| Losoong / Namsoong        |
+| Drukpa Tshe-zi |
+| Tendong Lho Rum Faat |
+| Janmashtami |
+| Indrajatra |
+| Pang-Lhabsol |
+| Durga Puja (Dasain) |
+| Laxmi Puja (Deepawali) |
+| Losoong / Namsoong |
 
 These events must generally be updated each year rather than using a simple yearly recurrence rule.
 
@@ -87,9 +87,9 @@ These events must generally be updated each year rather than using a simple year
 
 Some holidays span multiple days.
 
-| Holiday                | Start           | End             |
-| ---------------------- | --------------- | --------------- |
-| Durga Puja (Dasain)    | 11 October 2024 | 14 October 2024 |
+| Holiday | Start | End |
+| --- | --- | --- |
+| Durga Puja (Dasain) | 11 October 2024 | 14 October 2024 |
 | Laxmi Puja (Deepawali) | 1 November 2024 | 3 November 2024 |
 
 ICS files represent these using a start date and an end date.
@@ -113,6 +113,7 @@ FREQ=MONTHLY;BYDAY=2SA
 
 Fourth Saturday:
 FREQ=MONTHLY;BYDAY=4SA
+
 ```
 
 This greatly reduces the number of calendar entries.
@@ -123,9 +124,9 @@ This greatly reduces the number of calendar entries.
 
 The notification also contained bank-specific holidays.
 
-| Holiday                              | Date      |
-| ------------------------------------ | --------- |
-| Yearly Closing of Bank Accounts      | 1 April   |
+| Holiday | Date |
+| --- | --- |
+| Yearly Closing of Bank Accounts | 1 April |
 | Half-Yearly Closing of Bank Accounts | 1 October |
 
 These can be included as annual recurring events.
@@ -153,6 +154,7 @@ Pang-Lhabsol,2024-09-18,2024-09-18
 Durga Puja (Dasain),2024-10-11,2024-10-14
 Laxmi Puja (Deepawali),2024-11-01,2024-11-03
 Losoong/Namsoong,2024-12-31,2024-12-31
+
 ```
 
 This structure works well for:
@@ -177,6 +179,7 @@ SUMMARY:Republic Day
 DTSTART;VALUE=DATE:20240126
 DTEND;VALUE=DATE:20240127
 END:VEVENT
+
 ```
 
 Multi-day events include a later `DTEND` date.
@@ -187,7 +190,7 @@ Recurring events additionally include an `RRULE`.
 
 # Why Use ICS Instead of Manual Entry?
 
-Using ICS files offers several advantages.
+Using ICS files offers several advantages:
 
 * One-click import into Google Calendar
 * Compatible with Outlook
@@ -216,7 +219,7 @@ This provides a single calendar that can be imported into nearly every modern ca
 
 # Lessons Learned
 
-Several practical observations emerged from this exercise.
+Several practical observations emerged from this exercise:
 
 * Fixed-date holidays should use yearly recurrence rules.
 * Lunar and religious festivals should be updated annually.
