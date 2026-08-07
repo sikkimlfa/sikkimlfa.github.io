@@ -14,7 +14,6 @@ if os.path.exists(posts_dir):
                 def clean_taxonomies(match):
                     prefix = match.group(1)
                     raw_vals = match.group(2)
-                    # Remove quotes, spaces, and empty strings
                     items = [x.strip().strip("\"'").strip() for x in raw_vals.split(",") if x.strip()]
                     cleaned = []
                     seen = set()
@@ -23,17 +22,13 @@ if os.path.exists(posts_dir):
                         if lowered and lowered not in seen:
                             seen.add(lowered)
                             cleaned.append(f'"{lowered}"')
-                    return f'{prefix}: [{", ".join(cleaned)}]'
+                    sep = ", "
+                    joined = sep.join(cleaned)
+                    return f"{prefix}: [{joined}]"
 
-                # Sanitize categories and tags arrays
-                new_content = re.sub(
-                    r"^(categories|tags):\s*\[(.*?)\]",
-                    clean_taxonomies,
-                    content,
-                    flags=re.MULTILINE
-                )
+                new_content = re.sub(r"^(categories|tags):\s*\[(.*?)\]", clean_taxonomies, content, flags=re.MULTILINE)
 
                 with open(path, "w", encoding="utf-8") as f:
                     f.write(new_content)
 
-print("Front matter taxonomies successfully sanitized.")
+print("Taxonomies cleaned successfully.")
