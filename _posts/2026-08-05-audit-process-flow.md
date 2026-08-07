@@ -17,72 +17,33 @@ This article presents a structured audit workflow for Local Fund Audits of Panch
 
 A standardized workflow helps:
 
-- Clearly assign responsibilities.
-- Prevent audit steps from being skipped.
-- Track pending activities.
-- Improve accountability.
-- Maintain audit history.
-- Enable automation in audit software.
-- Monitor timelines and delays.
+* Clearly assign responsibilities.
+* Prevent audit steps from being skipped.
+* Track pending activities.
+* Improve accountability.
+* Maintain audit history.
+* Enable automation in audit software.
+* Monitor timelines and delays.
 
 Each task in the workflow has:
 
-- Responsible Officer
-- Previous Task
-- Next Task
-- Status
-- Supporting Documents
-- Approval Authority
+* Responsible Officer
+* Previous Task
+* Next Task
+* Status
+* Supporting Documents
+* Approval Authority
 
 ---
 
 # Overall Audit Lifecycle
 
-```text
-Audit Planning
-      │
-      ▼
-Issue Intimation Letter
-      │
-      ▼
-Receive Reply from Auditee
-      │
-      ▼
-Conduct Audit
-      │
-      ▼
-Prepare Draft Audit Paras
-      │
-      ▼
-Verification
-      │
-      ▼
-Approval
-      │
-      ▼
-Issue Audit Report
-      │
-      ▼
-Auditee Response
-      │
-      ▼
-Verification of Compliance
-      │
-      ▼
-Review
-      │
-      ▼
-Follow-up
-      │
-      ▼
-Final Settlement Report
-      │
-      ▼
-Action Taken Report (ATR)
-      │
-      ▼
-Audit Closure
-```
+The audit lifecycle follows a sequential progression across four main stages:
+
+* **Initiation:** `Audit Planning` → `Issue Intimation Letter` → `Receive Reply from Auditee` → `Conduct Audit`
+* **Reporting:** `Prepare Draft Audit Paras` → `Verification` → `Approval` → `Issue Audit Report`
+* **Response & Compliance:** `Auditee Response` → `Verification of Compliance` → `Review` → `Follow-up`
+* **Settlement & Closure:** `Final Settlement Report` → `Action Taken Report (ATR)` → `Audit Closure`
 
 ---
 
@@ -94,22 +55,22 @@ Audit Closure
 
 The audit officially begins with an intimation letter informing the auditee regarding:
 
-- Audit period
-- Audit team
-- Date of inspection
-- Records required
-- Responsibilities of the auditee
+* Audit period
+* Audit team
+* Date of inspection
+* Records required
+* Responsibilities of the auditee
 
 ### Responsible Officers
 
-- Accounts Clerk
-- Junior Accountant
-- Accountant
-- Senior Accountant
+* Accounts Clerk
+* Junior Accountant
+* Accountant
+* Senior Accountant
 
 ### Output
 
-- Intimation Letter
+Intimation Letter
 
 ### Next Task
 
@@ -125,14 +86,14 @@ Panchayat Secretary
 
 ### Activities
 
-- Acknowledge receipt
-- Confirm audit dates
-- Nominate liaison officer
-- Arrange records
+* Acknowledge receipt
+* Confirm audit dates
+* Nominate liaison officer
+* Arrange records
 
 ### Output
 
-- Confirmation Letter
+Confirmation Letter
 
 ### Next Task
 
@@ -146,20 +107,20 @@ This is the core audit activity.
 
 ### Responsible Officers
 
-- Accounts Clerk
-- Junior Accountant
-- Accountant
-- Senior Accountant
+* Accounts Clerk
+* Junior Accountant
+* Accountant
+* Senior Accountant
 
 ### Activities
 
-- Verify cash book
-- Verify vouchers
-- Verify bank reconciliation
-- Check schemes
-- Verify procurement
-- Inspect assets
-- Record deviations
+* Verify cash book
+* Verify vouchers
+* Verify bank reconciliation
+* Check schemes
+* Verify procurement
+* Inspect assets
+* Record deviations
 
 ### Output
 
@@ -175,15 +136,15 @@ Verification.
 
 ### Responsible Officers
 
-- Accountant
-- Senior Accountant
+* Accountant
+* Senior Accountant
 
 ### Activities
 
-- Verify facts
-- Check calculations
-- Confirm documentary evidence
-- Ensure legal provisions are correctly cited
+* Verify facts
+* Check calculations
+* Confirm documentary evidence
+* Ensure legal provisions are correctly cited
 
 ### Output
 
@@ -199,15 +160,15 @@ Approval.
 
 ### Responsible Officers
 
-- Accounts Officer
-- Senior Accounts Officer
+* Accounts Officer
+* Senior Accounts Officer
 
 ### Activities
 
-- Review findings
-- Remove duplicate observations
-- Modify wording if necessary
-- Approve draft
+* Review findings
+* Remove duplicate observations
+* Modify wording if necessary
+* Approve draft
 
 ### Output
 
@@ -215,8 +176,8 @@ Approved Draft Paras
 
 ### Possible Outcomes
 
-- Approved
-- Returned for correction
+* Approved
+* Returned for correction
 
 If returned, the auditor revises the observations before resubmission.
 
@@ -228,16 +189,16 @@ When draft observations require clarification, they are sent back to the audit t
 
 ### Responsible Officers
 
-- Accounts Clerk
-- Junior Accountant
-- Accountant
-- Senior Accountant
+* Accounts Clerk
+* Junior Accountant
+* Accountant
+* Senior Accountant
 
 ### Activities
 
-- Modify observations
-- Attach additional evidence
-- Clarify calculations
+* Modify observations
+* Attach additional evidence
+* Clarify calculations
 
 ### Output
 
@@ -253,15 +214,15 @@ Generate Audit Report.
 
 ### Responsible Officers
 
-- Accountant
-- Senior Accountant
+* Accountant
+* Senior Accountant
 
 ### Activities
 
-- Compile approved audit paras
-- Generate report
-- Digitally sign report
-- Dispatch report
+* Compile approved audit paras
+* Generate report
+* Digitally sign report
+* Dispatch report
 
 ### Output
 
@@ -281,10 +242,10 @@ Panchayat Secretary
 
 ### Activities
 
-- Examine each audit para
-- Attach supporting records
-- Submit explanations
-- Propose corrective measures
+* Examine each audit para
+* Attach supporting records
+* Submit explanations
+* Propose corrective measures
 
 ### Output
 
@@ -300,14 +261,14 @@ Verification.
 
 ### Responsible Officers
 
-- Accountant
-- Senior Accountant
+* Accountant
+* Senior Accountant
 
 ### Activities
 
-- Verify explanations
-- Match evidence
-- Accept or reject compliance
+* Verify explanations
+* Match evidence
+* Accept or reject compliance
 
 ### Output
 
@@ -323,14 +284,14 @@ Review.
 
 ### Responsible Officers
 
-- Senior Accounts Officer
-- Joint Director
+* Senior Accounts Officer
+* Joint Director
 
 ### Activities
 
-- Review verification
-- Decide whether observations can be settled
-- Identify pending issues
+* Review verification
+* Decide whether observations can be settled
+* Identify pending issues
 
 ### Output
 
@@ -338,37 +299,16 @@ Review Decision
 
 ### Possible Outcomes
 
-- Accepted
-- Additional clarification required
+* Accepted
+* Additional clarification required
 
 ---
 
 # Follow-up Cycle
 
-Many audit observations are not settled immediately.
+Many audit observations are not settled immediately. Instead, they enter a follow-up loop:
 
-Instead, they enter a follow-up loop.
-
-```text
-Auditee Response
-       │
-       ▼
-Verification
-       │
-       ▼
-Review
-       │
-       ▼
-Additional Compliance Required
-       │
-       ▼
-Auditee Response Again
-       │
-       └───────────────┐
-                       │
-                       ▼
-                 Verification
-```
+`Auditee Response` → `Verification` → `Review` → `Additional Compliance Required` → `Auditee Response Again` → `Re-verification`
 
 This loop continues until all observations are satisfactorily resolved.
 
@@ -382,10 +322,10 @@ Panchayat Secretary
 
 ### Activities
 
-- Submit additional evidence
-- Implement recommendations
-- Recover losses
-- Rectify deficiencies
+* Submit additional evidence
+* Implement recommendations
+* Recover losses
+* Rectify deficiencies
 
 ### Output
 
@@ -403,10 +343,10 @@ Audit Team
 
 ### Activities
 
-- Review follow-up compliance
-- Drop settled paras
-- Retain pending paras
-- Prepare settlement report
+* Review follow-up compliance
+* Drop settled paras
+* Retain pending paras
+* Prepare settlement report
 
 ### Output
 
@@ -422,13 +362,13 @@ Higher Administrative Authority
 
 ### Activities
 
-- Review settlement report
-- Examine compliance
-- Submit Action Taken Report
+* Review settlement report
+* Examine compliance
+* Submit Action Taken Report
 
 ### Output
 
-ATR
+Action Taken Report (ATR)
 
 ---
 
@@ -436,9 +376,9 @@ ATR
 
 ### Activities
 
-- Receive ATR
-- Verify implementation
-- Close observations
+* Receive ATR
+* Verify implementation
+* Close observations
 
 ### Final Output
 
@@ -449,7 +389,7 @@ Audit Closed
 # Complete Audit Workflow Table
 
 | Step | Activity | Responsible Officer | Output |
-|------|----------|---------------------|--------|
+| --- | --- | --- | --- |
 | 1 | Record Intimation Letter | Audit Staff | Intimation Letter |
 | 2 | Reply to Intimation | Panchayat Secretary | Confirmation |
 | 3 | Prepare Draft Audit Paras | Audit Staff | Draft Paras |
@@ -470,16 +410,16 @@ Audit Closed
 # Suggested Workflow Roles
 
 | Designation | Responsibility |
-|-------------|---------------|
-| Accounts Clerk | Data collection, drafting |
-| Junior Accountant | Verification support |
-| Accountant | Drafting and report generation |
-| Senior Accountant | Verification and supervision |
-| Accounts Officer | Approval |
-| Senior Accounts Officer | Review |
-| Joint Director | Final supervisory review |
-| Panchayat Secretary | Auditee responses and compliance |
-| Higher Authority | Action Taken Report (ATR) |
+| --- | --- |
+| **Accounts Clerk** | Data collection, drafting |
+| **Junior Accountant** | Verification support |
+| **Accountant** | Drafting and report generation |
+| **Senior Accountant** | Verification and supervision |
+| **Accounts Officer** | Approval |
+| **Senior Accounts Officer** | Review |
+| **Joint Director** | Final supervisory review |
+| **Panchayat Secretary** | Auditee responses and compliance |
+| **Higher Authority** | Action Taken Report (ATR) |
 
 ---
 
@@ -487,16 +427,16 @@ Audit Closed
 
 An Audit Management System can automate several activities:
 
-- Automatic task assignment
-- Workflow routing
-- Email and SMS notifications
-- Digital approvals
-- Document version control
-- Dashboard for pending tasks
-- Escalation of overdue actions
-- Audit trail for every action
-- Digital signatures
-- Role-based access control
+* Automatic task assignment
+* Workflow routing
+* Email and SMS notifications
+* Digital approvals
+* Document version control
+* Dashboard for pending tasks
+* Escalation of overdue actions
+* Audit trail for every action
+* Digital signatures
+* Role-based access control
 
 Such automation improves efficiency while ensuring every audit action is traceable and compliant.
 
@@ -506,40 +446,40 @@ Such automation improves efficiency while ensuring every audit action is traceab
 
 Each task can transition through standardized workflow states:
 
-- Draft
-- Submitted
-- Under Verification
-- Returned for Correction
-- Verified
-- Approved
-- Report Issued
-- Compliance Received
-- Under Review
-- Follow-up Pending
-- Settled
-- Closed
+* Draft
+* Submitted
+* Under Verification
+* Returned for Correction
+* Verified
+* Approved
+* Report Issued
+* Compliance Received
+* Under Review
+* Follow-up Pending
+* Settled
+* Closed
 
 ---
 
 # Suggested Database Fields
 
-To implement this workflow in an Audit Management System, each task should include:
+To implement this workflow in an Audit Management System, each task record should include:
 
 | Field | Description |
-|-------|-------------|
-| Task ID | Unique identifier |
-| Audit ID | Audit reference |
-| Task Name | Current workflow step |
-| Assigned To | Responsible officer |
-| Previous Task | Dependency |
-| Next Task | Successor |
-| Status | Current state |
-| Remarks | Notes and observations |
-| Due Date | Completion deadline |
-| Completion Date | Actual completion date |
-| Supporting Documents | Linked files |
-| Approval Level | Required authority |
-| Digital Signature | Approval authentication |
+| --- | --- |
+| **Task ID** | Unique identifier |
+| **Audit ID** | Audit reference |
+| **Task Name** | Current workflow step |
+| **Assigned To** | Responsible officer |
+| **Previous Task** | Dependency |
+| **Next Task** | Successor |
+| **Status** | Current state |
+| **Remarks** | Notes and observations |
+| **Due Date** | Completion deadline |
+| **Completion Date** | Actual completion date |
+| **Supporting Documents** | Linked files |
+| **Approval Level** | Required authority |
+| **Digital Signature** | Approval authentication |
 
 ---
 
