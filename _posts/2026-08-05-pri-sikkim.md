@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Genesis and Evolution of Panchayati Raj in Sikkim: From Traditional Governance to Constitutional Democracy"
 date: 2026-08-05 12:58:00 +0000
 categories: [sikkim, governance]
@@ -18,7 +19,7 @@ This article traces the historical development of Panchayati Raj in Sikkim from 
 # Timeline of Panchayati Raj in Sikkim
 
 | Year | Milestone |
-|------|-----------|
+| --- | --- |
 | 1948 | Establishment of Panchayati System under Notification No. 3054-254/P.S. dated 24 January 1948 |
 | 1951 | Local Area Panchayat introduced through Sikkim Darbar Gazette Notification dated 5 August 1951 |
 | 1965 | Sikkim Panchayat Act, 1965 enacted by the Chogyal |
@@ -39,10 +40,10 @@ At that time, Sikkim was still an independent Himalayan kingdom ruled by the Cho
 
 The early Panchayats primarily performed:
 
-- Settlement of minor disputes
-- Maintenance of village order
-- Community welfare activities
-- Assistance to local administration
+* Settlement of minor disputes
+* Maintenance of village order
+* Community welfare activities
+* Assistance to local administration
 
 Although these institutions had limited powers, they laid the foundation for organized local governance in Sikkim.
 
@@ -56,11 +57,11 @@ These Local Area Panchayats expanded the concept of community participation by c
 
 Their responsibilities included:
 
-- Village sanitation
-- Maintenance of public assets
-- Community development
-- Assistance in local administration
-- Resolution of local issues
+* Village sanitation
+* Maintenance of public assets
+* Community development
+* Assistance in local administration
+* Resolution of local issues
 
 These institutions were still largely administrative rather than democratic but represented an important step towards grassroots governance.
 
@@ -74,11 +75,11 @@ This legislation provided the first statutory framework for Panchayati administr
 
 Major features included:
 
-- Establishment of Block Panchayats
-- Defined powers and responsibilities
-- Legal recognition of Panchayat institutions
-- Formal election procedures
-- Administrative decentralization
+* Establishment of Block Panchayats
+* Defined powers and responsibilities
+* Legal recognition of Panchayat institutions
+* Formal election procedures
+* Administrative decentralization
 
 The Act introduced greater public participation compared to earlier arrangements.
 
@@ -102,10 +103,10 @@ To modernize the rural local governance system, the **Sikkim Panchayats Act, 198
 
 The objectives of the new Act included:
 
-- Better organization of Panchayats
-- Improved rural administration
-- Clearer powers and responsibilities
-- More structured functioning of Panchayat bodies
+* Better organization of Panchayats
+* Improved rural administration
+* Clearer powers and responsibilities
+* More structured functioning of Panchayat bodies
 
 The Act strengthened institutional arrangements and prepared the state for future democratic reforms.
 
@@ -119,11 +120,11 @@ The establishment of district-level Panchayats improved coordination between vil
 
 The Zilla Panchayats became responsible for:
 
-- District-level development planning
-- Coordination among Gram Panchayats
-- Supervision of development schemes
-- Infrastructure planning
-- Rural development programmes
+* District-level development planning
+* Coordination among Gram Panchayats
+* Supervision of development schemes
+* Infrastructure planning
+* Rural development programmes
 
 ---
 
@@ -135,14 +136,14 @@ The amendment granted constitutional status to Panchayati Raj Institutions throu
 
 Its major objectives were:
 
-- Democratic decentralization
-- Regular elections
-- Reservation for women
-- Reservation for Scheduled Castes and Scheduled Tribes
-- Financial empowerment
-- Constitution of State Election Commissions
-- Constitution of State Finance Commissions
-- Gram Sabha as the foundation of local democracy
+* Democratic decentralization
+* Regular elections
+* Reservation for women
+* Reservation for Scheduled Castes and Scheduled Tribes
+* Financial empowerment
+* Constitution of State Election Commissions
+* Constitution of State Finance Commissions
+* Gram Sabha as the foundation of local democracy
 
 This amendment required all states to modify their Panchayat laws.
 
@@ -174,9 +175,9 @@ The Gram Sabha became the basic democratic institution where villagers participa
 
 Seats were reserved for:
 
-- Women
-- Scheduled Castes
-- Scheduled Tribes
+* Women
+* Scheduled Castes
+* Scheduled Tribes
 
 This improved inclusiveness and representation.
 
@@ -200,15 +201,15 @@ The Gram Panchayat functions at the village level and serves as the primary unit
 
 Major responsibilities include:
 
-- Drinking water
-- Rural roads
-- Sanitation
-- Public health
-- Local infrastructure
-- Welfare schemes
-- Poverty alleviation programmes
-- Rural housing
-- Social justice
+* Drinking water
+* Rural roads
+* Sanitation
+* Public health
+* Local infrastructure
+* Welfare schemes
+* Poverty alleviation programmes
+* Rural housing
+* Social justice
 
 ---
 
@@ -218,11 +219,11 @@ The Zilla Panchayat functions at the district level.
 
 Its major functions include:
 
-- District development planning
-- Coordination of Gram Panchayats
-- Monitoring development programmes
-- Supervision of implementation
-- Review of district-level projects
+* District development planning
+* Coordination of Gram Panchayats
+* Monitoring development programmes
+* Supervision of implementation
+* Review of district-level projects
 
 ---
 
@@ -246,14 +247,14 @@ The Panchayati Raj system has significantly strengthened grassroots democracy.
 
 Its major contributions include:
 
-- People's participation in governance
-- Rural infrastructure development
-- Better delivery of government schemes
-- Transparency in local administration
-- Community participation in planning
-- Women's political empowerment
-- Inclusive decision-making
-- Accountability in local governance
+* People's participation in governance
+* Rural infrastructure development
+* Better delivery of government schemes
+* Transparency in local administration
+* Community participation in planning
+* Women's political empowerment
+* Inclusive decision-making
+* Accountability in local governance
 
 ---
 
@@ -272,43 +273,15 @@ The evolution of Panchayati Raj in Sikkim has been guided by the following impor
 
 # Chronological Evolution
 
-```text
-1948
-│
-├── Panchayati System introduced
-│
-1951
-│
-├── Local Area Panchayat established
-│
-1965
-│
-├── Sikkim Panchayat Act enacted
-│
-1966
-│
-├── First Panchayat Elections
-│
-1982
-│
-├── New Panchayats Act replaces 1965 Act
-│
-1990–91
-│
-├── First Zilla Panchayat Elections
-│
-1992
-│
-├── 73rd Constitutional Amendment
-│
-1993
-│
-├── Sikkim Panchayat Act enacted
-│
-1995
-│
-└── Act brought into force
-```
+* **1948:** Panchayati System introduced
+* **1951:** Local Area Panchayat established
+* **1965:** Sikkim Panchayat Act enacted
+* **1966:** First Panchayat Elections
+* **1982:** New Panchayats Act replaces 1965 Act
+* **1990–91:** First Zilla Panchayat Elections
+* **1992:** 73rd Constitutional Amendment
+* **1993:** Sikkim Panchayat Act enacted
+* **1995:** Act brought into force
 
 ---
 
