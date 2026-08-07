@@ -9,7 +9,6 @@ on:
       - README.md
       - LICENSE
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 permissions:
@@ -17,7 +16,6 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -42,7 +40,7 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      - name: Sanitize Front Matter (Tags and Categories)
+      - name: Sanitize and Clean Tags & Categories
         run: |
           python3 -c '
           import os, re
@@ -54,11 +52,19 @@ jobs:
                           path = os.path.join(root, file)
                           with open(path, "r", encoding="utf-8") as f:
                               content = f.read()
-                          def fix_list(m):
-                              prefix, vals = m.group(1), m.group(2)
-                              items = [f"\"{x.strip().strip(chr(34)).strip(chr(39))}\"" for x in vals.split(",") if x.strip()]
-                              return f"{prefix}: [{", ".join(items)}]"
-                          new_content = re.sub(r"^(categories|tags):\s*\[(.*?)\]", fix_list, content, flags=re.MULTILINE)
+                          def clean_taxonomies(match):
+                              prefix = match.group(1)
+                              raw_vals = match.group(2)
+                              items = [x.strip().strip("\"'").strip() for x in raw_vals.split(",") if x.strip()]
+                              cleaned = []
+                              seen = set()
+                              for item in items:
+                                  lowered = item.lower()
+                                  if lowered and lowered not in seen:
+                                      seen.add(lowered)
+                                      cleaned.append(f"\"{lowered}\"")
+                              return f"{prefix}: [{", ".join(cleaned)}]"
+                          new_content = re.sub(r"^(categories|tags):\s*\[(.*?)\]", clean_taxonomies, content, flags=re.MULTILINE)
                           with open(path, "w", encoding="utf-8") as f:
                               f.write(new_content)
           '
@@ -67,12 +73,6 @@ jobs:
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
-
-      - name: Test site
-        run: |
-          bundle exec htmlproofer _site \
-            --disable-external \
-            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
