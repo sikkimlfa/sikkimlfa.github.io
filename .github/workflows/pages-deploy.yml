@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           # submodules: true
@@ -37,13 +37,34 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v5
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.4
+          ruby-version: 3.3
           bundler-cache: true
+
+      - name: Sanitize Front Matter (Tags and Categories)
+        run: |
+          python3 -c '
+          import os, re
+          posts_dir = "_posts"
+          if os.path.exists(posts_dir):
+              for root, _, files in os.walk(posts_dir):
+                  for file in files:
+                      if file.endswith((".md", ".markdown")):
+                          path = os.path.join(root, file)
+                          with open(path, "r", encoding="utf-8") as f:
+                              content = f.read()
+                          def fix_list(m):
+                              prefix, vals = m.group(1), m.group(2)
+                              items = [f"\"{x.strip().strip(chr(34)).strip(chr(39))}\"" for x in vals.split(",") if x.strip()]
+                              return f"{prefix}: [{", ".join(items)}]"
+                          new_content = re.sub(r"^(categories|tags):\s*\[(.*?)\]", fix_list, content, flags=re.MULTILINE)
+                          with open(path, "w", encoding="utf-8") as f:
+                              f.write(new_content)
+          '
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
@@ -53,11 +74,11 @@ jobs:
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
-            \-\-disable-external \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+            --disable-external \
+            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v5
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
@@ -70,4 +91,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
