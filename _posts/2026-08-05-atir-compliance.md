@@ -24,10 +24,7 @@ After the audit is completed:
 
 1. An Inspection Report (IR) is issued.
 2. The audited unit is expected to examine every audit observation.
-3. The unit must submit a compliance report explaining:
-   - Action taken,
-   - Reasons for disagreement (if any),
-   - Supporting documents.
+3. The unit must submit a compliance report explaining action taken, reasons for disagreement (if any), and supporting documents.
 
 ---
 
@@ -37,12 +34,12 @@ The **First Compliance Report** is the **initial reply submitted by the audited 
 
 It generally includes:
 
-- Point-wise replies.
-- Corrective actions taken.
-- Recovery details, if any.
-- Clarifications.
-- Supporting documents.
-- Reasons for non-acceptance of audit observations.
+* Point-wise replies.
+* Corrective actions taken.
+* Recovery details, if any.
+* Clarifications.
+* Supporting documents.
+* Reasons for non-acceptance of audit observations.
 
 This is the first official communication from the audited office regarding the audit findings.
 
@@ -50,16 +47,14 @@ This is the first official communication from the audited office regarding the a
 
 # Meaning of "No. of Units Which First Compliance Not Furnished"
 
-The phrase simply means:
+The phrase simply means: **The number of audited units that have not submitted their first compliance report after receiving the audit inspection report.**
 
-> **The number of audited units that have not submitted their first compliance report after receiving the audit inspection report.**
+In other words:
 
-In other words,
-
-- Audit has been completed.
-- Inspection Report has been issued.
-- The unit has received the report.
-- However, **no reply has been received from that unit.**
+* Audit has been completed.
+* Inspection Report has been issued.
+* The unit has received the report.
+* **No reply has been received from that unit.**
 
 ---
 
@@ -68,14 +63,12 @@ In other words,
 Suppose the Accountant General audited **20 Panchayats**.
 
 | Particular | Number |
-|------------|--------:|
+| --- | ---: |
 | Total Units Audited | 20 |
 | Units Submitted First Compliance | 15 |
 | Units Not Submitted First Compliance | 5 |
 
-The ATIR would mention:
-
-> **No. of Units Which First Compliance Not Furnished: 5**
+The ATIR would mention: **No. of Units Which First Compliance Not Furnished: 5**
 
 This indicates that five audited units have not responded to the audit observations.
 
@@ -83,68 +76,33 @@ This indicates that five audited units have not responded to the audit observati
 
 # Why is First Compliance Important?
 
-The first compliance serves several purposes.
+The first compliance serves several key purposes:
 
-## 1. Confirms Receipt of Audit Findings
-
-It shows that the audited office has received and examined the Inspection Report.
-
----
-
-## 2. Enables Settlement of Audit Observations
-
-Many observations can be settled if:
-
-- Required records are produced.
-- Missing information is submitted.
-- Errors are corrected.
-
-Without compliance, the observations remain outstanding.
+* **Confirms Receipt of Audit Findings:** It shows that the audited office has received and examined the Inspection Report.
+* **Enables Settlement of Audit Observations:** Many observations can be settled if required records or missing information are produced.
+* **Improves Accountability:** Government departments are expected to respond within the prescribed time; failure to do so reflects poor audit response and weak internal control.
+* **Facilitates Monitoring:** Higher authorities monitor Inspection Reports issued, compliance received, outstanding paragraphs, and defaulting units.
 
 ---
 
-## 3. Improves Accountability
-
-Government departments are expected to respond within the prescribed time.
-
-Failure to do so reflects poor audit response and weak internal control.
-
----
-
-## 4. Facilitates Monitoring
-
-Higher authorities monitor:
-
-- Number of Inspection Reports issued.
-- Compliance received.
-- Outstanding paragraphs.
-- Defaulting units.
-
-Units failing to submit compliance may be pursued through reminders or higher administrative authorities.
-
----
-
-# Difference Between First Compliance and Subsequent Compliance
+# First Compliance vs. Subsequent Compliance
 
 | First Compliance | Subsequent Compliance |
-|------------------|----------------------|
-| Initial reply after receiving the Inspection Report | Additional replies submitted later |
-| Covers all observations initially | Covers pending observations or additional evidence |
-| Expected within the prescribed time | Submitted whenever further action is taken |
+| --- | --- |
+| **Definition** | Initial reply after receiving the Inspection Report | Additional replies submitted later |
+| **Scope** | Covers all observations initially | Covers pending observations or additional evidence |
+| **Timeline** | Expected within the prescribed time | Submitted whenever further action is taken |
 
 ---
 
 # Common Reasons for Non-Furnishing First Compliance
 
-Some common reasons include:
-
-- Negligence by the audited office.
-- Frequent transfer of officials.
-- Lack of proper record maintenance.
-- Delay in obtaining information from subordinate offices.
-- Weak internal monitoring.
-- Administrative oversight.
-- Pending approval from higher authorities.
+* Negligence by the audited office.
+* Frequent transfer of officials.
+* Lack of proper record maintenance.
+* Delay in obtaining information from subordinate offices.
+* Weak internal monitoring and administrative oversight.
+* Pending approval from higher authorities.
 
 ---
 
@@ -152,13 +110,11 @@ Some common reasons include:
 
 When first compliance is not furnished:
 
-- Audit paragraphs remain pending.
-- Serious irregularities continue unresolved.
-- Recovery cases remain unsettled.
-- Compliance statistics deteriorate.
-- The matter may be escalated to higher authorities.
-
-Repeated failure to furnish compliance may also be reflected in annual audit reports.
+* Audit paragraphs remain pending.
+* Serious irregularities continue unresolved.
+* Recovery cases remain unsettled.
+* Compliance statistics deteriorate.
+* The matter may be escalated to higher authorities or reflected in annual audit reports.
 
 ---
 
@@ -168,62 +124,41 @@ After receiving an Inspection Report, every audited unit should:
 
 1. Register the report immediately.
 2. Assign responsibility for each observation.
-3. Collect supporting documents.
-4. Prepare point-wise replies.
-5. Obtain approval from the competent authority.
-6. Submit the compliance report within the prescribed time.
-7. Continue submitting additional compliance wherever required.
+3. Collect supporting documents and prepare point-wise replies.
+4. Obtain approval from the competent authority.
+5. Submit the compliance report within the prescribed time.
+6. Continue submitting additional compliance wherever required.
 
 ---
 
 # Monitoring by Audit Offices
 
-Audit offices generally maintain registers showing:
-
-- Inspection Reports issued.
-- Date of issue.
-- Date of receipt.
-- Due date for compliance.
-- Compliance received.
-- Outstanding paragraphs.
-- Units with no compliance.
-
-These registers help prepare statistics for quarterly and annual reports.
+Audit offices maintain registers showing Inspection Reports issued, dates of issue and receipt, due dates for compliance, compliance received, outstanding paragraphs, and units with no compliance. These registers help prepare statistics for quarterly and annual reports.
 
 ---
 
 # Frequently Asked Questions
 
-## Does "First Compliance Not Furnished" mean the audit is incomplete?
+### Does "First Compliance Not Furnished" mean the audit is incomplete?
 
-No.
+No. The audit has already been completed and the Inspection Report has been issued. Only the reply from the audited unit is pending.
 
-The audit has already been completed and the Inspection Report has been issued. Only the reply from the audited unit is pending.
+### Can audit observations be settled without first compliance?
 
----
+Normally, no. Audit requires documentary evidence or corrective action from the audited unit before observations can be settled.
 
-## Can audit observations be settled without first compliance?
+### Is delayed compliance accepted?
 
-Normally, no.
-
-Audit requires documentary evidence or corrective action from the audited unit before observations can be settled.
-
----
-
-## Is delayed compliance accepted?
-
-Yes.
-
-Although delayed compliance may still be considered, it reflects poor audit responsiveness and can delay the settlement of audit observations.
+Yes. Although delayed compliance may still be considered, it reflects poor audit responsiveness and can delay the settlement of audit observations.
 
 ---
 
 # Key Takeaways
 
-- **First Compliance** is the initial reply submitted after an Inspection Report is issued.
-- **"No. of Units Which First Compliance Not Furnished"** indicates the number of audited units that have **not submitted any initial response** to the audit findings.
-- This statistic is used to monitor audit responsiveness and the effectiveness of follow-up actions.
-- Timely compliance helps resolve audit observations, strengthens accountability, and improves governance.
+* **First Compliance** is the initial reply submitted after an Inspection Report is issued.
+* **"No. of Units Which First Compliance Not Furnished"** indicates the number of audited units that have **not submitted any initial response** to the audit findings.
+* This statistic is used to monitor audit responsiveness and the effectiveness of follow-up actions.
+* Timely compliance helps resolve audit observations, strengthens accountability, and improves governance.
 
 ---
 
