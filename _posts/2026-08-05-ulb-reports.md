@@ -1,8 +1,8 @@
 ---
 title: "Drafting Professional Local Fund Audit Reports for Urban Local Bodies in Sikkim"
 date: 2026-08-05 18:32:00 +0530
-categories: [audit, governance, local-fund-audit]
-tags: [sikkim, local-fund-audit, statutory-audit, municipality, panchayat, audit-report, atr, finance]
+categories: [Audit, Local Fund Audit]
+tags: [sikkim, local-fund-audit, statutory-audit, municipality, panchayat, audit-report, atr, finance, governance]
 ---
 
 # Drafting Professional Local Fund Audit Reports for Urban Local Bodies in Sikkim
