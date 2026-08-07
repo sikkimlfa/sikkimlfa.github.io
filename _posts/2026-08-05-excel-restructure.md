@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Restructuring Multi-Year Excel Data into a Single Year-Wise Table with Microsoft Excel"
 date: 2026-08-05 13:00:00 +0000
 categories: [excel]
@@ -24,27 +25,27 @@ Suppose an Excel workbook contains data like this:
 ## FY 2021-22
 
 | Department | Revenue | Expenditure |
-| ---------- | ------- | ----------- |
-| A          | 120     | 100         |
-| B          | 80      | 70          |
+| --- | --- | --- |
+| A | 120 | 100 |
+| B | 80 | 70 |
 
 ---
 
 ## FY 2022-23
 
 | Department | Revenue | Expenditure |
-| ---------- | ------- | ----------- |
-| A          | 140     | 110         |
-| B          | 95      | 82          |
+| --- | --- | --- |
+| A | 140 | 110 |
+| B | 95 | 82 |
 
 ---
 
 ## FY 2023-24
 
 | Department | Revenue | Expenditure |
-| ---------- | ------- | ----------- |
-| A          | 155     | 120         |
-| B          | 110     | 90          |
+| --- | --- | --- |
+| A | 155 | 120 |
+| B | 110 | 90 |
 
 Each Financial Year is stored as a separate table.
 
@@ -65,13 +66,13 @@ While visually appealing, this structure is not suitable for:
 Instead of maintaining separate tables, the data should be combined into one master table.
 
 | Financial Year | Department | Revenue | Expenditure |
-| -------------- | ---------- | ------- | ----------- |
-| 2021-22        | A          | 120     | 100         |
-| 2021-22        | B          | 80      | 70          |
-| 2022-23        | A          | 140     | 110         |
-| 2022-23        | B          | 95      | 82          |
-| 2023-24        | A          | 155     | 120         |
-| 2023-24        | B          | 110     | 90          |
+| --- | --- | --- | --- |
+| 2021-22 | A | 120 | 100 |
+| 2021-22 | B | 80 | 70 |
+| 2022-23 | A | 140 | 110 |
+| 2022-23 | B | 95 | 82 |
+| 2023-24 | A | 155 | 120 |
+| 2023-24 | B | 110 | 90 |
 
 This format is called **normalized** or **long-format data**.
 
@@ -85,13 +86,7 @@ A single table offers numerous advantages.
 
 You can filter records for any Financial Year instantly.
 
-Example:
-
-```
-FY = 2023-24
-```
-
-returns only the required records.
+Example: `FY = 2023-24` returns only the required records.
 
 ---
 
@@ -102,17 +97,15 @@ Instead of creating separate PivotTables for each FY, one PivotTable can compare
 Example:
 
 | Department | 2021-22 | 2022-23 | 2023-24 |
-| ---------- | ------- | ------- | ------- |
-| A          | 120     | 140     | 155     |
-| B          | 80      | 95      | 110     |
+| --- | --- | --- | --- |
+| A | 120 | 140 | 155 |
+| B | 80 | 95 | 110 |
 
 ---
 
 ## Faster Chart Creation
 
-Excel charts work best when all data is stored in one table.
-
-Examples include:
+Excel charts work best when all data is stored in one table. Examples include:
 
 * Line charts
 * Trend analysis
@@ -123,9 +116,7 @@ Examples include:
 
 ## Compatible with Power BI
 
-Power BI expects normalized data.
-
-Separate tables require additional transformation before analysis.
+Power BI expects normalized data. Separate tables require additional transformation before analysis.
 
 ---
 
@@ -137,35 +128,18 @@ Example:
 
 ```excel
 =SUMIFS(Table1[Revenue],Table1[Financial Year],"2023-24")
+
 ```
 
 ---
 
 # Typical Workflow
 
-The restructuring process generally follows these steps.
+The restructuring process generally follows these steps:
 
-```text
-Existing Workbook
-        │
-        ▼
-Locate Each FY Table
-        │
-        ▼
-Identify Common Columns
-        │
-        ▼
-Insert Financial Year Column
-        │
-        ▼
-Append All Records
-        │
-        ▼
-Create Master Table
-        │
-        ▼
-Analysis / Dashboard / PivotTable
-```
+* **Identify Structure:** `Locate Each FY Table` → `Identify Common Columns`
+* **Transform:** `Insert Financial Year Column` → `Append All Records`
+* **Finalize:** `Create Master Table` → `Analysis / Dashboard / PivotTable`
 
 ---
 
@@ -173,47 +147,19 @@ Analysis / Dashboard / PivotTable
 
 ## Keep Column Names Identical
 
-Instead of:
-
-```
-Revenue
-Income
-Receipt
-```
-
-use one consistent heading.
-
-```
-Revenue
-```
+Instead of mixing terms like `Revenue`, `Income`, or `Receipt`, use one consistent heading (`Revenue`).
 
 ---
 
 ## Add Financial Year Column
 
-Never rely on table titles.
-
-Instead include:
-
-| Financial Year |
-| -------------- |
-| 2021-22        |
-| 2022-23        |
-| 2023-24        |
-
-This makes filtering effortless.
+Never rely on table titles alone. Include explicit data points in a `Financial Year` column (`2021-22`, `2022-23`, `2023-24`) to make filtering effortless.
 
 ---
 
 ## Convert to Excel Table
 
-Press
-
-```
-Ctrl + T
-```
-
-Benefits include:
+Press **Ctrl + T** to convert ranges to Excel Tables for:
 
 * Dynamic ranges
 * Automatic formatting
@@ -224,22 +170,13 @@ Benefits include:
 
 ## Avoid Blank Rows
 
-Blank rows interrupt:
-
-* Power Query
-* PivotTables
-* Sorting
-* Filtering
-
-Keep the dataset continuous.
+Blank rows interrupt Power Query, PivotTables, sorting, and filtering. Keep the dataset continuous.
 
 ---
 
 # Using Power Query
 
-Power Query is the preferred method for combining multiple tables.
-
-Typical workflow:
+Power Query is the preferred method for combining multiple tables:
 
 1. Import each table.
 2. Standardize column names.
@@ -247,61 +184,16 @@ Typical workflow:
 4. Append all tables.
 5. Load the combined data back into Excel.
 
-Advantages:
-
-* Repeatable process
-* Minimal manual effort
-* Easy to refresh when new data is added
+**Advantages:** Repeatable process, minimal manual effort, and easy to refresh when new data is added.
 
 ---
 
 # Common Challenges
 
-## Different Column Names
-
-Example:
-
-```
-Amount
-```
-
-versus
-
-```
-Total Amount
-```
-
-These should be standardized before combining.
-
----
-
-## Missing Columns
-
-Some FY tables may contain additional or missing fields.
-
-A consistent structure is necessary for accurate consolidation.
-
----
-
-## Merged Cells
-
-Merged cells interfere with sorting, filtering, and Power Query.
-
-They should be removed before transformation.
-
----
-
-## Totals Inside Data
-
-Rows such as:
-
-```
-Grand Total
-```
-
-should be excluded from the master dataset.
-
-Totals should be calculated separately using PivotTables or formulas.
+* **Different Column Names:** Standardize variations (e.g., `Amount` vs. `Total Amount`) before combining.
+* **Missing Columns:** Handle missing fields to maintain a consistent master structure.
+* **Merged Cells:** Remove merged cells before transformation as they disrupt sorting and Power Query.
+* **Totals Inside Data:** Exclude rows like `Grand Total` from the master dataset. Calculate totals separately using PivotTables or formulas.
 
 ---
 
@@ -309,23 +201,15 @@ Totals should be calculated separately using PivotTables or formulas.
 
 A well-designed dataset resembles the following:
 
-| FY      | Department | Scheme   | Amount | Remarks   |
-| ------- | ---------- | -------- | ------ | --------- |
-| 2021-22 | A          | Scheme A | 120    | Completed |
-| 2021-22 | B          | Scheme B | 90     | Pending   |
-| 2022-23 | A          | Scheme A | 140    | Completed |
-| 2022-23 | B          | Scheme B | 95     | Completed |
-| 2023-24 | A          | Scheme A | 155    | Completed |
+| FY | Department | Scheme | Amount | Remarks |
+| --- | --- | --- | --- | --- |
+| 2021-22 | A | Scheme A | 120 | Completed |
+| 2021-22 | B | Scheme B | 90 | Pending |
+| 2022-23 | A | Scheme A | 140 | Completed |
+| 2022-23 | B | Scheme B | 95 | Completed |
+| 2023-24 | A | Scheme A | 155 | Completed |
 
-This layout is ideal for:
-
-* Excel formulas
-* PivotTables
-* Power Query
-* Power BI
-* SQL
-* Python
-* Data visualization
+This layout is ideal for Excel formulas, PivotTables, Power Query, Power BI, SQL, Python, and general data visualization.
 
 ---
 
@@ -346,13 +230,7 @@ When the workbook can be processed successfully, the restructuring would involve
 3. Standardizing column names.
 4. Adding a **Financial Year** column where required.
 5. Appending all records into one master dataset.
-6. Delivering:
-
-   * A cleaned Excel workbook.
-   * A consolidated master table.
-   * Year-wise sorted data.
-   * Pivot-ready format.
-   * Optional Power Query solution for future refreshes.
+6. Delivering a cleaned Excel workbook, a consolidated master table, year-wise sorted data, a pivot-ready format, and an optional Power Query solution for future refreshes.
 
 ---
 
