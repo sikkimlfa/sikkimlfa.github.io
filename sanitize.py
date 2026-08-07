@@ -38,4 +38,4 @@ if os.path.exists(posts_dir):
                     with open(path, "w", encoding="utf-8") as f:
                         f.write(new_content)
 
-print("Taxonomies and category depths sanitized successfully.")
+print("Taxonomies sanitized and category depth capped at 2.")
