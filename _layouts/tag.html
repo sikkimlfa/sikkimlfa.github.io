@@ -1,0 +1,14 @@
+---
+layout: page
+---
+<div id="archives">
+  <div class="archive-title">Tag: {{ page.title }}</div>
+  <ul class="post-content">
+    {% for post in page.posts %}
+      <li>
+        <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
