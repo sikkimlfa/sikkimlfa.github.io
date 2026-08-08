@@ -4,9 +4,6 @@ date: "2026-08-08 10:00:00 +0530"
 categories: ["Technology", "Tutorials"]
 tags: ["github-pages", "jekyll", "markdown", "web-development"]
 description: "A short, compelling summary of what this post covers for SEO and post previews."
-image:
-  path: /assets/img/headers/preview-image.png
-  alt: "Descriptive alt text for accessibility"
 ---
 
 A strong, concise opening paragraph that hooks the reader. Briefly explain the problem you are solving or what the reader will gain from reading this post.
