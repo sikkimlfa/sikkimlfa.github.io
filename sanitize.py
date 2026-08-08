@@ -19,12 +19,14 @@ if os.path.exists(posts_dir):
                     cleaned = []
                     seen = set()
                     for item in items:
-                        lowered = item.lower()
+                        # Normalize: replace '&' with 'and', clean whitespace
+                        normalized = item.replace("&", "and").strip()
+                        lowered = normalized.lower()
                         if lowered and lowered not in seen:
                             seen.add(lowered)
                             cleaned.append(f'"{lowered}"')
                     
-                    # Cap categories to max depth 2 for Chirpy compatibility
+                    # Cap categories at max depth of 2 for Chirpy compatibility
                     if key == "categories" and len(cleaned) > 2:
                         cleaned = cleaned[:2]
 
@@ -38,4 +40,4 @@ if os.path.exists(posts_dir):
                     with open(path, "w", encoding="utf-8") as f:
                         f.write(new_content)
 
-print("Taxonomies sanitized and category depth capped at 2.")
+print("Taxonomies sanitized successfully.")
