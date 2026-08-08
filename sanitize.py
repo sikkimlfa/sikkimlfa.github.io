@@ -24,7 +24,7 @@ if os.path.exists(posts_dir):
                             seen.add(lowered)
                             cleaned.append(f'"{lowered}"')
                     
-                    # Chirpy requires categories to have a max depth of 2 [Category, Subcategory]
+                    # Cap categories to max depth 2 for Chirpy compatibility
                     if key == "categories" and len(cleaned) > 2:
                         cleaned = cleaned[:2]
 
