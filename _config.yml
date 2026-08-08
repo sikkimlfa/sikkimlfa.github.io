@@ -132,3 +132,15 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
