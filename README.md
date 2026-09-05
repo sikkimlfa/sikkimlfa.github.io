@@ -41,12 +41,12 @@ Legacy Pipeline (Chirpy)                Modern Pipeline (Hugo PaperMod)
 ┌───────────────────────────┐           ┌───────────────────────────┐
 │ Git Push (Markdown)       │           │ Git Push (Markdown)       │
 └─────────────┬─────────────┘           └─────────────┬─────────────┘
-▼                                       ▼
+              ▼                                       ▼
 ┌───────────────────────────┐           ┌───────────────────────────┐
 │ Ruby Gems / Bundler Lock  │ (Frequent)│ Python In-Runner Sanitize │ (Zero failure)
 │ html-proofer Strict Check │ (Fails)   │ Hugo Extended Engine      │ (Single Binary)
 └─────────────┬─────────────┘           └─────────────┬─────────────┘
-▼                                       ▼
+              ▼                                       ▼
 ┌───────────────────────────┐           ┌───────────────────────────┐
 │ Build Time: 4-6 Minutes   │           │ Build Time: 12-25 Seconds │
 └───────────────────────────┘           └───────────────────────────┘
