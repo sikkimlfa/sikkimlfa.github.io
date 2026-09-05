@@ -211,7 +211,7 @@ placeholder: "Search articles..."
 3. Rebuild locally using `hugo server -D` and verify that `index.json` is generated at `http://localhost:1313/index.json`.
 ---
 
-[← Return to Main README](../README.md) · [View Windows Setup Guide →](../WINDOWS_SETUP.md)
+[← Return to Main README](./README.md) · [View Windows Setup Guide →](./WINDOWS_SETUP.md)
 
 ---
 
