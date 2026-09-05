@@ -1,0 +1,31 @@
+
+/* Ensure Navigation Bar is strictly horizontal */
+.nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+#menu {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 14px !important;
+}
+
+#menu li {
+  display: inline-flex !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#menu a {
+  display: inline-flex !important;
+  align-items: center !important;
+  line-height: normal !important;
+}
