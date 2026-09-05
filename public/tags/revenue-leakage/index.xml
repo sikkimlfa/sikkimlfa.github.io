@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Revenue Leakage on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/revenue-leakage/</link>
+    <description>Recent content in Revenue Leakage on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/revenue-leakage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Excel-Based GST Revenue Leakage Audit Tool for the Cement Industry</title>
+      <link>http://localhost:1313/posts/2026-08-04-gst/</link>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-04-gst/</guid>
+      <description>&lt;p&gt;Auditing a manufacturing firm—especially one operating in the heavy-material sector like cement—requires meticulous data cross-verification. In the cement industry, high-volume dispatches, bulk logistics via road and rail, uniform HSN codes, and complex input tax credit (ITC) chains make it a prime environment for potential revenue leakages.&lt;/p&gt;
+&lt;p&gt;To bridge the gap between raw financial records and statutory returns, auditors need a robust, centralized mechanism. This guide consolidates a complete blueprint for building a customized, &lt;strong&gt;Excel-based GST Revenue Leakage Analysis Tool&lt;/strong&gt; tailored specifically for a cement manufacturing and trading firm.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

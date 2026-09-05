@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Productivity on Sikkim LFA</title>
+    <link>http://localhost:1313/categories/productivity/</link>
+    <description>Recent content in Productivity on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 18:31:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a Google Calendar (.ICS) from a Holiday List: A Practical Guide</title>
+      <link>http://localhost:1313/posts/2026-08-05-google-calendar/</link>
+      <pubDate>Wed, 05 Aug 2026 18:31:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-google-calendar/</guid>
+      <description>&lt;h1 id=&#34;creating-a-google-calendar-ics-from-a-holiday-list-a-practical-guide&#34;&gt;Creating a Google Calendar (.ICS) from a Holiday List: A Practical Guide&lt;/h1&gt;
+&lt;p&gt;Managing public holidays is much easier when they are available directly in your digital calendar. During this project, the objective was to convert a tabular holiday notification into a format that could be imported into Google Calendar while also supporting recurring weekly holidays such as second and fourth Saturdays.&lt;/p&gt;
+&lt;p&gt;This post documents the complete workflow, from extracting holidays from an image to preparing data for ICS, VCS, and CSV formats.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20 Essential Microsoft Excel Tips &amp; Tricks Every Analyst Should Know</title>
+      <link>http://localhost:1313/posts/2026-08-05-excel-tips/</link>
+      <pubDate>Wed, 05 Aug 2026 18:27:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-excel-tips/</guid>
+      <description>&lt;h1 id=&#34;20-essential-microsoft-excel-tips--tricks-every-analyst-should-know&#34;&gt;20 Essential Microsoft Excel Tips &amp;amp; Tricks Every Analyst Should Know&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel remains one of the most powerful tools for data analysis, reporting, financial modeling, auditing, and business intelligence. While most users know basic formulas like &lt;code&gt;SUM()&lt;/code&gt; and &lt;code&gt;AVERAGE()&lt;/code&gt;, Excel contains many powerful features that can dramatically improve productivity.&lt;/p&gt;
+&lt;p&gt;This guide explains twenty practical Excel tips with examples, use cases, advantages, shortcuts, and best practices.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;1-create-a-dynamic-drop-down-list&#34;&gt;1. Create a Dynamic Drop-down List&lt;/h1&gt;
+&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;A dynamic drop-down automatically updates whenever new items are added to the source list.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing Better Official Documents with AI: A Practical Guide for ChatGPT and
+Gemini</title>
+      <link>http://localhost:1313/posts/2026-08-05-writing-office-doc/</link>
+      <pubDate>Wed, 05 Aug 2026 18:11:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-writing-office-doc/</guid>
+      <description>Learn how to use ChatGPT or Gemini to draft professional official notings, letters, memoranda, circulars, and office documents using clear and effective prompting.</description>
+    </item>
+    <item>
+      <title>ChatGPT for Excel: 50 Powerful Prompts, Practical Examples, and Real-World
+Use Cases</title>
+      <link>http://localhost:1313/posts/2026-08-05-excel-prompts/</link>
+      <pubDate>Wed, 05 Aug 2026 12:57:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-excel-prompts/</guid>
+      <description>&lt;h1 id=&#34;chatgpt-for-excel-50-powerful-prompts-practical-examples-and-real-world-use-cases&#34;&gt;ChatGPT for Excel: 50 Powerful Prompts, Practical Examples, and Real-World Use Cases&lt;/h1&gt;
+&lt;p&gt;Excel has evolved from being a spreadsheet application into one of the world&amp;rsquo;s most powerful data analysis tools. Combined with ChatGPT, Excel becomes even more productive. Instead of spending hours searching for formulas or debugging VBA code, you can simply describe what you need and let ChatGPT generate formulas, explain functions, write macros, or suggest better ways to analyze your data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Fix Firefox Saving PDFs Instead of Printing in Google Sheets</title>
+      <link>http://localhost:1313/posts/2026-08-04-pdf-gsheets/</link>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-04-pdf-gsheets/</guid>
+      <description>&lt;p&gt;If you frequently use Google Sheets inside Mozilla Firefox, you may have run into a frustrating issue: when you hit the &amp;ldquo;Print&amp;rdquo; button, Firefox downloads or prompts you to save a PDF file instead of sending the document straight to your physical printer.&lt;/p&gt;
+&lt;p&gt;While this feels like a glitch, it is actually expected behavior based on how Google Sheets interacts with different browsers. Fortunately, there are several straightforward ways to fix this workflow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mastering Google Docs Spacing: How to Remove Extra Spaces, Blank Lines, Phantom
+Pages, and Automate Workflow with Apps Script</title>
+      <link>http://localhost:1313/posts/2026-08-04-gdocs/</link>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-04-gdocs/</guid>
+      <description>&lt;h1 id=&#34;mastering-google-docs-spacing-how-to-remove-extra-spaces-blank-lines-phantom-pages-and-automate-workflow-with-apps-script&#34;&gt;Mastering Google Docs Spacing: How to Remove Extra Spaces, Blank Lines, Phantom Pages, and Automate Workflow with Apps Script&lt;/h1&gt;
+&lt;p&gt;When working on professional reports, administrative documents, or collaborative projects in Google Docs, clean formatting is essential. However, copying content from external sources—such as PDFs, web pages, plain text files, or email threads—frequently introduces unwanted layout artifacts. These include runaway double spaces, endless strings of blank lines, erratic paragraph padding, and stubborn blank pages that refuse to delete.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Ultimate Guide: How to Set Up Free Remote Desktop for Windows 11 and Android</title>
+      <link>http://localhost:1313/posts/2026-08-04-remote-desktop/</link>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-04-remote-desktop/</guid>
+      <description>&lt;h1 id=&#34;the-ultimate-guide-how-to-set-up-free-remote-desktop-for-windows-11-and-android&#34;&gt;The Ultimate Guide: How to Set Up Free Remote Desktop for Windows 11 and Android&lt;/h1&gt;
+&lt;p&gt;Whether you need to grab a forgotten file, run heavy desktop software from your couch, or help a family member troubleshoot their PC, having remote access to your Windows 11 machine from your Android phone is an absolute game-changer.&lt;/p&gt;
+&lt;p&gt;Gone are the days when you had to pay hefty subscription fees for basic remote access. Today, there are several powerful, completely free tools that bridge the gap between your mobile device and your PC.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

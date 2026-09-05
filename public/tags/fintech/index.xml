@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fintech on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/fintech/</link>
+    <description>Recent content in Fintech on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 18:29:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fintech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Artificial Intelligence to Combat GST Fraud: Challenges, Solutions,
+and the Future of Tax Administration</title>
+      <link>http://localhost:1313/posts/2026-08-05-gst-ai/</link>
+      <pubDate>Wed, 05 Aug 2026 18:29:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-gst-ai/</guid>
+      <description>&lt;h1 id=&#34;using-artificial-intelligence-to-combat-gst-fraud&#34;&gt;Using Artificial Intelligence to Combat GST Fraud&lt;/h1&gt;
+&lt;p&gt;The Goods and Services Tax (GST) is one of the most significant tax reforms in India. It replaced multiple indirect taxes with a unified taxation system, simplifying compliance and improving transparency. However, the scale and complexity of GST have also created opportunities for sophisticated tax fraud.&lt;/p&gt;
+&lt;p&gt;Fake invoices, shell companies, fraudulent Input Tax Credit (ITC) claims, refund fraud, circular trading, and tax evasion continue to challenge tax authorities. Traditional audit methods are no longer sufficient to detect these frauds efficiently.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

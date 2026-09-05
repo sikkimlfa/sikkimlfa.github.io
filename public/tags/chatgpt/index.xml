@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chatgpt on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/chatgpt/</link>
+    <description>Recent content in Chatgpt on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 18:11:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing Better Official Documents with AI: A Practical Guide for ChatGPT and
+Gemini</title>
+      <link>http://localhost:1313/posts/2026-08-05-writing-office-doc/</link>
+      <pubDate>Wed, 05 Aug 2026 18:11:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-writing-office-doc/</guid>
+      <description>Learn how to use ChatGPT or Gemini to draft professional official notings, letters, memoranda, circulars, and office documents using clear and effective prompting.</description>
+    </item>
+    <item>
+      <title>ChatGPT for Excel: 50 Powerful Prompts, Practical Examples, and Real-World
+Use Cases</title>
+      <link>http://localhost:1313/posts/2026-08-05-excel-prompts/</link>
+      <pubDate>Wed, 05 Aug 2026 12:57:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-excel-prompts/</guid>
+      <description>&lt;h1 id=&#34;chatgpt-for-excel-50-powerful-prompts-practical-examples-and-real-world-use-cases&#34;&gt;ChatGPT for Excel: 50 Powerful Prompts, Practical Examples, and Real-World Use Cases&lt;/h1&gt;
+&lt;p&gt;Excel has evolved from being a spreadsheet application into one of the world&amp;rsquo;s most powerful data analysis tools. Combined with ChatGPT, Excel becomes even more productive. Instead of spending hours searching for formulas or debugging VBA code, you can simply describe what you need and let ChatGPT generate formulas, explain functions, write macros, or suggest better ways to analyze your data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
