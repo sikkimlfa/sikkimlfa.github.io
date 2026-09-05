@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="main-home" style="max-width: 800px; margin: 0 auto; padding: 20px 10px;">
+    <h1 style="font-size: 2.2rem; margin-bottom: 8px;">{{ .Site.Title }}</h1>
+    <p style="color: var(--secondary); margin-bottom: 24px;">{{ .Site.Params.description }}</p>
+
+    <!-- Search Box directly on Landing -->
+    <div id="searchbox" style="margin-bottom: 35px;">
+        <input id="searchInput" autofocus placeholder="Quick search articles, acts, circulars..." 
+               aria-label="search" type="search" autocomplete="off" maxlength="64"
+               style="width: 100%; padding: 12px 16px; font-size: 1.05rem; border-radius: 8px; border: 1px solid var(--border); background: var(--theme); color: var(--primary);">
+        <ul id="searchResults" aria-label="search results" style="list-style: none; padding: 0; margin-top: 10px;"></ul>
+    </div>
+
+    <!-- Pinned / Top Articles -->
+    {{ $pinned := where .Site.RegularPages ".Params.weight" "!=" nil }}
+    {{ if gt (len $pinned) 0 }}
+    <h2 style="font-size: 1.4rem; border-bottom: 2px solid var(--border); padding-bottom: 6px; margin-bottom: 16px;">Top Key Pages</h2>
+    <div style="display: grid; gap: 12px; margin-bottom: 35px;">
+        {{ range first 4 $pinned }}
+        <div style="padding: 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--entry);">
+            <a href="{{ .Permalink }}" style="font-size: 1.15rem; font-weight: 600; text-decoration: none; color: var(--primary);">{{ .Title }}</a>
+            <p style="font-size: 0.9rem; color: var(--secondary); margin-top: 4px;">{{ .Summary | truncate 130 }}</p>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Recent Articles -->
+    <h2 style="font-size: 1.4rem; border-bottom: 2px solid var(--border); padding-bottom: 6px; margin-bottom: 16px;">Recent Updates</h2>
+    <div style="display: grid; gap: 12px;">
+        {{ range first 6 (where .Site.RegularPages "Section" "posts") }}
+        <div style="padding: 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--entry);">
+            <span style="font-size: 0.8rem; color: var(--secondary);">{{ .Date.Format "Jan 02, 2006" }}</span>
+            <div>
+                <a href="{{ .Permalink }}" style="font-size: 1.1rem; font-weight: 600; text-decoration: none; color: var(--primary);">{{ .Title }}</a>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--secondary); margin-top: 4px;">{{ .Summary | truncate 130 }}</p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<!-- Load Fuse search script -->
+<script src="{{ "js/fastsearch.js" | relURL }}"></script>
+{{ end }}

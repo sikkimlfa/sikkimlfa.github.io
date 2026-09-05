@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale | Sikkim LFA</title>
+<meta name="keywords" content="python, gst, pdf, csv, tabula, pdfplumber, automation, github-pages, audit">
+<meta name="description" content="Learn how to build Python scripts using tabula-py and pdfplumber to extract structured tables and text from GST return PDFs at scale.">
+<meta name="author" content="Sikkim LFA">
+<link rel="canonical" href="http://localhost:1313/posts/2026-08-05-gst-pdf-processing/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2026-08-05-gst-pdf-processing/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/posts/2026-08-05-gst-pdf-processing/">
+  <meta property="og:site_name" content="Sikkim LFA">
+  <meta property="og:title" content="Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale">
+  <meta property="og:description" content="Learn how to build Python scripts using tabula-py and pdfplumber to extract structured tables and text from GST return PDFs at scale.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-08-05T08:40:00+05:30">
+    <meta property="article:modified_time" content="2026-08-05T08:40:00+05:30">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Gst">
+    <meta property="article:tag" content="PDF">
+    <meta property="article:tag" content="Csv">
+    <meta property="article:tag" content="Tabula">
+    <meta property="article:tag" content="Pdfplumber">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale">
+  <meta name="twitter:description" content="Learn how to build Python scripts using tabula-py and pdfplumber to extract structured tables and text from GST return PDFs at scale.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale",
+      "item": "http://localhost:1313/posts/2026-08-05-gst-pdf-processing/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale",
+  "name": "Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale",
+  "description": "Learn how to build Python scripts using tabula-py and pdfplumber to extract structured tables and text from GST return PDFs at scale.",
+  "keywords": [
+    "python", "gst", "pdf", "csv", "tabula", "pdfplumber", "automation", "github-pages", "audit"
+  ],
+  "articleBody": "Automating GST Return PDF Audits with Python GST audits often involve reviewing hundreds of PDF returns downloaded from the GST portal. Manually copying tables or searching through lengthy documents is slow, repetitive, and prone to errors.\nThis guide demonstrates how to automate the process using two Python scripts:\npdf_to_csv.py – Extracts tables from GST return PDFs into CSV files. pdf_to_text.py – Extracts readable text and tables into structured text files. The scripts are designed for batch processing, making them useful for auditors, accountants, tax consultants, and finance professionals.\nWhy Automate GST PDF Processing? Most GST returns are distributed as PDF documents, including:\nGSTR-1 GSTR-3B GSTR-9 GSTR-9C Electronic Cash Ledger Electronic Credit Ledger Liability Register An audit usually requires comparing reported values, reconciling invoices, verifying tax payments, identifying inconsistencies, and importing data into Excel. Automation significantly reduces manual effort.\nProject Structure gst-pdf-tools/ ├── pdf_to_csv.py ├── pdf_to_text.py ├── sample1.pdf ├── sample2.pdf ├── csv_output/ │ ├── sample1.csv │ └── sample2.csv └── text_output/ ├── sample1.txt └── sample2.txt The scripts automatically create the output folders if they do not already exist.\nRequired Software Install the necessary Python packages:\npip install pandas pdfplumber tabula-py Since Tabula relies on Java, ensure Java is installed and verified on your system:\njava -version Script 1: PDF to CSV (pdf_to_csv.py) This script extracts every detected table from every PDF in the working folder and saves it as a CSV.\nimport os import glob import tabula output_dir = \"csv_output\" os.makedirs(output_dir, exist_ok=True) pdf_files = glob.glob(\"*.pdf\") for pdf_file in pdf_files: print(f\"Processing {pdf_file}...\") try: tables = tabula.read_pdf(pdf_file, pages=\"all\", multiple_tables=True) if tables: # Combine all extracted tables from the file import pandas as pd combined_df = pd.concat(tables, ignore_index=True) base_name = os.path.splitext(pdf_file)[0] output_path = os.path.join(output_dir, f\"{base_name}.csv\") combined_df.to_csv(output_path, index=False) print(f\"✓ Saved: {output_path}\\n\") else: print(f\"No tables found in {pdf_file}. Skipping.\\n\") except Exception as e: print(f\"Error processing {pdf_file}: {e}\\n\") Script 2: PDF to Text (pdf_to_text.py) The second script captures page text, headings, remarks, and tables for searching, indexing, or AI processing.\nimport os import glob import pdfplumber output_dir = \"text_output\" os.makedirs(output_dir, exist_ok=True) pdf_files = glob.glob(\"*.pdf\") for pdf_file in pdf_files: print(f\"Extracting text from {pdf_file}...\") base_name = os.path.splitext(pdf_file)[0] output_path = os.path.join(output_dir, f\"{base_name}.txt\") try: with pdfplumber.open(pdf_file) as pdf, open(output_path, \"w\", encoding=\"utf-8\") as out_file: for i, page in enumerate(pdf.pages, start=1): out_file.write(f\"------------\\nPage {i}\\n------------\\n\\n\") text = page.extract_text() if text: out_file.write(text + \"\\n\\n\") print(f\"✓ Saved: {output_path}\\n\") except Exception as e: print(f\"Error processing {pdf_file}: {e}\\n\") Sample Output Format Text Output Structure ------------ Page 1 ------------ GSTIN: 11ABCDE1234F1Z5 Legal Name: ABC Enterprises Return Period: April 2026 Table 1 Taxable Value 120000 CGST 10800 SGST 10800 CSV Output Structure GSTIN,Taxable Value,CGST,SGST,IGST 11ABCDE1234F1Z5,120000,10800,10800,0 Applications in GST Audit These scripts enable automation across multiple compliance tasks:\nGSTR-3B Verification: Extract taxable turnover, output tax, ITC claimed, and tax paid directly into Excel. GSTR-1 Analysis: Extract invoice summaries to cross-check against sales registers and ERP exports. Annual Return Verification: Collect turnover, tax liability, and ITC adjustments automatically across multiple quarters. Ledger Review: Convert electronic credit and cash ledgers into searchable text files for easy anomaly detection. Audit Automation Pipeline Integrate these utilities into an end-to-end data processing pipeline:\nStep 1: Download return PDFs from the GST Portal. Step 2: Run pdf_to_csv.py and pdf_to_text.py for batch extraction. Step 3: Load extracted CSVs into pandas or Power Query for automatic reconciliation. Step 4: Generate exception reports and audit observations. Git Integration Add the scripts to your GitHub repository to maintain version control:\ngit add pdf_to_csv.py pdf_to_text.py git commit -m \"Add GST PDF processing scripts\" git push origin main Best Practices Keep Source Data Intact: Store original PDFs in a read-only directory and output processed data separately. Validate Extraction: Perform sample checks on extracted CSVs against source PDFs before running large reconciliations. Batch by Period: Organize PDFs into folder structures by Financial Year or Month to streamline data merging. Conclusion Automating GST PDF processing eliminates repetitive data entry from audit workflows. By extracting structured CSVs and searchable text files, auditors can focus on analytical reviews, risk assessment, and reporting rather than manual transcriptions.\n",
+  "wordCount" : "657",
+  "inLanguage": "en",
+  "datePublished": "2026-08-05T08:40:00+05:30",
+  "dateModified": "2026-08-05T08:40:00+05:30",
+  "author":{
+    "@type": "Person",
+    "name": "Sikkim LFA"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/2026-08-05-gst-pdf-processing/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sikkim LFA",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Sikkim LFA (Alt + H)">Sikkim LFA</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/documents/" title="Acts &amp; Documents">
+                    <span>Acts &amp; Documents</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="All Posts">
+                    <span>All Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/posts/">Posts</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale
+    </h1>
+    <div class="post-description">
+      Learn how to build Python scripts using tabula-py and pdfplumber to extract structured tables and text from GST return PDFs at scale.
+    </div>
+    <div class="post-meta">
+
+<span title='2026-08-05 08:40:00 +0530 IST'>August 5, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>Sikkim LFA</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h1 id="automating-gst-return-pdf-audits-with-python">Automating GST Return PDF Audits with Python<a hidden class="anchor" aria-hidden="true" href="#automating-gst-return-pdf-audits-with-python">#</a></h1>
+<p>GST audits often involve reviewing hundreds of PDF returns downloaded from the GST portal. Manually copying tables or searching through lengthy documents is slow, repetitive, and prone to errors.</p>
+<p>This guide demonstrates how to automate the process using two Python scripts:</p>
+<ul>
+<li><strong><code>pdf_to_csv.py</code></strong> – Extracts tables from GST return PDFs into CSV files.</li>
+<li><strong><code>pdf_to_text.py</code></strong> – Extracts readable text and tables into structured text files.</li>
+</ul>
+<p>The scripts are designed for batch processing, making them useful for auditors, accountants, tax consultants, and finance professionals.</p>
+<hr>
+<h1 id="why-automate-gst-pdf-processing">Why Automate GST PDF Processing?<a hidden class="anchor" aria-hidden="true" href="#why-automate-gst-pdf-processing">#</a></h1>
+<p>Most GST returns are distributed as PDF documents, including:</p>
+<ul>
+<li>GSTR-1</li>
+<li>GSTR-3B</li>
+<li>GSTR-9</li>
+<li>GSTR-9C</li>
+<li>Electronic Cash Ledger</li>
+<li>Electronic Credit Ledger</li>
+<li>Liability Register</li>
+</ul>
+<p>An audit usually requires comparing reported values, reconciling invoices, verifying tax payments, identifying inconsistencies, and importing data into Excel. Automation significantly reduces manual effort.</p>
+<hr>
+<h1 id="project-structure">Project Structure<a hidden class="anchor" aria-hidden="true" href="#project-structure">#</a></h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>gst-pdf-tools/
+</span></span><span style="display:flex;"><span>├── pdf_to_csv.py
+</span></span><span style="display:flex;"><span>├── pdf_to_text.py
+</span></span><span style="display:flex;"><span>├── sample1.pdf
+</span></span><span style="display:flex;"><span>├── sample2.pdf
+</span></span><span style="display:flex;"><span>├── csv_output/
+</span></span><span style="display:flex;"><span>│   ├── sample1.csv
+</span></span><span style="display:flex;"><span>│   └── sample2.csv
+</span></span><span style="display:flex;"><span>└── text_output/
+</span></span><span style="display:flex;"><span>    ├── sample1.txt
+</span></span><span style="display:flex;"><span>    └── sample2.txt
+</span></span></code></pre></div><p>The scripts automatically create the output folders if they do not already exist.</p>
+<hr>
+<h1 id="required-software">Required Software<a hidden class="anchor" aria-hidden="true" href="#required-software">#</a></h1>
+<p>Install the necessary Python packages:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install pandas pdfplumber tabula-py
+</span></span></code></pre></div><p>Since <strong>Tabula</strong> relies on Java, ensure Java is installed and verified on your system:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>java -version
+</span></span></code></pre></div><hr>
+<h1 id="script-1-pdf-to-csv-pdf_to_csvpy">Script 1: PDF to CSV (<code>pdf_to_csv.py</code>)<a hidden class="anchor" aria-hidden="true" href="#script-1-pdf-to-csv-pdf_to_csvpy">#</a></h1>
+<p>This script extracts every detected table from every PDF in the working folder and saves it as a CSV.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> glob
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> tabula
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>output_dir <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;csv_output&#34;</span>
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>makedirs(output_dir, exist_ok<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pdf_files <span style="color:#f92672">=</span> glob<span style="color:#f92672">.</span>glob(<span style="color:#e6db74">&#34;*.pdf&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> pdf_file <span style="color:#f92672">in</span> pdf_files:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Processing </span><span style="color:#e6db74">{</span>pdf_file<span style="color:#e6db74">}</span><span style="color:#e6db74">...&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        tables <span style="color:#f92672">=</span> tabula<span style="color:#f92672">.</span>read_pdf(pdf_file, pages<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;all&#34;</span>, multiple_tables<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> tables:
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Combine all extracted tables from the file</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span>            combined_df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>concat(tables, ignore_index<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            base_name <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>splitext(pdf_file)[<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>            output_path <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(output_dir, <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>base_name<span style="color:#e6db74">}</span><span style="color:#e6db74">.csv&#34;</span>)
+</span></span><span style="display:flex;"><span>            combined_df<span style="color:#f92672">.</span>to_csv(output_path, index<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;✓ Saved: </span><span style="color:#e6db74">{</span>output_path<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;No tables found in </span><span style="color:#e6db74">{</span>pdf_file<span style="color:#e6db74">}</span><span style="color:#e6db74">. Skipping.</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error processing </span><span style="color:#e6db74">{</span>pdf_file<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><hr>
+<h1 id="script-2-pdf-to-text-pdf_to_textpy">Script 2: PDF to Text (<code>pdf_to_text.py</code>)<a hidden class="anchor" aria-hidden="true" href="#script-2-pdf-to-text-pdf_to_textpy">#</a></h1>
+<p>The second script captures page text, headings, remarks, and tables for searching, indexing, or AI processing.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> glob
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pdfplumber
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>output_dir <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;text_output&#34;</span>
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>makedirs(output_dir, exist_ok<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pdf_files <span style="color:#f92672">=</span> glob<span style="color:#f92672">.</span>glob(<span style="color:#e6db74">&#34;*.pdf&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> pdf_file <span style="color:#f92672">in</span> pdf_files:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Extracting text from </span><span style="color:#e6db74">{</span>pdf_file<span style="color:#e6db74">}</span><span style="color:#e6db74">...&#34;</span>)
+</span></span><span style="display:flex;"><span>    base_name <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>splitext(pdf_file)[<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>    output_path <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(output_dir, <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>base_name<span style="color:#e6db74">}</span><span style="color:#e6db74">.txt&#34;</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> pdfplumber<span style="color:#f92672">.</span>open(pdf_file) <span style="color:#66d9ef">as</span> pdf, open(output_path, <span style="color:#e6db74">&#34;w&#34;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>) <span style="color:#66d9ef">as</span> out_file:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> i, page <span style="color:#f92672">in</span> enumerate(pdf<span style="color:#f92672">.</span>pages, start<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>                out_file<span style="color:#f92672">.</span>write(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;------------</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Page </span><span style="color:#e6db74">{</span>i<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">------------</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>                text <span style="color:#f92672">=</span> page<span style="color:#f92672">.</span>extract_text()
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> text:
+</span></span><span style="display:flex;"><span>                    out_file<span style="color:#f92672">.</span>write(text <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;✓ Saved: </span><span style="color:#e6db74">{</span>output_path<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error processing </span><span style="color:#e6db74">{</span>pdf_file<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><hr>
+<h1 id="sample-output-format">Sample Output Format<a hidden class="anchor" aria-hidden="true" href="#sample-output-format">#</a></h1>
+<h3 id="text-output-structure">Text Output Structure<a hidden class="anchor" aria-hidden="true" href="#text-output-structure">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>------------
+</span></span><span style="display:flex;"><span>Page 1
+</span></span><span style="display:flex;"><span>------------
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>GSTIN: 11ABCDE1234F1Z5
+</span></span><span style="display:flex;"><span>Legal Name: ABC Enterprises
+</span></span><span style="display:flex;"><span>Return Period: April 2026
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Table 1
+</span></span><span style="display:flex;"><span>Taxable Value    120000
+</span></span><span style="display:flex;"><span>CGST              10800
+</span></span><span style="display:flex;"><span>SGST              10800
+</span></span></code></pre></div><h3 id="csv-output-structure">CSV Output Structure<a hidden class="anchor" aria-hidden="true" href="#csv-output-structure">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csv" data-lang="csv"><span style="display:flex;"><span><span style="color:#e6db74">GSTIN</span>,<span style="color:#e6db74">Taxable Value</span>,<span style="color:#e6db74">CGST</span>,<span style="color:#e6db74">SGST</span>,<span style="color:#e6db74">IGST</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">11ABCDE1234F1Z5</span>,<span style="color:#e6db74">120000</span>,<span style="color:#e6db74">10800</span>,<span style="color:#e6db74">10800</span>,<span style="color:#e6db74">0</span>
+</span></span></code></pre></div><hr>
+<h1 id="applications-in-gst-audit">Applications in GST Audit<a hidden class="anchor" aria-hidden="true" href="#applications-in-gst-audit">#</a></h1>
+<p>These scripts enable automation across multiple compliance tasks:</p>
+<ul>
+<li><strong>GSTR-3B Verification:</strong> Extract taxable turnover, output tax, ITC claimed, and tax paid directly into Excel.</li>
+<li><strong>GSTR-1 Analysis:</strong> Extract invoice summaries to cross-check against sales registers and ERP exports.</li>
+<li><strong>Annual Return Verification:</strong> Collect turnover, tax liability, and ITC adjustments automatically across multiple quarters.</li>
+<li><strong>Ledger Review:</strong> Convert electronic credit and cash ledgers into searchable text files for easy anomaly detection.</li>
+</ul>
+<hr>
+<h1 id="audit-automation-pipeline">Audit Automation Pipeline<a hidden class="anchor" aria-hidden="true" href="#audit-automation-pipeline">#</a></h1>
+<p>Integrate these utilities into an end-to-end data processing pipeline:</p>
+<ul>
+<li><strong>Step 1:</strong> Download return PDFs from the GST Portal.</li>
+<li><strong>Step 2:</strong> Run <code>pdf_to_csv.py</code> and <code>pdf_to_text.py</code> for batch extraction.</li>
+<li><strong>Step 3:</strong> Load extracted CSVs into pandas or Power Query for automatic reconciliation.</li>
+<li><strong>Step 4:</strong> Generate exception reports and audit observations.</li>
+</ul>
+<hr>
+<h1 id="git-integration">Git Integration<a hidden class="anchor" aria-hidden="true" href="#git-integration">#</a></h1>
+<p>Add the scripts to your GitHub repository to maintain version control:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add pdf_to_csv.py pdf_to_text.py
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Add GST PDF processing scripts&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin main
+</span></span></code></pre></div><hr>
+<h1 id="best-practices">Best Practices<a hidden class="anchor" aria-hidden="true" href="#best-practices">#</a></h1>
+<ul>
+<li><strong>Keep Source Data Intact:</strong> Store original PDFs in a read-only directory and output processed data separately.</li>
+<li><strong>Validate Extraction:</strong> Perform sample checks on extracted CSVs against source PDFs before running large reconciliations.</li>
+<li><strong>Batch by Period:</strong> Organize PDFs into folder structures by Financial Year or Month to streamline data merging.</li>
+</ul>
+<hr>
+<h1 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h1>
+<p>Automating GST PDF processing eliminates repetitive data entry from audit workflows. By extracting structured CSVs and searchable text files, auditors can focus on analytical reviews, risk assessment, and reporting rather than manual transcriptions.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
+      <li><a href="http://localhost:1313/tags/gst/">Gst</a></li>
+      <li><a href="http://localhost:1313/tags/pdf/">PDF</a></li>
+      <li><a href="http://localhost:1313/tags/csv/">Csv</a></li>
+      <li><a href="http://localhost:1313/tags/tabula/">Tabula</a></li>
+      <li><a href="http://localhost:1313/tags/pdfplumber/">Pdfplumber</a></li>
+      <li><a href="http://localhost:1313/tags/automation/">Automation</a></li>
+      <li><a href="http://localhost:1313/tags/github-pages/">GitHub Pages</a></li>
+      <li><a href="http://localhost:1313/tags/audit/">Audit</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/2026-08-05-gst-audit/">
+    <span class="title">« Prev</span>
+    <span>GST Audit Explained: A Complete Beginner-to-Expert Guide to Internal and Departmental GST Audit</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/2026-08-05-gst-audit2/">
+    <span class="title">Next »</span>
+    <span>Building a Practical GST Compliance Audit Framework: From Raw Records to Professional Audit Reports</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale on x"
+            href="https://x.com/intent/tweet/?text=Automating%20GST%20Return%20PDF%20Audits%20with%20Python%3a%20Extract%20Tables%20and%20Text%20at%20Scale&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-gst-pdf-processing%2f&amp;hashtags=python%2cgst%2cpdf%2ccsv%2ctabula%2cpdfplumber%2cautomation%2cgithub-pages%2caudit">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-gst-pdf-processing%2f&amp;title=Automating%20GST%20Return%20PDF%20Audits%20with%20Python%3a%20Extract%20Tables%20and%20Text%20at%20Scale&amp;summary=Automating%20GST%20Return%20PDF%20Audits%20with%20Python%3a%20Extract%20Tables%20and%20Text%20at%20Scale&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-gst-pdf-processing%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale on reddit"
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-gst-pdf-processing%2f&title=Automating%20GST%20Return%20PDF%20Audits%20with%20Python%3a%20Extract%20Tables%20and%20Text%20at%20Scale">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-gst-pdf-processing%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale on whatsapp"
+            href="https://api.whatsapp.com/send?text=Automating%20GST%20Return%20PDF%20Audits%20with%20Python%3a%20Extract%20Tables%20and%20Text%20at%20Scale%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-gst-pdf-processing%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale on telegram"
+            href="https://telegram.me/share/url?text=Automating%20GST%20Return%20PDF%20Audits%20with%20Python%3a%20Extract%20Tables%20and%20Text%20at%20Scale&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-gst-pdf-processing%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Automating%20GST%20Return%20PDF%20Audits%20with%20Python%3a%20Extract%20Tables%20and%20Text%20at%20Scale&u=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-gst-pdf-processing%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Sikkim LFA</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

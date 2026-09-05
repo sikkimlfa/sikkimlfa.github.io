@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Isd on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/isd/</link>
+    <description>Recent content in Isd on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 18:30:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/isd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GST Audit Handbook: Understanding Core GST Concepts, ITC, Returns, Exports, and Audit Checkpoints</title>
+      <link>http://localhost:1313/posts/2026-08-05-gst-audit-handbook/</link>
+      <pubDate>Wed, 05 Aug 2026 18:30:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-gst-audit-handbook/</guid>
+      <description>&lt;h1 id=&#34;gst-audit-handbook-understanding-core-gst-concepts-itc-returns-exports-and-audit-checkpoints&#34;&gt;GST Audit Handbook: Understanding Core GST Concepts, ITC, Returns, Exports, and Audit Checkpoints&lt;/h1&gt;
+&lt;p&gt;Goods and Services Tax (GST) transformed India&amp;rsquo;s indirect tax system by replacing multiple indirect taxes with a unified tax structure. While GST simplified taxation in many ways, it also introduced extensive compliance requirements. A GST audit is not merely a verification of tax payments. It is a comprehensive examination of transactions, accounting records, returns, and statutory compliance to ensure that the correct tax has been paid and all benefits claimed are legally admissible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

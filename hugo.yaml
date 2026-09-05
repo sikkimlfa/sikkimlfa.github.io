@@ -1,0 +1,80 @@
+baseURL: "https://sikkimlfa.github.io/"
+languageCode: "en-us"
+title: "Sikkim LFA"
+theme: "PaperMod"
+
+enableEmoji: true
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: documents
+      name: Acts & Documents
+      url: /documents/
+      weight: 20
+    - identifier: posts
+      name: All Posts
+      url: /posts/
+      weight: 30
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 40
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 50
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 60
+
+taxonomies:
+  category: categories
+  tag: tags
+
+params:
+  env: "production"
+  title: "Sikkim LFA"
+  description: "Official notifications, acts, rules, and archival documentation."
+  author: "Sikkim LFA"
+
+  defaultTheme: "auto"
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  # Fuse.js Search Settings
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 2
+    keys: ["title", "permalink", "summary", "content"]
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/sikkimlfa"
+    - name: "email"
+      url: "sikkimlfa@gmail.com"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Required for embedding PDF and Google Drive iframes

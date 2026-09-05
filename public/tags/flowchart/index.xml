@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Flowchart on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/flowchart/</link>
+    <description>Recent content in Flowchart on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 18:29:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/flowchart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Designing a Workflow for Local Fund Audit: Village Panchayat Audit Process Using Mermaid Flowcharts</title>
+      <link>http://localhost:1313/posts/2026-08-05-lfa-workflow-mermaid/</link>
+      <pubDate>Wed, 05 Aug 2026 18:29:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-lfa-workflow-mermaid/</guid>
+      <description>&lt;h1 id=&#34;designing-a-workflow-for-local-fund-audit-village-panchayat-audit-process-using-mermaid-flowcharts&#34;&gt;Designing a Workflow for Local Fund Audit: Village Panchayat Audit Process Using Mermaid Flowcharts&lt;/h1&gt;
+&lt;p&gt;A well-defined audit workflow is essential for ensuring transparency, accountability, and timely completion of statutory audits. For the &lt;strong&gt;Directorate of Local Fund Audit (DLFA), Government of Sikkim&lt;/strong&gt;, documenting the audit lifecycle in a visual format helps auditors, supervisors, and auditee institutions understand their responsibilities at every stage.&lt;/p&gt;
+&lt;p&gt;This article demonstrates how to convert a traditional audit workflow into a &lt;strong&gt;Mermaid flowchart&lt;/strong&gt;, making it suitable for GitHub Pages, documentation portals, training manuals, and knowledge repositories.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Google Sheets on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/google-sheets/</link>
+    <description>Recent content in Google Sheets on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 10:56:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/google-sheets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scraping Dynamic Government Websites with Google Apps Script and Google Sheets: A Complete Workflow</title>
+      <link>http://localhost:1313/posts/2026-08-05-scraping/</link>
+      <pubDate>Wed, 05 Aug 2026 10:56:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-scraping/</guid>
+      <description>&lt;h1 id=&#34;scraping-dynamic-government-websites-with-google-apps-script-and-google-sheets&#34;&gt;Scraping Dynamic Government Websites with Google Apps Script and Google Sheets&lt;/h1&gt;
+&lt;p&gt;Many government portals publish useful public information such as financial statements, reports, expenditure details, and audit information. Automating the collection of such publicly available data can save hundreds of hours of manual work.&lt;/p&gt;
+&lt;p&gt;This article explains how to automate data collection using &lt;strong&gt;Google Apps Script&lt;/strong&gt; and &lt;strong&gt;Google Sheets&lt;/strong&gt;, while also discussing the limitations when dealing with modern JavaScript-based websites.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Fix Firefox Saving PDFs Instead of Printing in Google Sheets</title>
+      <link>http://localhost:1313/posts/2026-08-04-pdf-gsheets/</link>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-04-pdf-gsheets/</guid>
+      <description>&lt;p&gt;If you frequently use Google Sheets inside Mozilla Firefox, you may have run into a frustrating issue: when you hit the &amp;ldquo;Print&amp;rdquo; button, Firefox downloads or prompts you to save a PDF file instead of sending the document straight to your physical printer.&lt;/p&gt;
+&lt;p&gt;While this feels like a glitch, it is actually expected behavior based on how Google Sheets interacts with different browsers. Fortunately, there are several straightforward ways to fix this workflow.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

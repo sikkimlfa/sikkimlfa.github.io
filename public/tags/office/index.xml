@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Office on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/office/</link>
+    <description>Recent content in Office on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 18:27:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/office/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20 Essential Microsoft Excel Tips &amp; Tricks Every Analyst Should Know</title>
+      <link>http://localhost:1313/posts/2026-08-05-excel-tips/</link>
+      <pubDate>Wed, 05 Aug 2026 18:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-excel-tips/</guid>
+      <description>&lt;h1 id=&#34;20-essential-microsoft-excel-tips--tricks-every-analyst-should-know&#34;&gt;20 Essential Microsoft Excel Tips &amp;amp; Tricks Every Analyst Should Know&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel remains one of the most powerful tools for data analysis, reporting, financial modeling, auditing, and business intelligence. While most users know basic formulas like &lt;code&gt;SUM()&lt;/code&gt; and &lt;code&gt;AVERAGE()&lt;/code&gt;, Excel contains many powerful features that can dramatically improve productivity.&lt;/p&gt;
+&lt;p&gt;This guide explains twenty practical Excel tips with examples, use cases, advantages, shortcuts, and best practices.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;1-create-a-dynamic-drop-down-list&#34;&gt;1. Create a Dynamic Drop-down List&lt;/h1&gt;
+&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;A dynamic drop-down automatically updates whenever new items are added to the source list.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Build an Excel Pay Fixation Calculator Under CCS (Revised Pay) Rules Using a Pay Matrix</title>
+      <link>http://localhost:1313/posts/2026-08-05-pay-fix/</link>
+      <pubDate>Wed, 05 Aug 2026 18:29:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-pay-fix/</guid>
+      <description>&lt;h1 id=&#34;build-an-excel-pay-fixation-calculator-using-the-pay-matrix&#34;&gt;Build an Excel Pay Fixation Calculator Using the Pay Matrix&lt;/h1&gt;
+&lt;p&gt;Pay fixation after promotion is one of the most frequently performed calculations in Government offices. Although the rules are straightforward, manually comparing both fixation options is time-consuming and often leads to mistakes.&lt;/p&gt;
+&lt;p&gt;This guide explains how to create an Excel-based Pay Fixation Calculator that automatically calculates both permissible options under the revised pay rules and recommends the financially better option.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Build an Excel Pay Fixation Calculator Under CCS (Revised Pay) Rules Using a Pay Matrix</title>
+      <link>http://localhost:1313/posts/2026-08-05-payfix-calc/</link>
+      <pubDate>Wed, 05 Aug 2026 18:29:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-payfix-calc/</guid>
+      <description>&lt;h1 id=&#34;build-an-excel-pay-fixation-calculator-using-the-pay-matrix&#34;&gt;Build an Excel Pay Fixation Calculator Using the Pay Matrix&lt;/h1&gt;
+&lt;p&gt;Pay fixation after promotion is one of the most frequently performed calculations in Government offices. Although the rules are straightforward, manually comparing both fixation options is time-consuming and often leads to mistakes.&lt;/p&gt;
+&lt;p&gt;This guide explains how to create an Excel-based Pay Fixation Calculator that automatically calculates both permissible options under the revised pay rules and recommends the financially better option.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
