@@ -4,7 +4,6 @@ date: 2026-08-04
 categories: ["Web Scraping", "JavaScript", "Data Extraction"]
 tags: ["eGramSwaraj", "Sikkim LFA", "Bookmarklet", "Async JS", "Regex", "DOM Mining"]
 ---
-
 # Deep-Dive Engineering: Scraping Government Accounting Portals at Scale
 
 Extracting local governance financial data from Indian public portals—such as **eGramSwaraj** and the **Sikkim Local Fund Audit (LFA)**—presents a unique set of technical hurdles. Web developers working with these portals frequently run into multi-layer redirects (`FileRedirect.jsp`), inconsistent page structures, deeply nested HTML tables, dynamic query string parameters, and server-side rate constraints.
@@ -14,7 +13,6 @@ When scraping thousands of voucher reports across dynamic financial years, stand
 This post covers the end-to-end engineering journey of building, troubleshooting, and optimizing a specialized, zero-dependency **Parallel JavaScript Bookmarklet Scraper**.
 
 ---
-
 ## 1. Architectural Blueprint & Technical Challenges
 
 The target architecture requires extracting accounting records across three distinct navigational layers:
@@ -38,7 +36,6 @@ The target architecture requires extracting accounting records across three dist
 `Uncaught SyntaxError: Unexpected end of input`.
 
 ---
-
 ## 2. Iterative Technical Solutions
 
 ### Solution A: URL-First Metadata Extraction
@@ -70,7 +67,6 @@ const fileName = `accounts-${gpuNo}-${fy}.csv`;
 By prioritizing `window.location.href`, the script reads parameters like `ExpFY2022-2023` straight from the address bar, guaranteeing 100% accurate file naming even on sparse helper pages.
 
 ---
-
 ### Solution B: Parallel Batching with `Promise.all()`
 
 To drastically increase performance without causing Denial-of-Service (DoS) triggers on target government web servers, we engineered a **chunked parallel worker execution model**.
@@ -111,13 +107,11 @@ for (let i = 0; i < vL.length; i += BATCH_SIZE) {
 This reduced full-year extraction times from **~18 minutes down to under 2 minutes** per GP code.
 
 ---
-
 ### Solution C: Bookmarklet Minification & Syntax Sanitization
 
 To make the script executable across Google Chrome, Mozilla Firefox, and Microsoft Edge bookmark managers, all single-line comments were replaced, string quotes escaped, and whitespace stripped.
 
 ---
-
 ## 3. Production Bookmarklet Code
 
 Copy the minified script below and paste it directly into your browser's Bookmark URL/Location field:
@@ -128,7 +122,6 @@ javascript:(function(){(async function(){console.log("🚀 Starting Parallel Dee
 ```
 
 ---
-
 ## 4. Execution Workflow
 
 1. **Navigate:** Open the eGramSwaraj or Sikkim LFA portal to the target **Yearly Voucher Summary** page (displaying monthly links from April to March).
@@ -137,7 +130,6 @@ javascript:(function(){(async function(){console.log("🚀 Starting Parallel Dee
 4. **Automated Export:** The browser will perform asynchronous batch fetches in memory and generate a structured CSV download formatted as `accounts-254775-2022-2023.csv`.
 
 ---
-
 ## 5. Summary Matrix
 
 | Metric / Feature | Baseline Sequential Script | Optimized Bookmarklet |

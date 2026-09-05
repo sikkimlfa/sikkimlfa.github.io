@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "How to Write and Publish Blog Posts on GitHub Pages Using Jekyll Chirpy"
-date: 2026-08-07 19:30:00 +0530
+date: 2026-08-07T19:30:00+05:30
 categories: [Blogging, GitHub Pages]
 tags: [jekyll, chirpy, markdown, github-pages, workflow, documentation]
 description: "A complete guide on authoring and publishing blog posts on GitHub Pages using the Chirpy theme, including front matter rules and build error prevention."
 ---
-
 # Writing for Jekyll Chirpy on GitHub Pages
 
 Publishing content with GitHub Pages and the **Jekyll Chirpy** theme offers a fast, clean, and developer-friendly blogging experience. However, because Chirpy relies on strict layout conventions and automated Ruby/Liquid compilation, a simple formatting oversight in your front matter or Markdown can fail your GitHub Actions build.
@@ -14,7 +13,6 @@ Publishing content with GitHub Pages and the **Jekyll Chirpy** theme offers a fa
 This guide provides a standardized workflow, key syntax rules to prevent build errors, and a reusable post template.
 
 ---
-
 # Key Rules for Chirpy Front Matter
 
 The top section of every Markdown file contains **YAML front matter** wrapped between `---` lines. Adhering to these structural rules ensures smooth deployment.
@@ -25,7 +23,6 @@ The top section of every Markdown file contains **YAML front matter** wrapped be
 * **String Tags:** Ensure numeric tags (e.g., years) are quoted (`"2026"` instead of `2026`) so YAML parses them as strings rather than integers.
 
 ---
-
 # Best Practices for Body Markdown
 
 To maintain proper rendering and avoidLiquid parsing crashes:
@@ -35,7 +32,6 @@ To maintain proper rendering and avoidLiquid parsing crashes:
 * **Fenced Code Blocks:** Always specify a language identifier for code blocks (```yaml, ```bash, ```text) to ensure syntax highlighting works cleanly.
 
 ---
-
 # Reusable Chirpy Post Template
 
 Save your new post files inside the `_posts/` directory using the mandatory naming format: `YYYY-MM-DD-your-file-title.md`.
@@ -49,13 +45,11 @@ categories: [Category, Subcategory]
 tags: [tag1, tag2, tag3]
 description: "A concise 1-2 sentence summary of what this article covers."
 ---
-
 # Introduction
 
 Provide a direct overview of the topic. Explain what problem this post solves or what the reader will learn.
 
 ---
-
 # Core Concepts
 
 Explain the primary background or rules using concise bullet points:
@@ -64,7 +58,6 @@ Explain the primary background or rules using concise bullet points:
 * **Key Point 2:** Clear explanation of the concept.
 
 ---
-
 # Process or Workflow
 
 Demonstrate procedures using inline sequence flows or numbered steps:
@@ -73,7 +66,6 @@ Demonstrate procedures using inline sequence flows or numbered steps:
 * **Step 2:** Final execution and review.
 
 ---
-
 # Comparative Summary
 
 | Attribute | Option A | Option B |
@@ -82,7 +74,6 @@ Demonstrate procedures using inline sequence flows or numbered steps:
 | **Complexity** | Low | High |
 
 ---
-
 # Code or Syntax Example
 
 ```bash
@@ -92,7 +83,6 @@ bundle exec jekyll serve
 ```
 
 ---
-
 # Conclusion
 
 Summarize the key takeaways and suggest practical next steps for the reader.
@@ -100,7 +90,6 @@ Summarize the key takeaways and suggest practical next steps for the reader.
 ```
 
 ---
-
 # Publishing Checklist
 
 1. **File Name:** Verify the filename follows `YYYY-MM-DD-title-slug.md` inside `_posts/`.

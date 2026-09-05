@@ -1,10 +1,9 @@
 ---
 title: "RTI Online Portal Training at NIC Sikkim: Complete Guide for SPIOs, ASPIOs and Nodal Officers"
-date: 2026-08-05 08:39:00 +0530
+date: 2026-08-05T08:39:00+05:30
 categories: [government, training]
 tags: [rti, nic, sikkim, spio, aspio, nodal-officer, cic, dopt, e-governance, tutorial]
 ---
-
 # RTI Online Portal Training at NIC Sikkim
 
 On **25 June 2025**, officials from various government departments attended a training programme conducted by the **National Informatics Centre (NIC), Sikkim** on the implementation and use of the **RTI Online Portal**.
@@ -14,7 +13,6 @@ The session focused on the complete lifecycle of an RTI application, user roles,
 This article summarizes the training and serves as a reference guide for future users of the RTI Online Portal.
 
 ---
-
 # Objectives of the Training
 
 The training was designed to help government officials:
@@ -27,7 +25,6 @@ The training was designed to help government officials:
 - Ensure compliance with the guidelines issued by the Central Information Commission (CIC) and the Department of Personnel and Training (DoPT).
 
 ---
-
 # About the RTI Online Portal
 
 The RTI Online Portal enables citizens to submit RTI applications electronically and allows government departments to process those applications digitally.
@@ -40,7 +37,6 @@ The platform has been developed by **NIC** following the guidelines prescribed b
 The system replaces much of the manual paperwork with an organized digital workflow.
 
 ---
-
 # Training Environment
 
 During the demonstration, the trainers used a test environment for practice.
@@ -66,7 +62,6 @@ During the demonstration, the trainers used a test environment for practice.
 > The above server and OTP were used only for training purposes.
 
 ---
-
 # User Roles in the RTI Portal
 
 The portal uses a role-based access system.
@@ -82,7 +77,6 @@ The major roles discussed during the training were:
 - Consultant (if applicable)
 
 ---
-
 # Understanding the Nodal SPIO
 
 One of the SPIOs in the department is designated as the **Nodal SPIO**.
@@ -100,7 +94,6 @@ Their responsibilities include:
 - Monitoring RTI cases
 
 ---
-
 # Responsibilities of the Nodal SPIO
 
 The Nodal SPIO can:
@@ -116,7 +109,6 @@ The Nodal SPIO can:
 Only the Nodal SPIO has these administrative privileges.
 
 ---
-
 # Login Process
 
 During the first login:
@@ -128,7 +120,6 @@ During the first login:
 This ensures secure access to the RTI portal.
 
 ---
-
 # Role Assignment
 
 One of the major topics covered during the training was role assignment.
@@ -146,7 +137,6 @@ Roles that can be assigned include:
 Ordinary users cannot change or assign roles.
 
 ---
-
 # RTI Application Workflow
 
 The portal follows a structured workflow.
@@ -179,7 +169,6 @@ Reply Sent to Applicant
 This ensures accountability and transparency.
 
 ---
-
 # Assigning RTI Tasks
 
 Whenever a new RTI application is received:
@@ -193,7 +182,6 @@ Whenever a new RTI application is received:
 The portal keeps track of every stage.
 
 ---
-
 # Processing an RTI Application
 
 The training demonstrated several actions available to SPIOs.
@@ -207,7 +195,6 @@ These include:
 Each action is recorded within the portal.
 
 ---
-
 # Important Difference Between SPIO and ASPIO
 
 One of the most important concepts discussed during the session was the distinction between the SPIO and ASPIO.
@@ -225,7 +212,6 @@ However:
 **The ASPIO cannot send the reply directly to the applicant.**
 
 ---
-
 ## SPIO
 
 The SPIO has the authority to:
@@ -239,7 +225,6 @@ Therefore, every reply prepared by an ASPIO must first reach the SPIO.
 Only after approval can it be dispatched.
 
 ---
-
 # Why Only SPIO Can Send Replies
 
 This workflow ensures:
@@ -253,7 +238,6 @@ This workflow ensures:
 The SPIO remains legally responsible for the information supplied.
 
 ---
-
 # Security Features
 
 The portal includes several security measures.
@@ -270,7 +254,6 @@ These include:
 These features reduce unauthorized access and improve transparency.
 
 ---
-
 # Advantages of the RTI Online Portal
 
 The online portal offers several advantages.
@@ -296,7 +279,6 @@ Every officer performs actions according to assigned permissions.
 Digital processing minimizes manual handling.
 
 ---
-
 # Best Practices for Officers
 
 During the training, officers were advised to:
@@ -310,7 +292,6 @@ During the training, officers were advised to:
 * Follow RTI Act provisions strictly.
 
 ---
-
 # Common Workflow Example
 
 Suppose a citizen submits an RTI application.
@@ -327,7 +308,6 @@ The process would be:
 8. Applicant receives the official response.
 
 ---
-
 # Key Takeaways
 
 The training emphasized several important points:
@@ -341,7 +321,6 @@ The training emphasized several important points:
 * Proper workflow improves transparency and accountability.
 
 ---
-
 # Support Contacts
 
 ## RTI Portal Support
@@ -353,7 +332,6 @@ The training emphasized several important points:
 For technical issues related to the RTI Online Portal.
 
 ---
-
 ## Departmental Nodal Officer
 
 **Palden Thakunge**
@@ -367,7 +345,6 @@ For technical issues related to the RTI Online Portal.
 For departmental coordination and RTI implementation support.
 
 ---
-
 # Final Thoughts
 
 The RTI Online Portal represents a significant step toward transparent and efficient governance. By digitizing the entire RTI process, departments can process applications more efficiently while maintaining accountability at every stage.

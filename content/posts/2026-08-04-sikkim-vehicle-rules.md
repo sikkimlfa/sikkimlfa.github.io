@@ -4,11 +4,9 @@ date: 2026-08-04
 categories: ["Government Notifications", "Sikkim Transport & Finance"]
 tags: ["Sikkim Gazette", "Vehicle Rules 2025", "Government Vehicles", "SNT Division", "Vehicle Maintenance"]
 ---
-
 The Government of Sikkim's Finance Department officially issued Notification No. 03/FIN/ADM through Extraordinary Gazette No. 303. Enacted under clause (3) of Article 166 of the Constitution of India, the **Sikkim Government Vehicle Procurement and Maintenance Rules, 2025** establish clear procedures, financial ceilings, entitlements, and operational guidelines governing all official state vehicles.
 
 ---
-
 ## 1. Key Definitions & Operational Framework
 
 The rules apply to all government vehicles—including two-wheelers, passenger cars, utility pick-ups, and heavy vehicles—across state departments.
@@ -27,7 +25,6 @@ The rules apply to all government vehicles—including two-wheelers, passenger c
 
 
 ---
-
 ## 2. Vehicle Entitlements by Officer Level
 
 Rule 10 outlines strict rules for purchasing and allocating vehicles based on official designated ranks:
@@ -42,7 +39,6 @@ Rule 10 outlines strict rules for purchasing and allocating vehicles based on of
 New or replacement vehicles can only be procured with the prior concurrence of the Finance Department (and Home Department where required), along with sanction from the Chief Minister via the Chief Secretary.
 
 ---
-
 ## 3. Financial Limits & Sanctioning Authorities
 
 ### Minor & Private Garage Repairs
@@ -58,7 +54,6 @@ Head of Departments (HOD) and Head of Offices (HOO) can authorize repair work in
 * **VVIP / VIP Vehicles:** Special fittings adhere strictly to SNT technical specifications. HODs have full powers to sanction up to ₹50,000 over the lifetime of the vehicle.
 
 ---
-
 ## 4. Routine Servicing, Accessories & Tyre Replacements
 
 Routine maintenance items (servicing, tyres, seat covers, and mats) do **not** count toward the cumulative repair ceiling but must be entered into the vehicle's official history sheet.
@@ -89,7 +84,6 @@ Up to four tyres/tubes can be replaced once the following mileage thresholds are
 * **Seat Covers:** Complete seat covers (including stitching) are capped at ₹10,000 (replacement allowed only after 3 years).
 
 ---
-
 ## 5. Monthly Vehicle User Charges
 
 Officers or functionaries using government vehicles for both official and private purposes pay a monthly deduction directly from their salaries:
@@ -105,7 +99,6 @@ Officers or functionaries using government vehicles for both official and privat
 * **Exemptions:** Vehicles assigned to the Governor, Chief Minister, Chief Justice, High Court Judges, along with ambulances, hearses, buses, trucks, fire tenders, and police pilot/escort vehicles are exempt.
 
 ---
-
 ## 6. Repairs Following Accidents & Work Guarantees
 
 * **Accident Repairs:** If repair costs exceed ₹60,000 following an accident, the proposal requires SNT technical examination alongside Home and Finance Department concurrences. An FIR, police cause report, and departmental inquiry report must accompany the claim. Approved accident costs do not count toward the annual vehicle repair limit.
@@ -113,7 +106,6 @@ Officers or functionaries using government vehicles for both official and privat
 * **Repair Guarantees:** Garages must provide a mandatory **1-year guarantee** for major engine repairs, minor engine repairs, and gearbox repairs.
 
 ---
-
 ## 7. Vehicle Condemnation & Public Auction Procedures
 
 A vehicle can be condemned only after receiving a technical fitness certificate from the SNT Division stating that it is no longer fit for economical use.
@@ -128,7 +120,6 @@ A vehicle can be condemned only after receiving a technical fitness certificate 
 Condemned vehicles are disposed of through public auctions managed by the Transport Department. Mandatory public auction notices must be published across print and digital media with at least one month's advance notice. All auction proceeds are credited directly back into the official Government Revenue Head.
 
 ---
-
 ## 8. Schedule I: Progressive Annual Repair Ceilings
 
 Rule 3 mandates that total progressive repair expenditures over a 10-year lifespan must not exceed the cumulative limits listed below (represented in Lakhs of Rupees):

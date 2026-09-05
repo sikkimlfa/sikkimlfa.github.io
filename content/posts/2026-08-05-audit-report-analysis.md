@@ -1,10 +1,9 @@
 ---
 title: "Building an Audit Report Analysis System with GitHub Pages, JavaScript, GitHub Actions, and Python"
-date: 2026-08-05 03:09:00 +0000
+date: 2026-08-05T03:09:00+00:00
 categories: [tech, github]
 tags: [audit, github-pages, javascript, python, markdown, github-actions, automation, data-analysis, jekyll]
 ---
-
 # Building an Audit Report Analysis System with GitHub Pages
 
 Managing hundreds of audit reports becomes increasingly difficult as the number of local bodies, audit years, and observations grows. Traditional document storage makes searching, comparing, and analyzing reports time-consuming.
@@ -14,7 +13,6 @@ This project aims to transform audit reports into a searchable knowledge base us
 The result is a completely free system that automatically converts reports, builds an index, and provides an interactive website for browsing audit reports.
 
 ---
-
 # Project Goals
 
 The objectives are:
@@ -27,7 +25,6 @@ The objectives are:
 - Keep hosting completely free using GitHub Pages
 
 ---
-
 # Overall Architecture
 
 ```
@@ -57,7 +54,6 @@ Interactive Website
 ```
 
 ---
-
 # Why GitHub Pages?
 
 GitHub Pages offers several advantages.
@@ -76,7 +72,6 @@ There is no backend.
 Therefore, document conversion must happen before deployment.
 
 ---
-
 # Why Use Markdown?
 
 Markdown is an excellent storage format for audit reports.
@@ -105,7 +100,6 @@ Advantages include:
 - Works directly with GitHub Pages
 
 ---
-
 # Markdown vs JSON vs XML
 
 ## Markdown
@@ -132,7 +126,6 @@ Disadvantages
 - Harder to perform analytics
 
 ---
-
 ## JSON
 
 Best for applications.
@@ -159,7 +152,6 @@ Disadvantages
 - Not pleasant to read manually
 
 ---
-
 ## XML
 
 Mostly useful when exchanging data between software.
@@ -184,7 +176,6 @@ Disadvantages
 - Rarely needed for this project
 
 ---
-
 # Recommended Storage Strategy
 
 Store both formats.
@@ -199,7 +190,6 @@ Markdown is for reading.
 JSON is for searching and analytics.
 
 ---
-
 # Why Not Use Only JavaScript?
 
 Initially it seems possible.
@@ -229,7 +219,6 @@ They have several limitations.
 That is why preprocessing is required.
 
 ---
-
 # Hybrid Workflow
 
 The recommended workflow is:
@@ -262,7 +251,6 @@ Python runs only during preprocessing.
 The website itself contains no Python.
 
 ---
-
 # Repository Structure
 
 ```
@@ -301,7 +289,6 @@ localbodies.csv
 Everything remains organized.
 
 ---
-
 # Processing Workflow
 
 ```
@@ -353,7 +340,6 @@ GitHub Pages
 ```
 
 ---
-
 # Observation Detection
 
 Every report contains audit observations.
@@ -386,7 +372,6 @@ Observation Count = 3
 ```
 
 ---
-
 # Standardizing Local Body Names
 
 Different reports often use different spellings.
@@ -423,7 +408,6 @@ Example
 | Gangtok MC | Gangtok Municipal Corporation |
 
 ---
-
 # Automatic File Naming
 
 Each converted report is renamed.
@@ -445,7 +429,6 @@ Advantages
 - Unique filenames
 
 ---
-
 # Metadata Database
 
 Each report also generates JSON metadata.
@@ -468,7 +451,6 @@ files.json
 ```
 
 ---
-
 # Why Dynamic files.json?
 
 Instead of maintaining JavaScript arrays manually:
@@ -496,7 +478,6 @@ Advantages
 - Easier maintenance
 
 ---
-
 # GitHub Actions
 
 Whenever new reports are uploaded:
@@ -532,7 +513,6 @@ GitHub Pages Updated
 Everything is automatic.
 
 ---
-
 # Website Features
 
 The frontend includes:
@@ -549,7 +529,6 @@ The frontend includes:
 No backend required.
 
 ---
-
 # Search Features
 
 Users can search by
@@ -562,7 +541,6 @@ Users can search by
 Instant filtering occurs in the browser.
 
 ---
-
 # Sorting
 
 Reports can be sorted by
@@ -578,7 +556,6 @@ Future additions include
 - Risk Level
 
 ---
-
 # Markdown Rendering
 
 Instead of showing raw Markdown
@@ -596,7 +573,6 @@ using **marked.js**.
 Reports become pleasant to read.
 
 ---
-
 # Future Dashboard Ideas
 
 Once metadata exists, dashboards become straightforward.
@@ -617,7 +593,6 @@ Libraries
 - D3.js
 
 ---
-
 # Error Handling
 
 The application should gracefully handle:
@@ -631,7 +606,6 @@ The application should gracefully handle:
 Rather than crashing.
 
 ---
-
 # Documentation
 
 The repository should include
@@ -645,7 +619,6 @@ The repository should include
 This encourages collaboration.
 
 ---
-
 # Why GitHub Actions Instead of Running Python Locally?
 
 Advantages
@@ -661,7 +634,6 @@ Only uploading reports is required.
 Everything else happens automatically.
 
 ---
-
 # Technologies Used
 
 | Technology | Purpose |
@@ -679,7 +651,6 @@ Everything else happens automatically.
 | python-docx | DOCX extraction |
 
 ---
-
 # Future Roadmap
 
 ## Phase 1
@@ -689,7 +660,6 @@ Everything else happens automatically.
 - Generate JSON
 
 ---
-
 ## Phase 2
 
 - Search
@@ -698,7 +668,6 @@ Everything else happens automatically.
 - Responsive interface
 
 ---
-
 ## Phase 3
 
 - Dashboards
@@ -706,7 +675,6 @@ Everything else happens automatically.
 - Observation categorization
 
 ---
-
 ## Phase 4
 
 - AI-assisted observation summarization
@@ -716,7 +684,6 @@ Everything else happens automatically.
 - Trend analysis across years
 
 ---
-
 # Final Thoughts
 
 This architecture combines the strengths of static hosting and automated preprocessing.

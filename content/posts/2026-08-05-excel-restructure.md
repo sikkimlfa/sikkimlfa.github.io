@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Restructuring Multi-Year Excel Data into a Single Year-Wise Table with Microsoft Excel"
-date: 2026-08-05 13:00:00 +0000
+date: 2026-08-05T13:00:00+00:00
 categories: [excel]
 tags: [excel, data-cleaning, data-transformation, power-query, pivot-table, fiscal-year, spreadsheets, productivity]
 ---
-
 # Restructuring Multi-Year Excel Data into a Single Year-Wise Table with Microsoft Excel
 
 Business reports often store data for different Financial Years (FY) in separate tables within the same worksheet or across multiple worksheets. While this layout is convenient for preparing annual reports, it becomes difficult when you need to analyze trends, create dashboards, generate PivotTables, or import data into Power BI.
@@ -17,7 +16,6 @@ In this conversation, the objective was simple:
 Although the uploaded Excel file could not be processed because of a temporary tool limitation, the approach remains the same regardless of the workbook's size.
 
 ---
-
 # The Problem
 
 Suppose an Excel workbook contains data like this:
@@ -30,7 +28,6 @@ Suppose an Excel workbook contains data like this:
 | B | 80 | 70 |
 
 ---
-
 ## FY 2022-23
 
 | Department | Revenue | Expenditure |
@@ -39,7 +36,6 @@ Suppose an Excel workbook contains data like this:
 | B | 95 | 82 |
 
 ---
-
 ## FY 2023-24
 
 | Department | Revenue | Expenditure |
@@ -60,7 +56,6 @@ While visually appealing, this structure is not suitable for:
 * Python analysis
 
 ---
-
 # Desired Output
 
 Instead of maintaining separate tables, the data should be combined into one master table.
@@ -77,7 +72,6 @@ Instead of maintaining separate tables, the data should be combined into one mas
 This format is called **normalized** or **long-format data**.
 
 ---
-
 # Benefits of a Consolidated Table
 
 A single table offers numerous advantages.
@@ -89,7 +83,6 @@ You can filter records for any Financial Year instantly.
 Example: `FY = 2023-24` returns only the required records.
 
 ---
-
 ## Better PivotTables
 
 Instead of creating separate PivotTables for each FY, one PivotTable can compare all years.
@@ -102,7 +95,6 @@ Example:
 | B | 80 | 95 | 110 |
 
 ---
-
 ## Faster Chart Creation
 
 Excel charts work best when all data is stored in one table. Examples include:
@@ -113,13 +105,11 @@ Excel charts work best when all data is stored in one table. Examples include:
 * Comparative dashboards
 
 ---
-
 ## Compatible with Power BI
 
 Power BI expects normalized data. Separate tables require additional transformation before analysis.
 
 ---
-
 ## Easier Formula Management
 
 Instead of writing formulas repeatedly for each FY table, formulas automatically extend when using an Excel Table.
@@ -132,7 +122,6 @@ Example:
 ```
 
 ---
-
 # Typical Workflow
 
 The restructuring process generally follows these steps:
@@ -142,7 +131,6 @@ The restructuring process generally follows these steps:
 * **Finalize:** `Create Master Table` → `Analysis / Dashboard / PivotTable`
 
 ---
-
 # Best Practices
 
 ## Keep Column Names Identical
@@ -150,13 +138,11 @@ The restructuring process generally follows these steps:
 Instead of mixing terms like `Revenue`, `Income`, or `Receipt`, use one consistent heading (`Revenue`).
 
 ---
-
 ## Add Financial Year Column
 
 Never rely on table titles alone. Include explicit data points in a `Financial Year` column (`2021-22`, `2022-23`, `2023-24`) to make filtering effortless.
 
 ---
-
 ## Convert to Excel Table
 
 Press **Ctrl + T** to convert ranges to Excel Tables for:
@@ -167,13 +153,11 @@ Press **Ctrl + T** to convert ranges to Excel Tables for:
 * Easier PivotTables
 
 ---
-
 ## Avoid Blank Rows
 
 Blank rows interrupt Power Query, PivotTables, sorting, and filtering. Keep the dataset continuous.
 
 ---
-
 # Using Power Query
 
 Power Query is the preferred method for combining multiple tables:
@@ -187,7 +171,6 @@ Power Query is the preferred method for combining multiple tables:
 **Advantages:** Repeatable process, minimal manual effort, and easy to refresh when new data is added.
 
 ---
-
 # Common Challenges
 
 * **Different Column Names:** Standardize variations (e.g., `Amount` vs. `Total Amount`) before combining.
@@ -196,7 +179,6 @@ Power Query is the preferred method for combining multiple tables:
 * **Totals Inside Data:** Exclude rows like `Grand Total` from the master dataset. Calculate totals separately using PivotTables or formulas.
 
 ---
-
 # Ideal Structure for Analysis
 
 A well-designed dataset resembles the following:
@@ -212,7 +194,6 @@ A well-designed dataset resembles the following:
 This layout is ideal for Excel formulas, PivotTables, Power Query, Power BI, SQL, Python, and general data visualization.
 
 ---
-
 # Temporary Limitation Encountered
 
 During this conversation, an Excel workbook (`CARR.xlsx`) was uploaded for restructuring. The intended workflow was to inspect the workbook, identify FY-wise tables, and consolidate them into a single year-wise master table.
@@ -220,7 +201,6 @@ During this conversation, an Excel workbook (`CARR.xlsx`) was uploaded for restr
 However, a temporary limitation prevented the spreadsheet from being processed at that time. As a result, the file could not be analyzed or transformed during the session.
 
 ---
-
 # Next Steps
 
 When the workbook can be processed successfully, the restructuring would involve:
@@ -233,7 +213,6 @@ When the workbook can be processed successfully, the restructuring would involve
 6. Delivering a cleaned Excel workbook, a consolidated master table, year-wise sorted data, a pivot-ready format, and an optional Power Query solution for future refreshes.
 
 ---
-
 # Conclusion
 
 Keeping each Financial Year in a separate table is suitable for presentation but inefficient for analysis. Consolidating all records into a single normalized table simplifies reporting, enables powerful analytical tools such as PivotTables and Power BI, reduces manual work, and makes future updates significantly easier.

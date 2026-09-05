@@ -4,13 +4,11 @@ date: "2026-08-08 10:00:00 +0530"
 categories: ["Technology", "GitHub Pages"]
 tags: ["jekyll", "chirpy", "github-actions", "ci-cd", "troubleshooting"]
 ---
-
 Deploying a Jekyll site with the popular **Chirpy** theme on GitHub Pages offers a clean, ultra-responsive blogging setup. However, configuring custom workflows, taxonomies, and GitHub Actions runners can occasionally throw cryptic build errors, Liquid exceptions, or broken 404 links on tag and category pages.
 
 This post documents all major issues encountered during Chirpy site deployments on GitHub Pages—including Node.js runner deprecation notices, `htmlproofer` dead link failures, Liquid integer `slugify` exceptions, and category 404 routing errors—along with complete, production-tested solutions.
 
 ---
-
 ## 1. Node.js 20 Deprecation Warnings on GitHub Runners
 
 ### Issue Overview
@@ -31,7 +29,6 @@ GitHub Actions updated default virtual environments to run JavaScript actions on
 These annotations are non-fatal build notices. To ensure optimal workflow compatibility without warnings, update your `.github/workflows/build-deploy.yml` with modern action releases and explicitly disable non-critical warnings where appropriate.
 
 ---
-
 ## 2. Liquid Exception: `undefined method 'gsub' for an instance of Integer`
 
 ### Issue Overview
@@ -57,38 +54,36 @@ Override `_layouts/tags.html` in your repository root to cast all tag variables 
 layout: page
 ---
 
-{% include lang.html %}
 
-{% assign tags_list = '' | split: '' %}
 
-{% for post in site.posts %}
-  {% for tag in post.tags %}
-    {% assign tag_str = tag | append: '' | strip %}
-    {% if tag_str != '' %}
-      {% unless tags_list contains tag_str %}
-        {% assign tags_list = tags_list | push: tag_str %}
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
-{% endfor %}
 
-{% assign tags_list = tags_list | sort_natural %}
+
+  
+    
+    
+      
+        
+      
+    
+  
+
+
+
 
 <div id="tags" class="d-flex flex-wrap mx-xl-2">
-  {% for tag in tags_list %}
-    {% assign tag_str = tag | append: '' %}
-    {% assign tag_slug = tag_str | slugify %}
-    {% assign tag_posts = site.tags[tag] %}
+  
+    
+    
+    
     <a href="{{ tag_slug | prepend: '/tags/' | relative_url }}/" class="tag">
       {{ tag_str }}<span class="text-muted">({{ tag_posts.size }})</span>
     </a>
-  {% endfor %}
+  
 </div>
 
 ```
 
 ---
-
 ## 3. 404 Page Not Found Errors on Categories and Tags
 
 ### Issue Overview
@@ -115,7 +110,6 @@ title: "Standard Operating Procedures for Local Audits"
 categories: ["Public Finance", "Audit and Governance"]
 tags: ["Local Fund Audit", "Panchayati Raj", "Sikkim"]
 ---
-
 ```
 
 #### Step B: Ensure Tab Pages Exist
@@ -131,7 +125,6 @@ icon: fas fa-stream
 order: 2
 permalink: /categories/
 ---
-
 ```
 
 ```yaml
@@ -143,11 +136,9 @@ icon: fas fa-tags
 order: 3
 permalink: /tags/
 ---
-
 ```
 
 ---
-
 ## 4. `htmlproofer` Flagging Client-Side Category Links
 
 ### Issue Overview
@@ -179,7 +170,6 @@ Configure `htmlproofer` in `.github/workflows/build-deploy.yml` to ignore dynami
 ```
 
 ---
-
 ## 5. Automated Build Sanitizer (`sanitize.py`)
 
 To prevent recurring front matter issues across hundreds of blog posts, add a `sanitize.py` script to your repository root and execute it before the `bundle exec jekyll build` step.
@@ -234,7 +224,6 @@ print("Taxonomies successfully sanitized for Chirpy compatibility.")
 ```
 
 ---
-
 ## 6. Complete GitHub Actions Workflow (`.github/workflows/build-deploy.yml`)
 
 Here is the production-ready GitHub Actions workflow incorporating all fixes:
@@ -315,7 +304,6 @@ jobs:
 ```
 
 ---
-
 ## Conclusion
 
 By implementing explicit Liquid string conversions in `_layouts/tags.html`, capping category depth to two levels, sanitizing front matter during CI/CD, and updating your `htmlproofer` rules, your Jekyll Chirpy site will build cleanly and route all tag and category links without 404 errors.

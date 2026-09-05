@@ -4,13 +4,11 @@ date: "2026-08-04"
 categories: ["Governance", "Financial Rules", "Sikkim Panchayati Raj"]
 tags: ["Sikkim", "Gram Panchayat", "Zilla Panchayat", "Financial Rules", "Local Governance"]
 ---
-
 # Sikkim Panchayat Financial Rules: A Comprehensive Overview
 
 Local governance in Sikkim operates under a well-structured framework to manage funds, maintain accounts, and ensure financial accountability across local self-governments. This detailed post outlines the full text of both the **Sikkim Gram Panchayat (Financial) Rules, 2003** and the **Sikkim Zilla Panchayat (Financial) Rules, 2001**, including their respective official notifications, schedules, and amendment notifications.
 
 ---
-
 ## Part 1: Sikkim Gram Panchayat (Financial) Rules, 2003
 
 **RURAL DEVELOPMENT DEPARTMENT**
@@ -152,7 +150,6 @@ Secretary to the Government of Sikkim,
 Rural Development Department.
 
 ---
-
 ### Gram Panchayat Schedules
 
 #### SCHEDULE A (See rule 4)
@@ -169,7 +166,6 @@ Rural Development Department.
 |  | Imprest |  |  |  |  | Imprest |  |  |  |
 
 ---
-
 #### SCHEDULE B (See rule 5)
 
 **FORM FOR RECONCILIATION OF BALANCE IN CASH BOOK AND BANK PASS BOOK.**
@@ -188,7 +184,6 @@ Rural Development Department.
 | **Balance as per Bank Pass Book** |  |  |  |
 
 ---
-
 #### SCHEDULE C
 
 **LEDGER**
@@ -206,7 +201,6 @@ Name of account: ________
 |  |  |  |  |  |  |
 
 ---
-
 #### SCHEDULE D
 
 **FORM FOR INVENTORY REGISTER FOR NON-CONSUMABLE ASSETS & OFFICE EQUIPMENT.**
@@ -220,7 +214,6 @@ Name of item: ________
 *Note: Physical verification will be done at the end of each financial year. All broken/condemned/unserviceable items shall be disposed of in the manner specified and the entries will be made in the remarks column.*
 
 ---
-
 #### SCHEDULE E (See rule 8)
 
 **FORM FOR PREPARATION OF ANNUAL BUDGET ESTIMATES**
@@ -281,7 +274,6 @@ Name of item: ________
 | C. Fixed Assets. |  |
 
 ---
-
 #### SCHEDULE F (See rule 9)
 
 **Delegation of powers**
@@ -306,7 +298,6 @@ Name of item: ________
 | **4.** | **Other contingent expenditure not covered above** | Actual amount | Subject to approval of the Secretary, RMDD. |
 
 ---
-
 ### Sikkim Gram Panchayat (Financial) Amendment Rules, 2004
 
 **RURAL MANAGEMENT & DEVELOPMENT DEPARTMENT**
@@ -348,7 +339,6 @@ Secretary to the Government of Sikkim,
 Rural Management & Development Department.
 
 ---
-
 ## Part 2: Sikkim Zilla Panchayat (Financial) Rules, 2001
 
 **GOVERNMENT OF SIKKIM**
@@ -502,7 +492,6 @@ Secretary to the Government of Sikkim,
 Rural Development Department.
 
 ---
-
 ### Zilla Panchayat Schedules
 
 #### SCHEDULE A (See rule 4)
@@ -519,7 +508,6 @@ Rural Development Department.
 |  | Imprest |  |  |  |  | Imprest |  |  |  |
 
 ---
-
 #### SCHEDULE B (See rule 5)
 
 **FORM FOR RECONCILIATION OF BALANCE IN CASH BOOK AND BANK PASS BOOK.**
@@ -538,7 +526,6 @@ Rural Development Department.
 | **Balance as per Bank Pass Book** |  |  |  |
 
 ---
-
 #### SCHEDULE C
 
 **LEDGER**
@@ -556,7 +543,6 @@ Name of account: ________
 |  |  |  |  |  |  |
 
 ---
-
 #### SCHEDULE D
 
 **FORM FOR INVENTORY REGISTER FOR NON-CONSUMABLE ASSETS & OFFICE EQUIPMENT.**
@@ -570,7 +556,6 @@ Name of item: ________
 *Note: Physical verification will be done at the end of each financial year. All broken/condemned/unserviceable items shall be disposed of in the manner specified and the entries will be made in the remarks column.*
 
 ---
-
 #### SCHEDULE E (See rule 8)
 
 **FORM FOR PREPARATION OF ANNUAL BUDGET ESTIMATES**
@@ -631,7 +616,6 @@ Name of item: ________
 | C. Fixed Assets. |  |
 
 ---
-
 #### SCHEDULE F (See rule 9)
 
 **Delegation of powers**
@@ -667,7 +651,6 @@ Name of item: ________
 | **8** | **Other contingent expenditure not covered above** | Rs.5000/- p.a. in each case | - do - | Rs.10,000/- in each case |  |
 
 ---
-
 ### Sikkim Zilla Panchayat (Financial) Amendment Rules, 2004
 
 **RURAL MANAGEMENT & DEVELOPMENT DEPARTMENT**

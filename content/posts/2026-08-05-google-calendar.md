@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Creating a Google Calendar (.ICS) from a Holiday List: A Practical Guide"
-date: 2026-08-05 18:31:00 +0530
+date: 2026-08-05T18:31:00+05:30
 categories: [productivity]
 tags: [google-calendar, ics, calendar, holidays, csv, scheduling, github-pages]
 ---
-
 # Creating a Google Calendar (.ICS) from a Holiday List: A Practical Guide
 
 Managing public holidays is much easier when they are available directly in your digital calendar. During this project, the objective was to convert a tabular holiday notification into a format that could be imported into Google Calendar while also supporting recurring weekly holidays such as second and fourth Saturdays.
@@ -13,7 +12,6 @@ Managing public holidays is much easier when they are available directly in your
 This post documents the complete workflow, from extracting holidays from an image to preparing data for ICS, VCS, and CSV formats.
 
 ---
-
 # Project Goal
 
 The objective was to:
@@ -28,7 +26,6 @@ The objective was to:
 * Convert the holiday list into structured CSV format.
 
 ---
-
 # Source Data
 
 The source was a holiday notification containing:
@@ -40,7 +37,6 @@ The source was a holiday notification containing:
 * Bank closing days
 
 ---
-
 # Fixed Date Holidays
 
 These holidays occur on the same calendar date every year.
@@ -58,7 +54,6 @@ These holidays occur on the same calendar date every year.
 These are ideal candidates for annual recurring events in an ICS calendar.
 
 ---
-
 # Variable Date Holidays
 
 The following holidays do **not** occur on the same Gregorian calendar date every year because they are determined using lunar, Tibetan, Buddhist, or ecclesiastical calendars.
@@ -82,7 +77,6 @@ The following holidays do **not** occur on the same Gregorian calendar date ever
 These events must generally be updated each year rather than using a simple yearly recurrence rule.
 
 ---
-
 # Multi-Day Holidays
 
 Some holidays span multiple days.
@@ -95,7 +89,6 @@ Some holidays span multiple days.
 ICS files represent these using a start date and an end date.
 
 ---
-
 # Monthly Recurring Holidays
 
 Apart from public holidays, recurring weekends were also included.
@@ -119,7 +112,6 @@ FREQ=MONTHLY;BYDAY=4SA
 This greatly reduces the number of calendar entries.
 
 ---
-
 # Additional Bank Holidays
 
 The notification also contained bank-specific holidays.
@@ -132,7 +124,6 @@ The notification also contained bank-specific holidays.
 These can be included as annual recurring events.
 
 ---
-
 # Preparing Data for CSV
 
 A structured CSV makes it easy to generate calendars automatically.
@@ -166,7 +157,6 @@ This structure works well for:
 * JavaScript applications
 
 ---
-
 # ICS File Structure
 
 An ICS calendar is a plain text file following the iCalendar specification.
@@ -187,7 +177,6 @@ Multi-day events include a later `DTEND` date.
 Recurring events additionally include an `RRULE`.
 
 ---
-
 # Why Use ICS Instead of Manual Entry?
 
 Using ICS files offers several advantages:
@@ -200,7 +189,6 @@ Using ICS files offers several advantages:
 * Can be regenerated automatically every year
 
 ---
-
 # Creating a Complete Holiday Calendar
 
 A complete holiday calendar should contain:
@@ -216,7 +204,6 @@ A complete holiday calendar should contain:
 This provides a single calendar that can be imported into nearly every modern calendar application.
 
 ---
-
 # Lessons Learned
 
 Several practical observations emerged from this exercise:
@@ -228,7 +215,6 @@ Several practical observations emerged from this exercise:
 * CSV serves as an excellent intermediate format for generating ICS files programmatically.
 
 ---
-
 # Future Improvements
 
 Possible enhancements include:
@@ -241,7 +227,6 @@ Possible enhancements include:
 * Web application for importing government holiday notifications and exporting ICS files.
 
 ---
-
 # Conclusion
 
 Converting government holiday notifications into structured calendar formats significantly improves productivity. By organizing holidays into CSV, ICS, and recurring calendar events, the same dataset can be reused across multiple platforms, reducing manual effort and ensuring consistency.

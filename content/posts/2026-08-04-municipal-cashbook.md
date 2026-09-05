@@ -4,11 +4,9 @@ date: 2026-08-04
 categories: ["Accounting", "Public Finance", "Municipal Governance"]
 tags: ["Cash Book", "Double Entry", "Journal Entries", "Financial Accounting", "Public Sector"]
 ---
-
 Accurate bookkeeping is the backbone of financial transparency in public administration and municipal bodies. Maintaining proper accounting records ensures accountability, prevents fraud, and keeps municipal operations running smoothly. Below is a comprehensive guide based on our discussions covering the essential procedures for writing Cash Book entries, processing supplier payments, and enforcing daily financial controls under the national municipal accounting framework.
 
 ---
-
 ### **Understanding the Municipal Cash Book**
 
 The **Cash Book** (Form GEN-2) serves as a book of original entry. Every financial transaction that involves money moving in or out of cash or bank accounts must be captured here in real time.
@@ -28,7 +26,6 @@ Each transaction recorded in the Cash Book requires six essential attributes:
 * **Amount:** The monetary value in cash or bank ledger.
 
 ---
-
 ### **How to Record Payments to Suppliers**
 
 In municipal accounting, paying a vendor or contractor is a **two-step accrual process**. You must never make a direct bank payment without first recognizing the liability in the General Journal.
@@ -54,7 +51,6 @@ Once the Payment Order (PO) is approved and the cheque or electronic bank transf
 | **450-21-XX** | **Bank Account** | | 7,900 | Main Ledger |
 
 ---
-
 ### **Standard Practical Examples in the Cash Book**
 
 #### **Scenario 1: Receipt of a Specialized Government Grant**
@@ -74,7 +70,6 @@ Once the Payment Order (PO) is approved and the cheque or electronic bank transf
   * **Amount:** ₹50,000
 
 ---
-
 ### **Essential Daily Procedures and Internal Controls**
 
 To maintain clean books and audit-ready records, financial officers must enforce strict daily procedures:

@@ -4,13 +4,11 @@ date: "2026-08-04"
 categories: ["Governance", "Sikkim Local Self-Government", "Financial Regulations"]
 tags: ["Sikkim", "Zilla Panchayat", "Financial Rules", "Rural Development", "Panchayati Raj"]
 ---
-
 The **Sikkim Zilla Panchayat (Financial) Rules, 2001**—along with its subsequent amendment in **2004**—forms the primary framework governing financial operations, budget preparation, fund management, and expenditure approvals for Zilla Panchayats across Sikkim. 
 
 Below is a detailed overview and verbatim compilation of the official notifications, rules, and schedules published by the Rural Development Department (now Rural Management & Development Department), Government of Sikkim.
 
 ---
-
 # Government Notification (2001)
 
 **GOVERNMENT OF SIKKIM**
@@ -112,7 +110,6 @@ Secretary to the Government of Sikkim,
 Rural Development Department.
 
 ---
-
 # Financial Schedules & Standard Forms
 
 ### SCHEDULE A (See rule 4)
@@ -127,7 +124,6 @@ Rural Development Department.
 | | Imprest | | | | | Imprest | | | |
 
 ---
-
 ### SCHEDULE B (See rule 5)
 **FORM FOR RECONCILIATION OF BALANCE IN CASH BOOK AND BANK PASS BOOK**  
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Zilla Panchayat**  
@@ -143,7 +139,6 @@ Rural Development Department.
 | **Balance as per Bank Pass Book** | | | |
 
 ---
-
 ### SCHEDULE C
 **LEDGER**  
 Major Head: \_\_\_\_\_\_\_\_\_\_\_\_  
@@ -156,7 +151,6 @@ Name of account: \_\_\_\_\_\_\_\_\_\_\_\_
 | | | | | | |
 
 ---
-
 ### SCHEDULE D
 **FORM FOR INVENTORY REGISTER FOR NON-CONSUMABLE ASSETS & OFFICE EQUIPMENT**  
 Name of item: \_\_\_\_\_\_\_\_\_\_\_\_
@@ -168,7 +162,6 @@ Name of item: \_\_\_\_\_\_\_\_\_\_\_\_
 *Note: Physical verification will be done at the end of each financial year. All broken/condemned/unserviceable items shall be disposed of in the manner specified and the entries will be made in the remarks column.*
 
 ---
-
 ### SCHEDULE E (See rule 8)
 **FORM FOR PREPARATION OF ANNUAL BUDGET ESTIMATES**
 
@@ -226,7 +219,6 @@ Name of item: \_\_\_\_\_\_\_\_\_\_\_\_
   * C. Fixed Assets
 
 ---
-
 ### SCHEDULE F (See rule 9)
 **DELEGATION OF FINANCIAL POWERS**
 
@@ -259,7 +251,6 @@ Name of item: \_\_\_\_\_\_\_\_\_\_\_\_
 | **10** | Other contingent expenditure not covered above | Rs. 5,000/- p.a. in each case | Rs. 10,000/- in each case | Rs. 10,000/- in each case | |
 
 ---
-
 # 2004 Amendment Notification
 
 **RURAL MANAGEMENT & DEVELOPMENT DEPARTMENT**

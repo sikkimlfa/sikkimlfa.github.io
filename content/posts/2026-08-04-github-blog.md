@@ -4,13 +4,11 @@ date: 2026-08-04
 categories: ["blogging", "github", "jekyll", "web development"]
 tags: ["GitHub Pages", "Jekyll", "blog setup", "static site", "tutorial"]
 ---
-
 # How to Create a Blog Using GitHub Pages and Jekyll: A Complete Guide
 
 Creating a blog using GitHub Pages with a Jekyll theme is a popular, secure, and cost-effective way to publish content online. Because GitHub Pages provides free hosting for static sites, it is a favorite among developers and writers alike. This guide walks you through the entire process, from choosing a theme to deploying your blog live. It also includes tips, troubleshooting advice, and resources to help you succeed.
 
 ---
-
 ## 1. Choose and Create Your Site Repository
 
 The foundation of your blog is the repository. Start by selecting a Jekyll theme or a starter repository. Popular choices include:
@@ -25,7 +23,6 @@ The foundation of your blog is the repository. Start by selecting a Jekyll theme
 - Commit the repository to your GitHub account.
 
 ---
-
 ## 2. Update the Site Configuration
 
 Once your repository is created, you need to tell Jekyll who you are. Open the `_config.yml` file in the root directory and update the following:
@@ -48,7 +45,6 @@ avatar: "[https://link-to-your-photo.jpg](https://link-to-your-photo.jpg)"
 ```
 
 ---
-
 ## 3. Enable GitHub Actions and Pages Build
 
 Modern Jekyll themes often use GitHub Actions to build the site. This is more flexible than the legacy built-in Jekyll processor.
@@ -58,7 +54,6 @@ Modern Jekyll themes often use GitHub Actions to build the site. This is more fl
 3. Under **"Build and deployment,"** ensure the **Source** is set to **"GitHub Actions"** if your theme includes a `.github/workflows` folder.
 
 ---
-
 ## 4. Work Locally (Recommended)
 
 While you can edit files directly on GitHub, working locally allows you to preview changes instantly.
@@ -81,7 +76,6 @@ bundle exec jekyll serve --livereload
 4. **Preview:** Open `http://127.0.0.1:4000` in your browser. Any changes you save will refresh the page automatically.
 
 ---
-
 ## 5. Add Blog Posts
 
 Content is king. To write a post, create a new Markdown file in the `_posts/` directory. The filename must follow the format: `YYYY-MM-DD-title.md`.
@@ -95,13 +89,11 @@ date: 2026-08-04 10:00:00 +0000
 categories: [tech]
 tags: [tutorial, jekyll]
 ---
-
 ```
 
 After the second `---`, write your content using standard Markdown syntax.
 
 ---
-
 ## 6. Commit and Deploy
 
 When you are happy with your post or configuration changes:
@@ -119,7 +111,6 @@ git push origin main
 3. Watch the **Actions** tab. Once the green checkmark appears, your changes are live at `https://username.github.io`.
 
 ---
-
 ## 7. Troubleshooting and Tips
 
 * **Build Failures:** If your site doesn't update, check the Actions log. Common errors include syntax mistakes in `_config.yml` or missing dependencies in your `Gemfile`.
@@ -127,7 +118,6 @@ git push origin main
 * **Images:** Store your images in an `assets/images` folder and link to them using relative paths to ensure they load correctly.
 
 ---
-
 ## 8. Optional: Add a Custom Domain
 
 If you want a professional look (e.g., `www.yourname.com`):
@@ -138,7 +128,6 @@ If you want a professional look (e.g., `www.yourname.com`):
 4. Enforce **HTTPS** to ensure your site is secure.
 
 ---
-
 ## 9. Resources
 
 * **YouTube:** Search for *"How to build your Blog for free on GitHub Pages using Jekyll"* for visual walkthroughs.
@@ -146,7 +135,6 @@ If you want a professional look (e.g., `www.yourname.com`):
 * **GitHub Themes:** Browse the Jekyll Themes gallery for inspiration.
 
 ---
-
 This guide consolidates the key steps needed to launch your site. By using GitHub Pages and Jekyll, you have full control over your data and a highly performant website.
 
 Happy blogging!

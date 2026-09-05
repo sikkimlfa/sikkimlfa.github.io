@@ -4,13 +4,11 @@ date: "2026-08-04"
 categories: ["Tech Support", "Web Browsers", "Productivity"]
 tags: ["Firefox", "Google Sheets", "Printing", "Troubleshooting", "PDF"]
 ---
-
 If you frequently use Google Sheets inside Mozilla Firefox, you may have run into a frustrating issue: when you hit the "Print" button, Firefox downloads or prompts you to save a PDF file instead of sending the document straight to your physical printer. 
 
 While this feels like a glitch, it is actually expected behavior based on how Google Sheets interacts with different browsers. Fortunately, there are several straightforward ways to fix this workflow.
 
 ---
-
 ### Why Does This Happen?
 
 Unlike Google Chrome—which features a native, integrated print engine designed specifically for Google Workspace apps—Google Sheets treats Firefox differently. 
@@ -18,7 +16,6 @@ Unlike Google Chrome—which features a native, integrated print engine designed
 When you click **File > Print** or hit the **Print icon** within a Google Sheet, Google's servers render your spreadsheet layout into a standard PDF document. It then passes this generated PDF to Firefox. Depending on your browser's default download settings, Firefox simply saves the file to your disk rather than opening a print preview or routing it directly to your hardware printer.
 
 ---
-
 ### Method 1: Bypass the Google Print Button (Fastest Fix)
 
 The easiest way to skip the unwanted PDF download is to trigger your system’s native print dialog directly, ignoring Google's built-in print pipeline altogether.
@@ -29,7 +26,6 @@ The easiest way to skip the unwanted PDF download is to trigger your system’s 
 **Why this works:** Using this browser shortcut bypasses Google Sheets' PDF generator entirely and opens your operating system's standard print dialog instantly, allowing you to select your target printer right away.
 
 ---
-
 ### Method 2: Configure Firefox to Open PDFs Automatically
 
 If you prefer using the standard print button inside Google Sheets, you can configure Firefox to open the PDF in a new browser tab immediately instead of prompting you to save it.
@@ -48,7 +44,6 @@ Some web scripts force Firefox to download PDFs as attachments even when configu
 4. Toggle its value to **true**.
 
 ---
-
 ### Method 3: Clear Corrupted Printer Settings
 
 If Firefox continues defaulting to "Save as PDF" even when the system print window opens, your internal browser printer settings may be stuck or corrupted.
@@ -61,7 +56,6 @@ If Firefox continues defaulting to "Save as PDF" even when the system print wind
 Upon restarting, Firefox will re-detect your operating system's default physical printer and reset all print preferences to default.
 
 ---
-
 ### Quick Comparison of Methods
 
 | Method | Outcome | Best Used For |

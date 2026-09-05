@@ -4,7 +4,6 @@ date: 2026-08-04
 categories: ["Government Regulations", "Finance"]
 tags: ["Sikkim", "Zilla Panchayat", "Financial Rules", "Rural Development"]
 ---
-
 # Government of Sikkim Rural Development Department Notification
 
 **No.35(35)97-98/6/RDD/P.**
@@ -151,7 +150,6 @@ Secretary to the Government of Sikkim,
 Rural Development Department.
 
 ---
-
 ## SCHEDULE A (See rule 4)
 
 ### RECEIPTS AND PAYMENTS ACCOUNT
@@ -165,7 +163,6 @@ Rural Development Department.
 |  | Imprest |  |  |  |  | Imprest |  |  |  |  |
 
 ---
-
 ## SCHEDULE B (See rule 5)
 
 ### FORM FOR RECONCILIATION OF BALANCE IN CASH BOOK AND BANK PASS BOOK.
@@ -184,7 +181,6 @@ Bank Reconciliation Statement for the month of _______________
 |  | **Balance as per Bank Pass Book** |  |  |
 
 ---
-
 ## SCHEDULE C
 
 ### LEDGER
@@ -202,7 +198,6 @@ Name of account: ____________
 |  |  |  |  |  |  |
 
 ---
-
 ## SCHEDULE D
 
 ### FORM FOR INVENTORY REGISTER FOR NON-CONSUMABLE ASSETS & OFFICE EQUIPMENT.
@@ -216,7 +211,6 @@ Name of item: ____________
 *Note: Physical verification will be done at the end of each financial year. All broken/condemned/unserviceable items shall be disposed of in the manner specified and the entries will be made in the remarks column.*
 
 ---
-
 ## SCHEDULE E (See rule 8)
 
 ### FORM FOR PREPARATION OF ANNUAL BUDGET ESTIMATES
@@ -297,7 +291,6 @@ Name of item: ____________
 
 
 ---
-
 ## SCHEDULE F (See rule 9)
 
 ### Delegation of powers
@@ -338,7 +331,6 @@ Name of item: ____________
 | **9** | Other contingent expenditure not covered above | Rs.5000/- p.a. in each | - do - | Full powers |  |
 
 ---
-
 # Amendment Rules Notification
 
 **RURAL MANAGEMENT & DEVELOPMENT DEPARTMENT**

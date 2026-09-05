@@ -1,10 +1,9 @@
 ---
 title: "Extracting Numbers in Excel and Converting PDFs to Markdown on Ubuntu"
-date: 2026-08-05 10:55:00 +0000
+date: 2026-08-05T10:55:00+00:00
 categories: [tech]
 tags: [excel, ubuntu, linux, pdf, markdown, pandoc, pdftotext]
 ---
-
 # Extracting Numbers in Excel and Converting PDF Files to Markdown on Ubuntu
 
 Recently, I worked on two common productivity tasks:
@@ -15,7 +14,6 @@ Recently, I worked on two common productivity tasks:
 This post documents the solutions and commands that worked.
 
 ---
-
 # Part 1: Extract Only Numbers from Text in Excel
 
 Suppose a cell contains the following text:
@@ -55,7 +53,6 @@ After modifying the formula, the result became:
 which still wasn't correct.
 
 ---
-
 ## Working Solution
 
 The following formula successfully extracted only the number enclosed within parentheses.
@@ -80,7 +77,6 @@ The following formula successfully extracted only the number enclosed within par
 This method is simple, reliable, and works whenever the number is enclosed in parentheses.
 
 ---
-
 # Part 2: Convert All PDFs to Markdown on Ubuntu
 
 The next task was converting multiple PDF files in a directory into Markdown files.
@@ -101,7 +97,6 @@ pandoc --version
 ```
 
 ---
-
 # Convert Every PDF to Markdown
 
 Run the following command directly in the terminal:
@@ -134,7 +129,6 @@ Report3.md
 ```
 
 ---
-
 # Merge All Markdown Files
 
 Once all Markdown files have been generated, merge them into one file:
@@ -152,7 +146,6 @@ merged_output.md
 contains the contents of every Markdown file.
 
 ---
-
 # Complete Workflow
 
 Convert all PDFs:
@@ -168,7 +161,6 @@ cat *.md > merged_output.md
 ```
 
 ---
-
 # Why Use This Method?
 
 This approach offers several advantages:
@@ -180,7 +172,6 @@ This approach offers several advantages:
 - Works well for documentation, note-taking, GitHub repositories, and knowledge bases.
 
 ---
-
 # Limitations
 
 This workflow is best suited for text-based PDFs.
@@ -195,7 +186,6 @@ For scanned documents, consider:
 These tools can generate searchable PDFs before converting them to Markdown.
 
 ---
-
 # Conclusion
 
 In this session, two practical problems were solved:

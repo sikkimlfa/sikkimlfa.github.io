@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Build an Excel Pay Fixation Calculator Under CCS (Revised Pay) Rules Using a Pay Matrix"
-date: 2026-08-05 18:29:00 +0530
+date: 2026-08-05T18:29:00+05:30
 categories: [excel, government]
 tags: [excel, pay-fixation, pay-matrix, promotion, salary, government, lookup, xlookup, vlookup, office]
 ---
-
 # Build an Excel Pay Fixation Calculator Using the Pay Matrix
 
 Pay fixation after promotion is one of the most frequently performed calculations in Government offices. Although the rules are straightforward, manually comparing both fixation options is time-consuming and often leads to mistakes.
@@ -13,7 +12,6 @@ Pay fixation after promotion is one of the most frequently performed calculation
 This guide explains how to create an Excel-based Pay Fixation Calculator that automatically calculates both permissible options under the revised pay rules and recommends the financially better option.
 
 ---
-
 # Objective
 
 Create an Excel workbook that:
@@ -26,7 +24,6 @@ Create an Excel workbook that:
 * Requires only a few user inputs.
 
 ---
-
 # Rule 12 – Fixation of Pay on Promotion
 
 A Government servant promoted on or after **1 January 2016** has **two options**.
@@ -40,7 +37,6 @@ Fix pay from the **Date of Next Increment**.
 The employee may choose whichever option is more beneficial.
 
 ---
-
 # Option 1 – Fixation from Date of Promotion
 
 The procedure is:
@@ -54,7 +50,6 @@ The procedure is:
 The result becomes the new Basic Pay from the promotion date.
 
 ---
-
 # Option 2 – Fixation from Date of Next Increment
 
 On promotion:
@@ -72,7 +67,6 @@ On the next increment date:
 The revised Basic Pay takes effect from the increment date.
 
 ---
-
 # Excel Workbook Structure
 
 A clean workbook should contain the following sheets:
@@ -87,7 +81,6 @@ A clean workbook should contain the following sheets:
 | Instructions | User guide |
 
 ---
-
 # Pay Matrix Worksheet
 
 The Pay Matrix should remain unchanged.
@@ -103,7 +96,6 @@ Example structure:
 This sheet acts as the master lookup table.
 
 ---
-
 # User Inputs
 
 The user only enters:
@@ -119,7 +111,6 @@ The user only enters:
 Everything else should calculate automatically.
 
 ---
-
 # Logic for Option 1
 
 The calculator performs these steps automatically.
@@ -135,7 +126,6 @@ Basic Pay: ₹44,900
 ```
 
 ---
-
 ## Step 2
 
 Grant one increment.
@@ -144,7 +134,6 @@ Grant one increment.
 * **After Increment:** `₹46,200`
 
 ---
-
 ## Step 3
 
 Search the promoted Level.
@@ -153,7 +142,6 @@ Search the promoted Level.
 * If it does not exist: **Choose next higher cell (e.g., ₹46,700)**
 
 ---
-
 # Logic for Option 2
 
 Immediately after promotion:
@@ -163,7 +151,6 @@ Immediately after promotion:
 * Employee draws `₹45,200` until the next increment.
 
 ---
-
 ## On Next Increment
 
 * **Annual Increment:** `₹44,900` → `₹46,200`
@@ -172,7 +159,6 @@ Immediately after promotion:
 * **Final Basic:** `₹48,100`
 
 ---
-
 # Automatic Comparison
 
 The calculator should compare:
@@ -188,7 +174,6 @@ The calculator should compare:
 * Financial Benefit: **₹500**
 
 ---
-
 # Lookup Functions
 
 The calculator can use modern Excel functions.
@@ -208,7 +193,6 @@ Older Excel versions may use:
 * `INDEX`
 
 ---
-
 # Increment Logic
 
 Increment means moving to the next cell in the same Level.
@@ -222,7 +206,6 @@ Increment means moving to the next cell in the same Level.
 The calculator simply identifies the next cell.
 
 ---
-
 # Promotion Logic
 
 After obtaining the incremented pay, search the promoted Level.
@@ -232,7 +215,6 @@ After obtaining the incremented pay, search the promoted Level.
 * **Result:** `₹44,800` (next higher cell)
 
 ---
-
 # Suggested Workbook Layout
 
 * `Pay_Fixation_Calculator.xlsx`
@@ -246,7 +228,6 @@ After obtaining the incremented pay, search the promoted Level.
 
 
 ---
-
 # Additional Features
 
 A professional calculator can include:
@@ -264,7 +245,6 @@ A professional calculator can include:
 * PDF report generation.
 
 ---
-
 # Recommended Excel Functions
 
 | Function | Purpose |
@@ -282,7 +262,6 @@ A professional calculator can include:
 | `LAMBDA` | Reusable calculations |
 
 ---
-
 # Sample Output
 
 ```text
@@ -309,7 +288,6 @@ Financial Benefit   : ₹500
 ```
 
 ---
-
 # Best Practices
 
 * Never edit the Pay Matrix directly during calculations.
@@ -322,7 +300,6 @@ Financial Benefit   : ₹500
 * Document the rules used for fixation.
 
 ---
-
 # Conclusion
 
 An Excel-based Pay Fixation Calculator significantly reduces manual effort while ensuring consistent application of Rule 12 of the revised pay rules. By maintaining the Pay Matrix in a separate worksheet and automating both fixation methods, the workbook enables users to compare outcomes instantly and choose the option that provides the maximum financial benefit.

@@ -4,13 +4,11 @@ date: "2026-08-04"
 categories: ["Governance", "Right to Information", "Public Administration"]
 tags: ["RTI Act", "Proactive Disclosure", "Section 4", "Transparency", "Government Templates"]
 ---
-
 Transparency in public administration forms the cornerstone of accountability and public trust. Section 4(1)(b) of the Right to Information (RTI) Act, 2005, mandates every public authority to proactively disclose detailed organizational data. This statutory requirement ensures that citizens have seamless access to routine administrative records without having to repeatedly file individual RTI requests.
 
 To streamline compliance across municipal, state, and central institutions, adopting a structured, standardized, and fillable template is essential. Below is a comprehensive, end-to-end framework that public authorities can implement to fulfill all statutory requirements under Section 4(1)(b).
 
 ---
-
 # [Name of Public Authority/Department]
 
 ## RTI Proactive Disclosure Template [Section 4(1)(b)]
@@ -33,7 +31,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Genesis and Inception:** *(Include historical background and list of past Heads)* ______________________________________________________________________________
 
 ---
-
 ### 2. Powers and Duties of Officers and Employees [Section 4(1)(b)(ii)]
 
 | Designation | Administrative Powers | Financial Powers | Judicial / Quasi-Judicial Powers |
@@ -44,7 +41,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Rules/Orders under which Powers are Derived:** _______________________________
 
 ---
-
 ### 3. Procedure for Decision-Making [Section 4(1)(b)(iii)]
 
 * **Decision-Making Process:** *(Key decision points and stakeholder engagement)* ______________________________________________________________________________
@@ -52,7 +48,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Channel of Supervision and Accountability:** ____________________________________
 
 ---
-
 ### 4. Norms for Discharge of Functions [Section 4(1)(b)(iv)]
 
 * **Nature of Functions/Services Offered:** ________________________________________
@@ -61,14 +56,12 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Grievance Redressal Mechanism:** ____________________________________________
 
 ---
-
 ### 5. Rules, Regulations, and Manuals Held [Section 4(1)(b)(v)]
 
 * **List of Acts, Rules, Regulations, and Manuals Held:** __________________________
 * **Transfer Policy and Orders:** __________________________________________________
 
 ---
-
 ### 6. Categories of Documents Held [Section 4(1)(b)(vi)]
 
 | Document Title | Description | Responsibility / Custodian | Preservation Period |
@@ -77,7 +70,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 | ________________ | ________________ | ________________ | ________________ |
 
 ---
-
 ### 7. Boards, Councils, and Committees [Section 4(1)(b)(viii)]
 
 * **Name of the Body:** __________________________________________________________
@@ -86,7 +78,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Place where Minutes are Available:** ___________________________________________
 
 ---
-
 ### 8. Directory of Officers and Remuneration [Section 4(1)(b)(ix) & (x)]
 
 | Name | Designation | Contact No. / Email | Pay Scale & Monthly Remuneration |
@@ -95,7 +86,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 | ________________ | ________________ | ________________ | ________________ |
 
 ---
-
 ### 9. Public Information Officers [Section 4(1)(b)(xvi)]
 
 * **State/Central Public Information Officer (CPIO/SPIO):** ________________________
@@ -108,7 +98,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 
 
 ---
-
 ### 10. Budget and Expenditure [Section 4(1)(b)(xi)]
 
 * **Total Budget Allocated (Current FY):** _________________________________________
@@ -116,7 +105,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Disbursement Reports:** _______________________________________________________
 
 ---
-
 ### 11. Manner of Execution of Subsidy Programmes [Section 4(1)(b)(xii)]
 
 * **Name of Programme/Scheme:** ________________________________________________
@@ -126,7 +114,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Total Amount Allocated:** ___________________________________________________
 
 ---
-
 ### 12. Recipients of Concessions, Permits, or Authorisations [Section 4(1)(b)(xiii)]
 
 * **Type of Concession/Permit/Authorisation:** ___________________________________
@@ -137,7 +124,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 | ________________ | ________________ | ________________ | ________________ |
 
 ---
-
 ### 13. Information Available in Electronic Form [Section 4(1)(b)(xiv)]
 
 * **Details of Records Held Electronically:** ______________________________________
@@ -145,7 +131,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Official URL/Link:** _________________________________________________________
 
 ---
-
 ### 14. Facilities for Obtaining Information [Section 4(1)(b)(xv)]
 
 * **Library/Reading Room Working Hours:** ________________________________________
@@ -153,7 +138,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Process for Physical Inspection of Records:** _________________________________
 
 ---
-
 ### 15. Other Information as Prescribed [Section 4(1)(b)(xvii)]
 
 * **Citizen's Charter Link:** _____________________________________________________
@@ -161,7 +145,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Frequently Asked Questions (FAQs):** ___________________________________________
 
 ---
-
 ### 16. Details of Third-Party Audit & Compliance
 
 * **Date of Last Third-Party Audit:** _____________________________________________
@@ -170,7 +153,6 @@ To streamline compliance across municipal, state, and central institutions, adop
 * **Date of Last Annual Disclosure Update:** _______________________________________
 
 ---
-
 **Best Practices for Implementation**
 
 1. **Digital Accessibility:** Publish the completed disclosure as a searchable, non-editable PDF under an accessible "RTI" tab on the official portal.

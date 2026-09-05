@@ -5,11 +5,9 @@ categories: ["Technology", "Tutorials"]
 tags: ["github-pages", "jekyll", "markdown", "web-development"]
 description: "A short, compelling summary of what this post covers for SEO and post previews."
 ---
-
 A strong, concise opening paragraph that hooks the reader. Briefly explain the problem you are solving or what the reader will gain from reading this post.
 
 ---
-
 ## 1. Introduction & Overview
 
 Use introductory paragraphs to set the stage. You can emphasize **bold text** for key takeaways or *italics* for subtle emphasis.
@@ -17,7 +15,6 @@ Use introductory paragraphs to set the stage. You can emphasize **bold text** fo
 > **Key Takeaway:** Highlight important notes, warnings, or core concepts using blockquotes.
 
 ---
-
 ## 2. Core Concepts or Features
 
 Organize your content into clear, scannable subheadings.
@@ -28,7 +25,6 @@ Organize your content into clear, scannable subheadings.
 * **Feature Three:** Short explanation of the third key point.
 
 ---
-
 ## 3. Code Implementation & Examples
 
 Provide clear code examples with syntax highlighting. Specify the language after the backticks (e.g., `python`, `bash`, `yaml`, `javascript`).
@@ -61,7 +57,6 @@ bundle exec jekyll serve
 ```
 
 ---
-
 ## 4. Structured Data & Comparison
 
 Use tables to compare tools, features, or performance metrics clearly.
@@ -73,7 +68,6 @@ Use tables to compare tools, features, or performance metrics clearly.
 | **Learning Curve** | Low | Medium |
 
 ---
-
 ## 5. Summary & Next Steps
 
 Wrap up your post with a quick recap and logical next steps for the reader.
@@ -83,13 +77,11 @@ Wrap up your post with a quick recap and logical next steps for the reader.
 3. Verify that your GitHub Actions deployment succeeds.
 
 ---
-
 *Found this helpful? Feel free to share or leave a star on the repository!*
 
 ```
 
 ---
-
 ### Key Template Features Included:
 * **YAML Front Matter:** Includes essential metadata (`title`, `date`, `categories`, `tags`, `description`, `image`).
 * **SEO Preview Image:** Standardized `image` parameter for social media cards.
