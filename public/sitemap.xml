@@ -470,10 +470,10 @@
     <loc>http://localhost:1313/categories/automation/</loc>
     <lastmod>2026-08-05T10:56:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/google-sheets/</loc>
+    <loc>http://localhost:1313/tags/google-apps-script/</loc>
     <lastmod>2026-08-05T10:56:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/google-apps-script/</loc>
+    <loc>http://localhost:1313/tags/google-sheets/</loc>
     <lastmod>2026-08-05T10:56:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/javascript/</loc>
