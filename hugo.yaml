@@ -18,30 +18,34 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 15
-    - identifier: documents
-      name: Acts & Documents
-      url: /documents/
-      weight: 20
     - identifier: posts
       name: All Posts
       url: /posts/
+      weight: 20
+    - identifier: search
+      name: Search Posts
+      url: /search/
       weight: 30
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: documents
+      name: Acts & Documents
+      url: /documents/
       weight: 40
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 50
     - identifier: archives
       name: Archive
       url: /archives/
+      weight: 50
+    - identifier: categories
+      name: Categories
+      url: /categories/
       weight: 60
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 70
+    - identifier: repo-link
+      name: "GitHub ↗"
+      url: "https://github.com/sikkimlfa/sikkimlfa.github.io"
+      weight: 80
 
 taxonomies:
   category: categories
@@ -50,8 +54,8 @@ taxonomies:
 params:
   env: "production"
   title: "Sikkim LFA"
-  description: "Official notifications, acts, rules, and archival documentation."
-  author: "Sikkim LFA"
+  description: "Directorate of Local Fund Audit, Finance Department, Government of Sikkim."
+  author: "Directorate of Local Fund Audit"
 
   defaultTheme: "auto"
   disableThemeToggle: false
@@ -62,7 +66,9 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
 
-  # Fuse.js Search Settings
+  profileMode:
+    enabled: false
+
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -74,11 +80,11 @@ params:
 
   socialIcons:
     - name: "github"
-      url: "https://github.com/sikkimlfa"
+      url: "https://github.com/sikkimlfa/sikkimlfa.github.io"
     - name: "email"
-      url: "sikkimlfa@gmail.com"
+      url: "mailto:contact@sikkimlfa.gov.in"
 
 markup:
   goldmark:
     renderer:
-      unsafe: true # Required for embedding PDF and Google Drive iframes
+      unsafe: true

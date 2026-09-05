@@ -1,0 +1,38 @@
+﻿{{- define "main" }}
+<header class="page-header" style="max-width: 860px; margin: 0 auto 20px auto; padding: 0 14px;">
+  <h1>All Posts & Notifications</h1>
+  <div style="margin-top: 12px;">
+    <a href="{{ "search/" | relURL }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--entry); color: var(--primary); text-decoration: none; font-size: 0.9rem;">
+      🔍 Search through all posts...
+    </a>
+  </div>
+</header>
+
+<div style="max-width: 860px; margin: 0 auto; padding: 0 14px;">
+  {{- $posts := where site.RegularPages "Section" "posts" }}
+  {{- if eq (len $posts) 0 }}
+    {{- $posts = site.RegularPages }}
+  {{- end }}
+
+  {{- range $posts }}
+  <article class="post-entry" style="margin-bottom: 20px; padding: 18px; border: 1px solid var(--border); border-radius: 8px; background: var(--entry);">
+    <header class="entry-header">
+      <h2 style="font-size: 1.35rem; margin-bottom: 6px;">
+        <a href="{{ .Permalink }}" style="color: var(--primary); text-decoration: none;">{{ .Title }}</a>
+      </h2>
+    </header>
+    {{- if .Summary }}
+    <div class="entry-content" style="color: var(--secondary); font-size: 0.95rem; margin-bottom: 10px;">
+      <p>{{ .Summary | plainify | htmlUnescape | truncate 180 }}</p>
+    </div>
+    {{- end }}
+    <footer class="entry-footer" style="font-size: 0.85rem; color: var(--secondary);">
+      <span>📅 {{ .Date.Format "January 2, 2006" }}</span>
+      {{- if .Params.categories }}
+      <span style="margin-left: 12px;">📁 {{ delimit .Params.categories ", " }}</span>
+      {{- end }}
+    </footer>
+  </article>
+  {{- end }}
+</div>
+{{- end }}

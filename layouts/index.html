@@ -1,45 +1,63 @@
-{{ define "main" }}
-<div class="main-home" style="max-width: 800px; margin: 0 auto; padding: 20px 10px;">
-    <h1 style="font-size: 2.2rem; margin-bottom: 8px;">{{ .Site.Title }}</h1>
-    <p style="color: var(--secondary); margin-bottom: 24px;">{{ .Site.Params.description }}</p>
-
-    <!-- Search Box directly on Landing -->
-    <div id="searchbox" style="margin-bottom: 35px;">
-        <input id="searchInput" autofocus placeholder="Quick search articles, acts, circulars..." 
-               aria-label="search" type="search" autocomplete="off" maxlength="64"
-               style="width: 100%; padding: 12px 16px; font-size: 1.05rem; border-radius: 8px; border: 1px solid var(--border); background: var(--theme); color: var(--primary);">
-        <ul id="searchResults" aria-label="search results" style="list-style: none; padding: 0; margin-top: 10px;"></ul>
+﻿{{- define "main" }}
+<article class="post-single" style="max-width: 860px; margin: 0 auto; padding: 20px 14px;">
+  <header class="post-header" style="margin-bottom: 25px; border-bottom: 2px solid var(--border); padding-bottom: 15px;">
+    <h1 class="post-title" style="font-size: 2.2rem; margin-bottom: 8px;">
+      Directorate of Local Fund Audit
+    </h1>
+    <div style="font-size: 1.15rem; color: var(--secondary); font-weight: 500;">
+      Finance Department, Government of Sikkim
     </div>
+  </header>
 
-    <!-- Pinned / Top Articles -->
-    {{ $pinned := where .Site.RegularPages ".Params.weight" "!=" nil }}
-    {{ if gt (len $pinned) 0 }}
-    <h2 style="font-size: 1.4rem; border-bottom: 2px solid var(--border); padding-bottom: 6px; margin-bottom: 16px;">Top Key Pages</h2>
-    <div style="display: grid; gap: 12px; margin-bottom: 35px;">
-        {{ range first 4 $pinned }}
-        <div style="padding: 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--entry);">
-            <a href="{{ .Permalink }}" style="font-size: 1.15rem; font-weight: 600; text-decoration: none; color: var(--primary);">{{ .Title }}</a>
-            <p style="font-size: 0.9rem; color: var(--secondary); margin-top: 4px;">{{ .Summary | truncate 130 }}</p>
-        </div>
-        {{ end }}
-    </div>
-    {{ end }}
+  <!-- Quick Navigation Buttons -->
+  <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 30px;">
+    <a href="{{ "posts/" | relURL }}" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 6px; background: var(--primary); color: var(--theme); text-decoration: none; font-weight: 500; font-size: 0.95rem;">
+      Browse All Posts & Circulars →
+    </a>
+    <a href="{{ "search/" | relURL }}" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 6px; border: 1px solid var(--border); background: var(--entry); color: var(--primary); text-decoration: none; font-weight: 500; font-size: 0.95rem;">
+      🔍 Search Posts
+    </a>
+    <a href="{{ "documents/" | relURL }}" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 6px; border: 1px solid var(--border); background: var(--entry); color: var(--primary); text-decoration: none; font-weight: 500; font-size: 0.95rem;">
+      📂 Acts & Rules Repository
+    </a>
+  </div>
 
-    <!-- Recent Articles -->
-    <h2 style="font-size: 1.4rem; border-bottom: 2px solid var(--border); padding-bottom: 6px; margin-bottom: 16px;">Recent Updates</h2>
-    <div style="display: grid; gap: 12px;">
-        {{ range first 6 (where .Site.RegularPages "Section" "posts") }}
-        <div style="padding: 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--entry);">
-            <span style="font-size: 0.8rem; color: var(--secondary);">{{ .Date.Format "Jan 02, 2006" }}</span>
-            <div>
-                <a href="{{ .Permalink }}" style="font-size: 1.1rem; font-weight: 600; text-decoration: none; color: var(--primary);">{{ .Title }}</a>
-            </div>
-            <p style="font-size: 0.9rem; color: var(--secondary); margin-top: 4px;">{{ .Summary | truncate 130 }}</p>
-        </div>
-        {{ end }}
-    </div>
-</div>
+  <div class="post-content" style="line-height: 1.75; font-size: 1.05rem;">
+    <h3>Statutory Overview</h3>
+    <p>
+      The Directorate of Local Fund Audit functions under the administrative control of the Finance Department, Government of Sikkim. It serves as the apex statutory audit authority tasked with examining the financial accounts, statutory compliance, and fund utilization across local bodies, Panchayati Raj Institutions (PRIs), Urban Local Bodies (ULBs), and designated state entities.
+    </p>
 
-<!-- Load Fuse search script -->
-<script src="{{ "js/fastsearch.js" | relURL }}"></script>
-{{ end }}
+    <hr style="margin: 25px 0; border: 0; border-top: 1px solid var(--border);" />
+
+    <h3>Core Mandates & Functions</h3>
+    <ul>
+      <li><strong>Statutory Financial Audits:</strong> Conducting continuous and periodic inspection of accounts maintained by local funds and assigned authorities in accordance with state financial codes.</li>
+      <li><strong>Panchayati Raj & ULB Reviews:</strong> Scrutinizing expenditure statements, fund sanctions, and revenue collections of Gram Panchayats, Zilla Panchayats, and Municipal bodies.</li>
+      <li><strong>Grant Utilization Checks:</strong> Verifying Utilization Certificates (UCs) for state and central sponsored schemes to ensure adherence to statutory norms.</li>
+      <li><strong>Audit Reports & Recommendations:</strong> Issuing formal audit inspection notes, tracking action taken reports (ATRs), and advising departments on sound financial management.</li>
+    </ul>
+
+    <hr style="margin: 25px 0; border: 0; border-top: 1px solid var(--border);" />
+
+    <h3>Regulatory Framework</h3>
+    <p>All audits and scrutiny processes are governed under:</p>
+    <ul>
+      <li>The Sikkim Local Fund Audit Act and corresponding State Financial Rules.</li>
+      <li>Treasury rules and circulars issued by the Finance Department, Government of Sikkim.</li>
+      <li>Applicable audit standards and accounting frameworks established for public fund regulation.</li>
+    </ul>
+
+    <hr style="margin: 25px 0; border: 0; border-top: 1px solid var(--border);" />
+
+    <h3>Office & Communication</h3>
+    <p>
+      <strong>Directorate of Local Fund Audit</strong><br />
+      Finance Department, Government of Sikkim<br />
+      Gangtok, Sikkim – 737101<br />
+      <strong>Email:</strong> <a href="mailto:contact@sikkimlfa.gov.in">contact@sikkimlfa.gov.in</a><br />
+      <strong>Public Repository:</strong> <a href="{{ "documents/" | relURL }}">Statutory Acts & Circulars</a>
+    </p>
+  </div>
+</article>
+{{- end }}
