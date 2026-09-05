@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>How to Audit and Correct Financial Statements in Microsoft Excel Using AI | Sikkim LFA</title>
+<meta name="keywords" content="microsoft-excel, financial-statement, auditing, accounting, error-detection, excel-formulas, automation, ai">
+<meta name="description" content="How to Audit and Correct Financial Statements in Microsoft Excel Using AI
+Financial statements often contain hundreds of rows of data. Even a minor typing error in a balance sheet or cash book can result in incorrect financial reporting. Manually verifying every calculation is time-consuming and prone to human error.
+This article demonstrates how AI can assist in auditing Microsoft Excel financial statements by validating calculations, detecting inconsistencies, and generating corrected reports automatically.">
+<meta name="author" content="Sikkim LFA">
+<link rel="canonical" href="http://localhost:1313/posts/2026-08-05-excel-analysis/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2026-08-05-excel-analysis/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/posts/2026-08-05-excel-analysis/">
+  <meta property="og:site_name" content="Sikkim LFA">
+  <meta property="og:title" content="How to Audit and Correct Financial Statements in Microsoft Excel Using AI">
+  <meta property="og:description" content="How to Audit and Correct Financial Statements in Microsoft Excel Using AI Financial statements often contain hundreds of rows of data. Even a minor typing error in a balance sheet or cash book can result in incorrect financial reporting. Manually verifying every calculation is time-consuming and prone to human error.
+This article demonstrates how AI can assist in auditing Microsoft Excel financial statements by validating calculations, detecting inconsistencies, and generating corrected reports automatically.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-08-05T13:00:00+05:30">
+    <meta property="article:modified_time" content="2026-08-05T13:00:00+05:30">
+    <meta property="article:tag" content="Microsoft-Excel">
+    <meta property="article:tag" content="Financial-Statement">
+    <meta property="article:tag" content="Auditing">
+    <meta property="article:tag" content="Accounting">
+    <meta property="article:tag" content="Error-Detection">
+    <meta property="article:tag" content="Excel-Formulas">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to Audit and Correct Financial Statements in Microsoft Excel Using AI">
+  <meta name="twitter:description" content="How to Audit and Correct Financial Statements in Microsoft Excel Using AI Financial statements often contain hundreds of rows of data. Even a minor typing error in a balance sheet or cash book can result in incorrect financial reporting. Manually verifying every calculation is time-consuming and prone to human error.
+This article demonstrates how AI can assist in auditing Microsoft Excel financial statements by validating calculations, detecting inconsistencies, and generating corrected reports automatically.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How to Audit and Correct Financial Statements in Microsoft Excel Using AI",
+      "item": "http://localhost:1313/posts/2026-08-05-excel-analysis/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to Audit and Correct Financial Statements in Microsoft Excel Using AI",
+  "name": "How to Audit and Correct Financial Statements in Microsoft Excel Using AI",
+  "description": "How to Audit and Correct Financial Statements in Microsoft Excel Using AI Financial statements often contain hundreds of rows of data. Even a minor typing error in a balance sheet or cash book can result in incorrect financial reporting. Manually verifying every calculation is time-consuming and prone to human error.\nThis article demonstrates how AI can assist in auditing Microsoft Excel financial statements by validating calculations, detecting inconsistencies, and generating corrected reports automatically.\n",
+  "keywords": [
+    "microsoft-excel", "financial-statement", "auditing", "accounting", "error-detection", "excel-formulas", "automation", "ai"
+  ],
+  "articleBody": "How to Audit and Correct Financial Statements in Microsoft Excel Using AI Financial statements often contain hundreds of rows of data. Even a minor typing error in a balance sheet or cash book can result in incorrect financial reporting. Manually verifying every calculation is time-consuming and prone to human error.\nThis article demonstrates how AI can assist in auditing Microsoft Excel financial statements by validating calculations, detecting inconsistencies, and generating corrected reports automatically.\nThe Scenario A financial statement contains the following columns:\nSl. No Opening Balance (OB) Receipt Interest Total Receipt Payment Closing Balance (CB) Two important accounting rules govern the statement:\nRule 1 Total Receipt must always equal Opening Balance + Receipt + Interest:\nTotal Receipt = OB + Receipt + Interest Rule 2 Closing Balance must always equal Total Receipt − Payment:\nClosing Balance = Total Receipt − Payment These two equations form the basis of the audit.\nObjective The objective was to use AI to:\nAnalyse the Excel workbook Detect incorrect balances Identify calculation mistakes Automatically generate corrected figures Excel Workbook The uploaded workbook contained two worksheets:\nSheet1 Sheet2 The financial statement was stored in Sheet1.\nThe worksheet included information such as Administrative Centre, Gram Panchayat Unit, Scheme Name, Opening Balance, Total Receipt, Payment, and Closing Balance.\nA typical record looked like:\nScheme OB Total Receipt Payment CB 15th FC 3,081,568 5,695,122 1,581,819 4,113,303 Initial Analysis The workbook was imported into Python using Pandas. The first few rows were inspected to understand the worksheet structure.\nimport pandas as pd excel = pd.ExcelFile(file) print(excel.sheet_names) # Output: ['Sheet1', 'Sheet2'] After identifying the required sheet, the financial columns were extracted.\nCleaning the Data Since the workbook contained headings, merged cells, and blank rows, the data required cleaning before validation:\nIgnored title rows Selected relevant columns Renamed headers Converted financial columns into numeric values Ignored blank values Example:\npd.to_numeric(column, errors=\"coerce\") Validation Logic The audit logic consisted of two independent tests.\nTest 1 Validate Total Receipt. Compare expected value (OB + Receipt + Interest) with Reported Total Receipt.\nTest 2 Validate Closing Balance. Compare expected value (Total Receipt − Payment) with Reported Closing Balance.\nError Detection Rows failing either validation were flagged:\nTotal_Receipt_Error = Reported_Total_Receipt != Calculated_Total_Receipt Closing_Balance_Error = Reported_Closing_Balance != Calculated_Closing_Balance Every incorrect record was identified automatically.\nSample Errors Found Example 1 Scheme: 15TH FC\nItem Reported Calculated Opening Balance 3,081,568 3,081,568 Total Receipt 5,695,122 8,776,690 Payment 1,581,819 1,581,819 Closing Balance 4,113,303 7,194,871 Both Total Receipt and Closing Balance failed validation.\nExample 2 Scheme: 14TH FC\nItem Reported Calculated Closing Balance 0 334,063 The reported closing balance was incorrect.\nWhy So Many Errors Were Reported During analysis, almost every row appeared incorrect because the uploaded workbook did not contain separate Receipt and Interest columns. Instead, it already contained a Total Receipt column.\nThe audit logic initially assumed:\nCalculated Total Receipt = Opening Balance + Reported Total Receipt which effectively added the Opening Balance twice. Therefore, the calculated values became larger than the reported values.\nThis highlighted an important lesson: AI can only validate calculations when all required input columns are available. Without separate Receipt and Interest columns, the first validation rule cannot be applied correctly.\nCorrect Validation Approach The worksheet should contain the following structure:\nOB Receipt Interest Total Receipt Payment CB Then the audit becomes:\nExpected Total Receipt = OB + Receipt + Interest Expected Closing Balance = Expected Total Receipt − Payment This produces reliable results.\nAutomatically Correcting the Statement The proposed automated workflow involves:\nCalculating the correct Total Receipt. Calculating the correct Closing Balance. Replacing incorrect values. Exporting a new Excel workbook. Recommended Excel Formulas Assuming the following layout:\nColumn Field B Opening Balance C Receipt D Interest E Total Receipt F Payment G Closing Balance Use the following formulas:\nTotal Receipt: =B2+C2+D2 Closing Balance: =E2-F2 Check Total Receipt: =IF(E2=B2+C2+D2,\"Correct\",\"Error\") Check Closing Balance: =IF(G2=E2-F2,\"Correct\",\"Error\") Conditional Formatting To highlight incorrect rows automatically, apply these rules:\nTotal Receipt Error: =$E2\u003c\u003e($B2+$C2+$D2) Closing Balance Error: =$G2\u003c\u003e($E2-$F2) Incorrect rows will be highlighted instantly.\nHow AI Can Improve Financial Audits AI can perform several validation tasks within seconds:\nVerify opening and closing balances Detect incorrect totals Find missing values Detect duplicate records Validate accounting rules Identify negative balances Compare multiple years Generate audit observations Produce corrected Excel workbooks Create audit reports automatically Best Practices Before running an automated audit:\nKeep one row per transaction. Avoid merged cells. Use numeric values only. Keep separate columns for Receipt and Interest. Maintain consistent headers. Avoid manual totals within the data table. Following these practices significantly improves audit accuracy.\nFuture Enhancements A more advanced auditing tool can include:\nAutomatic error correction One-click audit report generation Excel dashboard with error summary Variance analysis Duplicate voucher detection Conditional formatting for errors Audit trail generation PDF audit report export VBA macro integration AI-powered anomaly detection Conclusion Microsoft Excel remains one of the most widely used tools for maintaining financial statements. By combining structured worksheets with AI-driven validation, organizations can quickly identify inconsistencies, reduce manual effort, and improve the accuracy of financial reporting.\nThe effectiveness of any automated audit, however, depends on the quality and completeness of the underlying data. When financial statements include separate columns for Opening Balance, Receipt, Interest, Payment, and Closing Balance, AI can accurately validate every record and generate corrected reports in a fraction of the time required for manual verification.\nAs AI-assisted auditing continues to evolve, it has the potential to become an indispensable tool for accountants, auditors, finance departments, and government institutions seeking faster, more reliable financial verification.\n",
+  "wordCount" : "912",
+  "inLanguage": "en",
+  "datePublished": "2026-08-05T13:00:00+05:30",
+  "dateModified": "2026-08-05T13:00:00+05:30",
+  "author":{
+    "@type": "Person",
+    "name": "Sikkim LFA"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/2026-08-05-excel-analysis/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sikkim LFA",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Sikkim LFA (Alt + H)">Sikkim LFA</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/documents/" title="Acts &amp; Documents">
+                    <span>Acts &amp; Documents</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="All Posts">
+                    <span>All Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/posts/">Posts</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      How to Audit and Correct Financial Statements in Microsoft Excel Using AI
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-05 13:00:00 +0530 IST'>August 5, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Sikkim LFA</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h1 id="how-to-audit-and-correct-financial-statements-in-microsoft-excel-using-ai">How to Audit and Correct Financial Statements in Microsoft Excel Using AI<a hidden class="anchor" aria-hidden="true" href="#how-to-audit-and-correct-financial-statements-in-microsoft-excel-using-ai">#</a></h1>
+<p>Financial statements often contain hundreds of rows of data. Even a minor typing error in a balance sheet or cash book can result in incorrect financial reporting. Manually verifying every calculation is time-consuming and prone to human error.</p>
+<p>This article demonstrates how AI can assist in auditing Microsoft Excel financial statements by validating calculations, detecting inconsistencies, and generating corrected reports automatically.</p>
+<hr>
+<h1 id="the-scenario">The Scenario<a hidden class="anchor" aria-hidden="true" href="#the-scenario">#</a></h1>
+<p>A financial statement contains the following columns:</p>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: right">Sl. No</th>
+					<th style="text-align: right">Opening Balance (OB)</th>
+					<th style="text-align: right">Receipt</th>
+					<th style="text-align: right">Interest</th>
+					<th style="text-align: right">Total Receipt</th>
+					<th style="text-align: right">Payment</th>
+					<th style="text-align: right">Closing Balance (CB)</th>
+			</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+<p>Two important accounting rules govern the statement:</p>
+<h2 id="rule-1">Rule 1<a hidden class="anchor" aria-hidden="true" href="#rule-1">#</a></h2>
+<p>Total Receipt must always equal Opening Balance + Receipt + Interest:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Total Receipt = OB + Receipt + Interest
+</span></span></code></pre></div><hr>
+<h2 id="rule-2">Rule 2<a hidden class="anchor" aria-hidden="true" href="#rule-2">#</a></h2>
+<p>Closing Balance must always equal Total Receipt − Payment:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Closing Balance = Total Receipt − Payment
+</span></span></code></pre></div><p>These two equations form the basis of the audit.</p>
+<hr>
+<h1 id="objective">Objective<a hidden class="anchor" aria-hidden="true" href="#objective">#</a></h1>
+<p>The objective was to use AI to:</p>
+<ul>
+<li>Analyse the Excel workbook</li>
+<li>Detect incorrect balances</li>
+<li>Identify calculation mistakes</li>
+<li>Automatically generate corrected figures</li>
+</ul>
+<hr>
+<h1 id="excel-workbook">Excel Workbook<a hidden class="anchor" aria-hidden="true" href="#excel-workbook">#</a></h1>
+<p>The uploaded workbook contained two worksheets:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Sheet1
+</span></span><span style="display:flex;"><span>Sheet2
+</span></span></code></pre></div><p>The financial statement was stored in <strong>Sheet1</strong>.</p>
+<p>The worksheet included information such as Administrative Centre, Gram Panchayat Unit, Scheme Name, Opening Balance, Total Receipt, Payment, and Closing Balance.</p>
+<p>A typical record looked like:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Scheme</th>
+					<th>OB</th>
+					<th>Total Receipt</th>
+					<th>Payment</th>
+					<th>CB</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>15th FC</td>
+					<td>3,081,568</td>
+					<td>5,695,122</td>
+					<td>1,581,819</td>
+					<td>4,113,303</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h1 id="initial-analysis">Initial Analysis<a hidden class="anchor" aria-hidden="true" href="#initial-analysis">#</a></h1>
+<p>The workbook was imported into Python using <strong>Pandas</strong>. The first few rows were inspected to understand the worksheet structure.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>excel <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>ExcelFile(file)
+</span></span><span style="display:flex;"><span>print(excel<span style="color:#f92672">.</span>sheet_names)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Output: [&#39;Sheet1&#39;, &#39;Sheet2&#39;]</span>
+</span></span></code></pre></div><p>After identifying the required sheet, the financial columns were extracted.</p>
+<hr>
+<h1 id="cleaning-the-data">Cleaning the Data<a hidden class="anchor" aria-hidden="true" href="#cleaning-the-data">#</a></h1>
+<p>Since the workbook contained headings, merged cells, and blank rows, the data required cleaning before validation:</p>
+<ul>
+<li>Ignored title rows</li>
+<li>Selected relevant columns</li>
+<li>Renamed headers</li>
+<li>Converted financial columns into numeric values</li>
+<li>Ignored blank values</li>
+</ul>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>pd<span style="color:#f92672">.</span>to_numeric(column, errors<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;coerce&#34;</span>)
+</span></span></code></pre></div><hr>
+<h1 id="validation-logic">Validation Logic<a hidden class="anchor" aria-hidden="true" href="#validation-logic">#</a></h1>
+<p>The audit logic consisted of two independent tests.</p>
+<h2 id="test-1">Test 1<a hidden class="anchor" aria-hidden="true" href="#test-1">#</a></h2>
+<p>Validate Total Receipt. Compare expected value (<code>OB + Receipt + Interest</code>) with Reported Total Receipt.</p>
+<hr>
+<h2 id="test-2">Test 2<a hidden class="anchor" aria-hidden="true" href="#test-2">#</a></h2>
+<p>Validate Closing Balance. Compare expected value (<code>Total Receipt − Payment</code>) with Reported Closing Balance.</p>
+<hr>
+<h1 id="error-detection">Error Detection<a hidden class="anchor" aria-hidden="true" href="#error-detection">#</a></h1>
+<p>Rows failing either validation were flagged:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>Total_Receipt_Error <span style="color:#f92672">=</span> Reported_Total_Receipt <span style="color:#f92672">!=</span> Calculated_Total_Receipt
+</span></span><span style="display:flex;"><span>Closing_Balance_Error <span style="color:#f92672">=</span> Reported_Closing_Balance <span style="color:#f92672">!=</span> Calculated_Closing_Balance
+</span></span></code></pre></div><p>Every incorrect record was identified automatically.</p>
+<hr>
+<h1 id="sample-errors-found">Sample Errors Found<a hidden class="anchor" aria-hidden="true" href="#sample-errors-found">#</a></h1>
+<h2 id="example-1">Example 1<a hidden class="anchor" aria-hidden="true" href="#example-1">#</a></h2>
+<p><strong>Scheme:</strong> 15TH FC</p>
+<table>
+	<thead>
+			<tr>
+					<th>Item</th>
+					<th>Reported</th>
+					<th>Calculated</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Opening Balance</td>
+					<td>3,081,568</td>
+					<td>3,081,568</td>
+			</tr>
+			<tr>
+					<td>Total Receipt</td>
+					<td>5,695,122</td>
+					<td>8,776,690</td>
+			</tr>
+			<tr>
+					<td>Payment</td>
+					<td>1,581,819</td>
+					<td>1,581,819</td>
+			</tr>
+			<tr>
+					<td>Closing Balance</td>
+					<td>4,113,303</td>
+					<td>7,194,871</td>
+			</tr>
+	</tbody>
+</table>
+<p>Both Total Receipt and Closing Balance failed validation.</p>
+<hr>
+<h2 id="example-2">Example 2<a hidden class="anchor" aria-hidden="true" href="#example-2">#</a></h2>
+<p><strong>Scheme:</strong> 14TH FC</p>
+<table>
+	<thead>
+			<tr>
+					<th>Item</th>
+					<th>Reported</th>
+					<th>Calculated</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Closing Balance</td>
+					<td>0</td>
+					<td>334,063</td>
+			</tr>
+	</tbody>
+</table>
+<p>The reported closing balance was incorrect.</p>
+<hr>
+<h1 id="why-so-many-errors-were-reported">Why So Many Errors Were Reported<a hidden class="anchor" aria-hidden="true" href="#why-so-many-errors-were-reported">#</a></h1>
+<p>During analysis, almost every row appeared incorrect because the uploaded workbook did <strong>not</strong> contain separate <strong>Receipt</strong> and <strong>Interest</strong> columns. Instead, it already contained a <strong>Total Receipt</strong> column.</p>
+<p>The audit logic initially assumed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Calculated Total Receipt = Opening Balance + Reported Total Receipt
+</span></span></code></pre></div><p>which effectively added the Opening Balance twice. Therefore, the calculated values became larger than the reported values.</p>
+<p>This highlighted an important lesson: <strong>AI can only validate calculations when all required input columns are available.</strong> Without separate <strong>Receipt</strong> and <strong>Interest</strong> columns, the first validation rule cannot be applied correctly.</p>
+<hr>
+<h1 id="correct-validation-approach">Correct Validation Approach<a hidden class="anchor" aria-hidden="true" href="#correct-validation-approach">#</a></h1>
+<p>The worksheet should contain the following structure:</p>
+<table>
+	<thead>
+			<tr>
+					<th>OB</th>
+					<th>Receipt</th>
+					<th>Interest</th>
+					<th>Total Receipt</th>
+					<th>Payment</th>
+					<th>CB</th>
+			</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+<p>Then the audit becomes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Expected Total Receipt = OB + Receipt + Interest
+</span></span><span style="display:flex;"><span>Expected Closing Balance = Expected Total Receipt − Payment
+</span></span></code></pre></div><p>This produces reliable results.</p>
+<hr>
+<h1 id="automatically-correcting-the-statement">Automatically Correcting the Statement<a hidden class="anchor" aria-hidden="true" href="#automatically-correcting-the-statement">#</a></h1>
+<p>The proposed automated workflow involves:</p>
+<ol>
+<li>Calculating the correct Total Receipt.</li>
+<li>Calculating the correct Closing Balance.</li>
+<li>Replacing incorrect values.</li>
+<li>Exporting a new Excel workbook.</li>
+</ol>
+<hr>
+<h1 id="recommended-excel-formulas">Recommended Excel Formulas<a hidden class="anchor" aria-hidden="true" href="#recommended-excel-formulas">#</a></h1>
+<p>Assuming the following layout:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Column</th>
+					<th>Field</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>B</td>
+					<td>Opening Balance</td>
+			</tr>
+			<tr>
+					<td>C</td>
+					<td>Receipt</td>
+			</tr>
+			<tr>
+					<td>D</td>
+					<td>Interest</td>
+			</tr>
+			<tr>
+					<td>E</td>
+					<td>Total Receipt</td>
+			</tr>
+			<tr>
+					<td>F</td>
+					<td>Payment</td>
+			</tr>
+			<tr>
+					<td>G</td>
+					<td>Closing Balance</td>
+			</tr>
+	</tbody>
+</table>
+<p>Use the following formulas:</p>
+<ul>
+<li><strong>Total Receipt:</strong> <code>=B2+C2+D2</code></li>
+<li><strong>Closing Balance:</strong> <code>=E2-F2</code></li>
+<li><strong>Check Total Receipt:</strong> <code>=IF(E2=B2+C2+D2,&quot;Correct&quot;,&quot;Error&quot;)</code></li>
+<li><strong>Check Closing Balance:</strong> <code>=IF(G2=E2-F2,&quot;Correct&quot;,&quot;Error&quot;)</code></li>
+</ul>
+<hr>
+<h1 id="conditional-formatting">Conditional Formatting<a hidden class="anchor" aria-hidden="true" href="#conditional-formatting">#</a></h1>
+<p>To highlight incorrect rows automatically, apply these rules:</p>
+<ul>
+<li><strong>Total Receipt Error:</strong> <code>=$E2&lt;&gt;($B2+$C2+$D2)</code></li>
+<li><strong>Closing Balance Error:</strong> <code>=$G2&lt;&gt;($E2-$F2)</code></li>
+</ul>
+<p>Incorrect rows will be highlighted instantly.</p>
+<hr>
+<h1 id="how-ai-can-improve-financial-audits">How AI Can Improve Financial Audits<a hidden class="anchor" aria-hidden="true" href="#how-ai-can-improve-financial-audits">#</a></h1>
+<p>AI can perform several validation tasks within seconds:</p>
+<ul>
+<li>Verify opening and closing balances</li>
+<li>Detect incorrect totals</li>
+<li>Find missing values</li>
+<li>Detect duplicate records</li>
+<li>Validate accounting rules</li>
+<li>Identify negative balances</li>
+<li>Compare multiple years</li>
+<li>Generate audit observations</li>
+<li>Produce corrected Excel workbooks</li>
+<li>Create audit reports automatically</li>
+</ul>
+<hr>
+<h1 id="best-practices">Best Practices<a hidden class="anchor" aria-hidden="true" href="#best-practices">#</a></h1>
+<p>Before running an automated audit:</p>
+<ul>
+<li>Keep one row per transaction.</li>
+<li>Avoid merged cells.</li>
+<li>Use numeric values only.</li>
+<li>Keep separate columns for Receipt and Interest.</li>
+<li>Maintain consistent headers.</li>
+<li>Avoid manual totals within the data table.</li>
+</ul>
+<p>Following these practices significantly improves audit accuracy.</p>
+<hr>
+<h1 id="future-enhancements">Future Enhancements<a hidden class="anchor" aria-hidden="true" href="#future-enhancements">#</a></h1>
+<p>A more advanced auditing tool can include:</p>
+<ul>
+<li>Automatic error correction</li>
+<li>One-click audit report generation</li>
+<li>Excel dashboard with error summary</li>
+<li>Variance analysis</li>
+<li>Duplicate voucher detection</li>
+<li>Conditional formatting for errors</li>
+<li>Audit trail generation</li>
+<li>PDF audit report export</li>
+<li>VBA macro integration</li>
+<li>AI-powered anomaly detection</li>
+</ul>
+<hr>
+<h1 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h1>
+<p>Microsoft Excel remains one of the most widely used tools for maintaining financial statements. By combining structured worksheets with AI-driven validation, organizations can quickly identify inconsistencies, reduce manual effort, and improve the accuracy of financial reporting.</p>
+<p>The effectiveness of any automated audit, however, depends on the quality and completeness of the underlying data. When financial statements include separate columns for Opening Balance, Receipt, Interest, Payment, and Closing Balance, AI can accurately validate every record and generate corrected reports in a fraction of the time required for manual verification.</p>
+<p>As AI-assisted auditing continues to evolve, it has the potential to become an indispensable tool for accountants, auditors, finance departments, and government institutions seeking faster, more reliable financial verification.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/microsoft-excel/">Microsoft-Excel</a></li>
+      <li><a href="http://localhost:1313/tags/financial-statement/">Financial-Statement</a></li>
+      <li><a href="http://localhost:1313/tags/auditing/">Auditing</a></li>
+      <li><a href="http://localhost:1313/tags/accounting/">Accounting</a></li>
+      <li><a href="http://localhost:1313/tags/error-detection/">Error-Detection</a></li>
+      <li><a href="http://localhost:1313/tags/excel-formulas/">Excel-Formulas</a></li>
+      <li><a href="http://localhost:1313/tags/automation/">Automation</a></li>
+      <li><a href="http://localhost:1313/tags/ai/">Ai</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/2026-08-05-lfa-manual-publication/">
+    <span class="title">« Prev</span>
+    <span>Building a Comprehensive Sikkim Local Fund Audit Manual: From Concept to Publication</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/2026-08-05-excel-restructure/">
+    <span class="title">Next »</span>
+    <span>Restructuring Multi-Year Excel Data into a Single Year-Wise Table with Microsoft Excel</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share How to Audit and Correct Financial Statements in Microsoft Excel Using AI on x"
+            href="https://x.com/intent/tweet/?text=How%20to%20Audit%20and%20Correct%20Financial%20Statements%20in%20Microsoft%20Excel%20Using%20AI&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-excel-analysis%2f&amp;hashtags=microsoft-excel%2cfinancial-statement%2cauditing%2caccounting%2cerror-detection%2cexcel-formulas%2cautomation%2cai">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share How to Audit and Correct Financial Statements in Microsoft Excel Using AI on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-excel-analysis%2f&amp;title=How%20to%20Audit%20and%20Correct%20Financial%20Statements%20in%20Microsoft%20Excel%20Using%20AI&amp;summary=How%20to%20Audit%20and%20Correct%20Financial%20Statements%20in%20Microsoft%20Excel%20Using%20AI&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-excel-analysis%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share How to Audit and Correct Financial Statements in Microsoft Excel Using AI on reddit"
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-excel-analysis%2f&title=How%20to%20Audit%20and%20Correct%20Financial%20Statements%20in%20Microsoft%20Excel%20Using%20AI">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share How to Audit and Correct Financial Statements in Microsoft Excel Using AI on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-excel-analysis%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share How to Audit and Correct Financial Statements in Microsoft Excel Using AI on whatsapp"
+            href="https://api.whatsapp.com/send?text=How%20to%20Audit%20and%20Correct%20Financial%20Statements%20in%20Microsoft%20Excel%20Using%20AI%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-excel-analysis%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share How to Audit and Correct Financial Statements in Microsoft Excel Using AI on telegram"
+            href="https://telegram.me/share/url?text=How%20to%20Audit%20and%20Correct%20Financial%20Statements%20in%20Microsoft%20Excel%20Using%20AI&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-excel-analysis%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share How to Audit and Correct Financial Statements in Microsoft Excel Using AI on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=How%20to%20Audit%20and%20Correct%20Financial%20Statements%20in%20Microsoft%20Excel%20Using%20AI&u=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026-08-05-excel-analysis%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Sikkim LFA</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

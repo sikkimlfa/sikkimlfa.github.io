@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Github-Actions on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/github-actions/</link>
+    <description>Recent content in Github-Actions on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Aug 2026 10:00:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github-actions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing Jekyll Chirpy on GitHub Pages: Resolving Node 24 Runner Deprecations,
+Slugify Exceptions, and 404 Category Errors</title>
+      <link>http://localhost:1313/posts/2026-08-08-jekyll-chirpy-fix/</link>
+      <pubDate>Sat, 08 Aug 2026 10:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-08-jekyll-chirpy-fix/</guid>
+      <description>&lt;p&gt;Deploying a Jekyll site with the popular &lt;strong&gt;Chirpy&lt;/strong&gt; theme on GitHub Pages offers a clean, ultra-responsive blogging setup. However, configuring custom workflows, taxonomies, and GitHub Actions runners can occasionally throw cryptic build errors, Liquid exceptions, or broken 404 links on tag and category pages.&lt;/p&gt;
+&lt;p&gt;This post documents all major issues encountered during Chirpy site deployments on GitHub Pages—including Node.js runner deprecation notices, &lt;code&gt;htmlproofer&lt;/code&gt; dead link failures, Liquid integer &lt;code&gt;slugify&lt;/code&gt; exceptions, and category 404 routing errors—along with complete, production-tested solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building an Audit Report Analysis System with GitHub Pages, JavaScript, GitHub Actions, and Python</title>
+      <link>http://localhost:1313/posts/2026-08-05-audit-report-analysis/</link>
+      <pubDate>Wed, 05 Aug 2026 03:09:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-audit-report-analysis/</guid>
+      <description>&lt;h1 id=&#34;building-an-audit-report-analysis-system-with-github-pages&#34;&gt;Building an Audit Report Analysis System with GitHub Pages&lt;/h1&gt;
+&lt;p&gt;Managing hundreds of audit reports becomes increasingly difficult as the number of local bodies, audit years, and observations grows. Traditional document storage makes searching, comparing, and analyzing reports time-consuming.&lt;/p&gt;
+&lt;p&gt;This project aims to transform audit reports into a searchable knowledge base using GitHub Pages, GitHub Actions, JavaScript, and a small amount of Python.&lt;/p&gt;
+&lt;p&gt;The result is a completely free system that automatically converts reports, builds an index, and provides an interactive website for browsing audit reports.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

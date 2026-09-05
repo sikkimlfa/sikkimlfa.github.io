@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Atr on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/atr/</link>
+    <description>Recent content in Atr on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 18:32:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/atr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drafting Professional Local Fund Audit Reports for Urban Local Bodies in Sikkim</title>
+      <link>http://localhost:1313/posts/2026-08-05-ulb-reports/</link>
+      <pubDate>Wed, 05 Aug 2026 18:32:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-ulb-reports/</guid>
+      <description>&lt;h1 id=&#34;drafting-professional-local-fund-audit-reports-for-urban-local-bodies-in-sikkim&#34;&gt;Drafting Professional Local Fund Audit Reports for Urban Local Bodies in Sikkim&lt;/h1&gt;
+&lt;p&gt;Statutory audit is one of the most important mechanisms for ensuring transparency, accountability, and sound financial management in local self-government institutions. In Sikkim, the Directorate of Local Fund Audit (DLFA), functioning under the Finance Department, conducts statutory audits of Panchayati Raj Institutions (PRIs) and Urban Local Bodies (ULBs) in accordance with the &lt;strong&gt;Sikkim Local Fund Audit Act, 2012&lt;/strong&gt;, the &lt;strong&gt;Sikkim Local Fund Audit Rules, 2014&lt;/strong&gt;, and other applicable Government of India and Government of Sikkim financial rules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Drafting Professional Feedback for AuditOnline ATR Process Configuration</title>
+      <link>http://localhost:1313/posts/2026-08-05-audit-process/</link>
+      <pubDate>Wed, 05 Aug 2026 12:45:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-audit-process/</guid>
+      <description>A guide to preparing professional feedback on the AuditOnline ATR workflow, highlighting organizational hierarchy issues and recommended system configuration improvements.</description>
+    </item>
+  </channel>
+</rss>

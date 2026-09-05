@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gst on Sikkim LFA</title>
+    <link>http://localhost:1313/categories/gst/</link>
+    <description>Recent content in Gst on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 18:30:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/gst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GST Audit Handbook: Understanding Core GST Concepts, ITC, Returns, Exports,
+and Audit Checkpoints</title>
+      <link>http://localhost:1313/posts/2026-08-05-gst-audit-handbook/</link>
+      <pubDate>Wed, 05 Aug 2026 18:30:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-gst-audit-handbook/</guid>
+      <description>&lt;h1 id=&#34;gst-audit-handbook-understanding-core-gst-concepts-itc-returns-exports-and-audit-checkpoints&#34;&gt;GST Audit Handbook: Understanding Core GST Concepts, ITC, Returns, Exports, and Audit Checkpoints&lt;/h1&gt;
+&lt;p&gt;Goods and Services Tax (GST) transformed India&amp;rsquo;s indirect tax system by replacing multiple indirect taxes with a unified tax structure. While GST simplified taxation in many ways, it also introduced extensive compliance requirements. A GST audit is not merely a verification of tax payments. It is a comprehensive examination of transactions, accounting records, returns, and statutory compliance to ensure that the correct tax has been paid and all benefits claimed are legally admissible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GST Audit Explained: A Complete Beginner-to-Expert Guide to Internal and Departmental
+GST Audit</title>
+      <link>http://localhost:1313/posts/2026-08-05-gst-audit-checklist/</link>
+      <pubDate>Wed, 05 Aug 2026 08:41:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-gst-audit-checklist/</guid>
+      <description>&lt;h1 id=&#34;gst-audit-explained-a-complete-beginner-to-expert-guide&#34;&gt;GST Audit Explained: A Complete Beginner-to-Expert Guide&lt;/h1&gt;
+&lt;p&gt;Goods and Services Tax (GST) follows a &lt;strong&gt;self-assessment system&lt;/strong&gt;, where every registered taxpayer is responsible for determining the correct tax liability, paying taxes on time, and filing accurate returns. Since the tax authorities do not verify every transaction before accepting returns, audits play a crucial role in ensuring compliance.&lt;/p&gt;
+&lt;p&gt;This guide explains the GST audit process from the basics to advanced concepts, covering internal audits, departmental audits, audit procedures, notices, observations, replies, and practical audit checklists.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GST Audit Explained: A Complete Beginner-to-Expert Guide to Internal and Departmental
+GST Audit</title>
+      <link>http://localhost:1313/posts/2026-08-05-gst-audit/</link>
+      <pubDate>Wed, 05 Aug 2026 08:41:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-gst-audit/</guid>
+      <description>&lt;h1 id=&#34;gst-audit-explained-a-complete-beginner-to-expert-guide&#34;&gt;GST Audit Explained: A Complete Beginner-to-Expert Guide&lt;/h1&gt;
+&lt;p&gt;Goods and Services Tax (GST) follows a &lt;strong&gt;self-assessment system&lt;/strong&gt;, where every registered taxpayer is responsible for determining the correct tax liability, paying taxes on time, and filing accurate returns. Since the tax authorities do not verify every transaction before accepting returns, audits play a crucial role in ensuring compliance.&lt;/p&gt;
+&lt;p&gt;This guide explains the GST audit process from the basics to advanced concepts, covering internal audits, departmental audits, audit procedures, notices, observations, replies, and practical audit checklists.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building a Python Toolkit for GST Return PDF Auditing</title>
+      <link>http://localhost:1313/posts/2026-08-05-gst-data-extraction/</link>
+      <pubDate>Wed, 05 Aug 2026 08:40:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-gst-data-extraction/</guid>
+      <description>&lt;h1 id=&#34;building-a-python-toolkit-for-gst-return-pdf-auditing&#34;&gt;Building a Python Toolkit for GST Return PDF Auditing&lt;/h1&gt;
+&lt;p&gt;GST return PDFs contain valuable information for auditors, but extracting that information manually is slow, repetitive, and error-prone. This project documents the process of building an open-source Python toolkit that converts GST return PDFs into structured data suitable for audit analysis.&lt;/p&gt;
+&lt;p&gt;The goal is to create a reusable toolkit that can process hundreds of GST returns with minimal manual effort.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h1&gt;
+&lt;p&gt;The toolkit should be able to:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

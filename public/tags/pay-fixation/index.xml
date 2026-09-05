@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pay-Fixation on Sikkim LFA</title>
+    <link>http://localhost:1313/tags/pay-fixation/</link>
+    <description>Recent content in Pay-Fixation on Sikkim LFA</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2026 18:29:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pay-fixation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build an Excel Pay Fixation Calculator Under CCS (Revised Pay) Rules Using a Pay Matrix</title>
+      <link>http://localhost:1313/posts/2026-08-05-pay-fix/</link>
+      <pubDate>Wed, 05 Aug 2026 18:29:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-pay-fix/</guid>
+      <description>&lt;h1 id=&#34;build-an-excel-pay-fixation-calculator-using-the-pay-matrix&#34;&gt;Build an Excel Pay Fixation Calculator Using the Pay Matrix&lt;/h1&gt;
+&lt;p&gt;Pay fixation after promotion is one of the most frequently performed calculations in Government offices. Although the rules are straightforward, manually comparing both fixation options is time-consuming and often leads to mistakes.&lt;/p&gt;
+&lt;p&gt;This guide explains how to create an Excel-based Pay Fixation Calculator that automatically calculates both permissible options under the revised pay rules and recommends the financially better option.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Build an Excel Pay Fixation Calculator Under CCS (Revised Pay) Rules Using a Pay Matrix</title>
+      <link>http://localhost:1313/posts/2026-08-05-payfix-calc/</link>
+      <pubDate>Wed, 05 Aug 2026 18:29:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-payfix-calc/</guid>
+      <description>&lt;h1 id=&#34;build-an-excel-pay-fixation-calculator-using-the-pay-matrix&#34;&gt;Build an Excel Pay Fixation Calculator Using the Pay Matrix&lt;/h1&gt;
+&lt;p&gt;Pay fixation after promotion is one of the most frequently performed calculations in Government offices. Although the rules are straightforward, manually comparing both fixation options is time-consuming and often leads to mistakes.&lt;/p&gt;
+&lt;p&gt;This guide explains how to create an Excel-based Pay Fixation Calculator that automatically calculates both permissible options under the revised pay rules and recommends the financially better option.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building a Sikkim Pay Fixation Calculator: Understanding Rule 12 and Developing
+a Web-Based Promotion Pay Calculator</title>
+      <link>http://localhost:1313/posts/2026-08-05-payfix/</link>
+      <pubDate>Wed, 05 Aug 2026 10:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2026-08-05-payfix/</guid>
+      <description>&lt;h1 id=&#34;building-a-sikkim-pay-fixation-calculator-understanding-rule-12-and-developing-a-web-based-promotion-pay-calculator&#34;&gt;Building a Sikkim Pay Fixation Calculator: Understanding Rule 12 and Developing a Web-Based Promotion Pay Calculator&lt;/h1&gt;
+&lt;p&gt;Government employees are often confused about how their pay is fixed after promotion. Although the Sikkim Government Services (Revised Pay) Rules, 2018 provide detailed provisions, manually calculating the revised pay can be time-consuming and prone to errors.&lt;/p&gt;
+&lt;p&gt;In this project, we built a web-based Pay Fixation Calculator that follows &lt;strong&gt;Rule 12&lt;/strong&gt; of the Sikkim Revised Pay Rules, 2018 and uses the official Pay Matrix for automatic calculations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
