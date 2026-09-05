@@ -8,7 +8,7 @@
 
 *The central public record and statutory communication portal for the Directorate of Local Fund Audit, Finance Department, Government of Sikkim.*
 
-[**Explore Live Portal »**](https://sikkimlfa.github.io/) · [Windows Setup Guide](./WINDOWS_SETUP.md) · [Troubleshooting Runbook](./TROUBLESHOOTING.md)
+[**Explore Live Portal »**](https://sikkimlfa.github.io/) · [Windows Setup Guide](WINDOWS_SETUP.md) · [Troubleshooting Runbook](TROUBLESHOOTING.md)
 
 </div>
 
