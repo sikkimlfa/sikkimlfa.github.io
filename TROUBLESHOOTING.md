@@ -211,7 +211,7 @@ placeholder: "Search articles..."
 3. Rebuild locally using `hugo server -D` and verify that `index.json` is generated at `http://localhost:1313/index.json`.
 ---
 
-[← Return to Main README](https://www.google.com/search?q=../README.md) · [View Windows Setup Guide →](https://www.google.com/search?q=WINDOWS_SETUP.md)
+[← Return to Main README](../README.md) · [View Windows Setup Guide →](../WINDOWS_SETUP.md)
 
 ---
 
@@ -224,7 +224,7 @@ Run these commands in your VSCodium PowerShell terminal to write the documentati
 New-Item -ItemType Directory -Force -Path "docs"
 
 # 2. Add the files to git
-git add README.md docs/WINDOWS_SETUP.md docs/TROUBLESHOOTING.md
+git add README.md WINDOWS_SETUP.md TROUBLESHOOTING.md
 
 # 3. Commit and push
 git commit -m "Add comprehensive README, Windows setup guide, and troubleshooting runbook"
