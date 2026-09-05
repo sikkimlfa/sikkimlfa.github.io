@@ -37,5 +37,5 @@ For official correspondences, audit rectifications, or public notices:
 
 * **Office:** Directorate of Local Fund Audit, Finance Department, Government of Sikkim
 * **Location:** Gangtok, Sikkim – 737101
-* **Email:** [contact@sikkimlfa.gov.in](mailto:contact@sikkimlfa.gov.in)
+* **Email:** [contact@sikkimlfa.gov.in](mailto:sikkimlfa@gmail.com)
 * **Official Repository:** [Acts, Rules & Circulars](/documents/)
