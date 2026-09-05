@@ -64,7 +64,7 @@ Complete the browser sign-in using your `sikkimlfa` organization account.
 ```powershell
 gh auth status
 git config --global user.name "Sikkim LFA"
-git config --global user.email "contact@sikkimlfa.gov.in"
+git config --global user.email "sikkimlfa@gmail.com"
 
 ```
 
@@ -163,4 +163,4 @@ git push origin main
 
 ---
 
-[← Return to Main README](https://www.google.com/search?q=../README.md) · [View Troubleshooting Runbook →](https://www.google.com/search?q=TROUBLESHOOTING.md)
+[← Return to Main README](./README.md) · [View Troubleshooting Runbook →](./TROUBLESHOOTING.md)
