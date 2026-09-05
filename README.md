@@ -8,7 +8,7 @@
 
 *The central public record and statutory communication portal for the Directorate of Local Fund Audit, Finance Department, Government of Sikkim.*
 
-[**Explore Live Portal »**](https://sikkimlfa.github.io/) · [Windows Setup Guide](docs/WINDOWS_SETUP.md) · [Troubleshooting Runbook](docs/TROUBLESHOOTING.md)
+[**Explore Live Portal »**](https://sikkimlfa.github.io/) · [Windows Setup Guide](./WINDOWS_SETUP.md) · [Troubleshooting Runbook](./TROUBLESHOOTING.md)
 
 </div>
 
@@ -127,7 +127,7 @@ sikkimlfa-new/
 * **Core CLI:** `winget`, `git`, `python` (3.8+), and `gh`
 
 Detailed, step-by-step local machine preparation is documented in:
-👉 **[Read the Windows & VSCodium Setup Guide](https://www.google.com/search?q=docs/WINDOWS_SETUP.md)**
+👉 **[Read the Windows & VSCodium Setup Guide](https://www.google.com/search?q=./WINDOWS_SETUP.md)**
 
 ### Local Development Flow
 
@@ -178,7 +178,7 @@ To guarantee zero build errors, our GitHub Action `.github/workflows/hugo.yaml` 
 ```
 
 If something goes wrong during a build or push:
-👉 **[Read the Troubleshooting & Recovery Runbook](https://www.google.com/search?q=docs/TROUBLESHOOTING.md)**
+👉 **[Read the Troubleshooting & Recovery Runbook](https://www.google.com/search?q=./TROUBLESHOOTING.md)**
 
 ---
 
