@@ -1,12 +1,26 @@
-
-/* Ensure Navigation Bar is strictly horizontal */
-.nav {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  flex-wrap: wrap !important;
+﻿/* Align header with the main content boundaries */
+.header {
+  max-width: calc(var(--main-width) + var(--gap) * 2);
+  margin: 0 auto;
+  padding: 0 var(--gap);
 }
 
+.nav {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: var(--header-height, 60px);
+  padding: 0 !important;
+}
+
+/* Align Logo and switch */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Align Menu items & Icon */
 #menu {
   display: flex !important;
   flex-direction: row !important;
@@ -14,7 +28,7 @@
   list-style: none !important;
   margin: 0 !important;
   padding: 0 !important;
-  gap: 14px !important;
+  gap: 1.25rem !important;
 }
 
 #menu li {
@@ -27,5 +41,33 @@
 #menu a {
   display: inline-flex !important;
   align-items: center !important;
-  line-height: normal !important;
+  font-size: 0.95rem;
+  color: var(--primary);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+#menu a:hover {
+  color: var(--secondary);
+}
+
+/* Ensure the SVG icon aligns with menu text baseline */
+#menu a svg {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  transform: translateY(-1px);
+}
+
+/* Responsive adjustment for tablets and mobile */
+@media screen and (max-width: 768px) {
+  .nav {
+    height: auto;
+    padding: 1rem 0 !important;
+    gap: 0.75rem;
+  }
+
+  #menu {
+    flex-wrap: wrap !important;
+    gap: 0.75rem !important;
+  }
 }
