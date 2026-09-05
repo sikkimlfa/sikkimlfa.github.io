@@ -1,9 +1,22 @@
 ---
 layout: post
-title: "GST Audit Handbook: Understanding Core GST Concepts, ITC, Returns, Exports, and Audit Checkpoints"
-date: 2026-08-05T18:30:00+05:30
-categories: [gst, audit]
-tags: [gst, gst-audit, input-tax-credit, gstr1, gstr3b, exports, reverse-charge, tcs, isd, india]
+title: 'GST Audit Handbook: Understanding Core GST Concepts, ITC, Returns, Exports,
+  and Audit Checkpoints'
+date: '2026-08-05T18:30:00+05:30'
+categories:
+- gst
+- audit
+tags:
+- gst
+- gst-audit
+- input-tax-credit
+- gstr1
+- gstr3b
+- exports
+- reverse-charge
+- tcs
+- isd
+- india
 ---
 # GST Audit Handbook: Understanding Core GST Concepts, ITC, Returns, Exports, and Audit Checkpoints
 

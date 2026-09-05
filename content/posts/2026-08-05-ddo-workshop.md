@@ -1,8 +1,21 @@
 ---
-title: "Capacity Building Workshop for DDOs & Accounts Officers: Key Takeaways from the SFASA Workshop (7–8 July 2025)"
-date: 2026-08-05T08:37:00+05:30
-categories: [government, finance]
-tags: [sikkim, finance, sfasa, ddo, accounts, treasury, ifms, audit, training, public-finance]
+title: 'Capacity Building Workshop for DDOs & Accounts Officers: Key Takeaways from
+  the SFASA Workshop (7–8 July 2025)'
+date: '2026-08-05T08:37:00+05:30'
+categories:
+- government
+- finance
+tags:
+- sikkim
+- finance
+- sfasa
+- ddo
+- accounts
+- treasury
+- ifms
+- audit
+- training
+- public-finance
 ---
 # Capacity Building Workshop for Drawing & Disbursing Officers (DDOs) and Accounts Officers (AOs)
 

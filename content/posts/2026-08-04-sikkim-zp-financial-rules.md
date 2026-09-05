@@ -1,8 +1,14 @@
 ---
-title: "Sikkim Zilla Panchayat Financial Rules: Rules, Budgeting, and Amendments"
-date: 2026-08-04
-categories: ["Government Regulations", "Finance"]
-tags: ["Sikkim", "Zilla Panchayat", "Financial Rules", "Rural Development"]
+title: 'Sikkim Zilla Panchayat Financial Rules: Rules, Budgeting, and Amendments'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Government Regulations
+- Finance
+tags:
+- Sikkim
+- Zilla Panchayat
+- Financial Rules
+- Rural Development
 ---
 # Government of Sikkim Rural Development Department Notification
 

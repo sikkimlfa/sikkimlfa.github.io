@@ -1,9 +1,21 @@
 ---
 layout: post
-title: "ChatGPT for Excel: 50 Powerful Prompts, Practical Examples, and Real-World Use Cases"
-date: 2026-08-05T12:57:00+00:00
-categories: [excel, productivity]
-tags: [excel, chatgpt, formulas, vba, power-query, pivot-table, data-analysis, automation, tutorial]
+title: 'ChatGPT for Excel: 50 Powerful Prompts, Practical Examples, and Real-World
+  Use Cases'
+date: '2026-08-05T12:57:00+05:30'
+categories:
+- excel
+- productivity
+tags:
+- excel
+- chatgpt
+- formulas
+- vba
+- power-query
+- pivot-table
+- data-analysis
+- automation
+- tutorial
 ---
 # ChatGPT for Excel: 50 Powerful Prompts, Practical Examples, and Real-World Use Cases
 

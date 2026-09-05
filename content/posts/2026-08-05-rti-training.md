@@ -1,8 +1,21 @@
 ---
-title: "RTI Online Portal Training at NIC Sikkim: Complete Guide for SPIOs, ASPIOs and Nodal Officers"
-date: 2026-08-05T08:39:00+05:30
-categories: [government, training]
-tags: [rti, nic, sikkim, spio, aspio, nodal-officer, cic, dopt, e-governance, tutorial]
+title: 'RTI Online Portal Training at NIC Sikkim: Complete Guide for SPIOs, ASPIOs
+  and Nodal Officers'
+date: '2026-08-05T08:39:00+05:30'
+categories:
+- government
+- training
+tags:
+- rti
+- nic
+- sikkim
+- spio
+- aspio
+- nodal-officer
+- cic
+- dopt
+- e-governance
+- tutorial
 ---
 # RTI Online Portal Training at NIC Sikkim
 

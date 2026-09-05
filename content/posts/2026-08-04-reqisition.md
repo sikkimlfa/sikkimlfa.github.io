@@ -1,8 +1,17 @@
 ---
-title: "Streamlining Office Administrative Processes: Drafting Effective Requisition Letters"
-date: 2026-08-04
-categories: [Government Office, Technical Writing, Workflow Optimization]
-tags: [requisition, official-drafting, office-supplies, audit-documentation, processes]
+title: 'Streamlining Office Administrative Processes: Drafting Effective Requisition
+  Letters'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Government Office
+- Technical Writing
+- Workflow Optimization
+tags:
+- requisition
+- official-drafting
+- office-supplies
+- audit-documentation
+- processes
 ---
 ### Overview
 

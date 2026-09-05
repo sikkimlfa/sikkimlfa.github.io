@@ -1,9 +1,18 @@
 ---
 layout: post
-title: "Building a Comprehensive Sikkim Local Fund Audit Manual: From Concept to Publication"
-date: 2026-08-05T13:01:00+00:00
-categories: [audit, documentation]
-tags: [local-fund-audit, sikkim, audit-manual, sop, public-finance, markdown, github-pages]
+title: 'Building a Comprehensive Sikkim Local Fund Audit Manual: From Concept to Publication'
+date: '2026-08-05T13:01:00+05:30'
+categories:
+- audit
+- documentation
+tags:
+- local-fund-audit
+- sikkim
+- audit-manual
+- sop
+- public-finance
+- markdown
+- github-pages
 ---
 # Building a Comprehensive Sikkim Local Fund Audit Manual: From Concept to Publication
 

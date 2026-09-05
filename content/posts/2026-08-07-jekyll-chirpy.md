@@ -1,10 +1,19 @@
 ---
 layout: post
-title: "How to Write and Publish Blog Posts on GitHub Pages Using Jekyll Chirpy"
-date: 2026-08-07T19:30:00+05:30
-categories: [Blogging, GitHub Pages]
-tags: [jekyll, chirpy, markdown, github-pages, workflow, documentation]
-description: "A complete guide on authoring and publishing blog posts on GitHub Pages using the Chirpy theme, including front matter rules and build error prevention."
+title: How to Write and Publish Blog Posts on GitHub Pages Using Jekyll Chirpy
+date: '2026-08-07T19:30:00+05:30'
+categories:
+- Blogging
+- GitHub Pages
+tags:
+- jekyll
+- chirpy
+- markdown
+- github-pages
+- workflow
+- documentation
+description: A complete guide on authoring and publishing blog posts on GitHub Pages
+  using the Chirpy theme, including front matter rules and build error prevention.
 ---
 # Writing for Jekyll Chirpy on GitHub Pages
 

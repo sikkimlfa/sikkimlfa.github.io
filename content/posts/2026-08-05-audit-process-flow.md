@@ -1,8 +1,19 @@
 ---
-title: "Designing an End-to-End Audit Process Workflow: From Intimation Letter to Final Settlement Report"
-date: 2026-08-05T12:58:00+00:00
-categories: [audit, workflow]
-tags: [audit, process-flow, workflow, panchayat, local-fund-audit, audit-management, governance, github-pages]
+title: 'Designing an End-to-End Audit Process Workflow: From Intimation Letter to
+  Final Settlement Report'
+date: '2026-08-05T12:58:00+05:30'
+categories:
+- audit
+- workflow
+tags:
+- audit
+- process-flow
+- workflow
+- panchayat
+- local-fund-audit
+- audit-management
+- governance
+- github-pages
 ---
 # Designing an End-to-End Audit Process Workflow
 

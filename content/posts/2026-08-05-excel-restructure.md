@@ -1,9 +1,19 @@
 ---
 layout: post
-title: "Restructuring Multi-Year Excel Data into a Single Year-Wise Table with Microsoft Excel"
-date: 2026-08-05T13:00:00+00:00
-categories: [excel]
-tags: [excel, data-cleaning, data-transformation, power-query, pivot-table, fiscal-year, spreadsheets, productivity]
+title: Restructuring Multi-Year Excel Data into a Single Year-Wise Table with Microsoft
+  Excel
+date: '2026-08-05T13:00:00+05:30'
+categories:
+- excel
+tags:
+- excel
+- data-cleaning
+- data-transformation
+- power-query
+- pivot-table
+- fiscal-year
+- spreadsheets
+- productivity
 ---
 # Restructuring Multi-Year Excel Data into a Single Year-Wise Table with Microsoft Excel
 

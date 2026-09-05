@@ -1,8 +1,21 @@
 ---
-title: "Building a Python Toolkit for GST Return PDF Auditing"
-date: 2026-08-05T08:40:00+05:30
-categories: [python, gst, auditing]
-tags: [python, gst, pdf, csv, pdfplumber, camelot, tabula, pandas, github, automation]
+title: Building a Python Toolkit for GST Return PDF Auditing
+date: '2026-08-05T08:40:00+05:30'
+categories:
+- python
+- gst
+- auditing
+tags:
+- python
+- gst
+- pdf
+- csv
+- pdfplumber
+- camelot
+- tabula
+- pandas
+- github
+- automation
 ---
 # Building a Python Toolkit for GST Return PDF Auditing
 

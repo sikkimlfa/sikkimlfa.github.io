@@ -1,8 +1,16 @@
 ---
-title: "How to Fix Firefox Saving PDFs Instead of Printing in Google Sheets"
-date: "2026-08-04"
-categories: ["Tech Support", "Web Browsers", "Productivity"]
-tags: ["Firefox", "Google Sheets", "Printing", "Troubleshooting", "PDF"]
+title: How to Fix Firefox Saving PDFs Instead of Printing in Google Sheets
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Tech Support
+- Web Browsers
+- Productivity
+tags:
+- Firefox
+- Google Sheets
+- Printing
+- Troubleshooting
+- PDF
 ---
 If you frequently use Google Sheets inside Mozilla Firefox, you may have run into a frustrating issue: when you hit the "Print" button, Firefox downloads or prompts you to save a PDF file instead of sending the document straight to your physical printer. 
 

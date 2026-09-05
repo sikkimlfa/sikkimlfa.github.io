@@ -1,9 +1,22 @@
 ---
 layout: post
-title: "GST Audit Explained: A Complete Beginner-to-Expert Guide to Internal and Departmental GST Audit"
-date: 2026-08-05T08:41:00+05:30
-categories: [gst, audit]
-tags: [gst, audit, gstr1, gstr3b, gstr2b, internal-audit, departmental-audit, tax, india, jekyll]
+title: 'GST Audit Explained: A Complete Beginner-to-Expert Guide to Internal and Departmental
+  GST Audit'
+date: '2026-08-05T08:41:00+05:30'
+categories:
+- gst
+- audit
+tags:
+- gst
+- audit
+- gstr1
+- gstr3b
+- gstr2b
+- internal-audit
+- departmental-audit
+- tax
+- india
+- jekyll
 ---
 # GST Audit Explained: A Complete Beginner-to-Expert Guide
 

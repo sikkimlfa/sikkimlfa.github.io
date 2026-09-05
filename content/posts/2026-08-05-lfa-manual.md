@@ -1,9 +1,20 @@
 ---
 layout: post
-title: "Creating a Comprehensive Manual for Sikkim Local Fund Audit: A Practical Guide for Auditors"
-date: 2026-08-05T10:00:00+00:00
-categories: [audit, government]
-tags: [sikkim, local-fund-audit, auditing, finance, government, manual, public-finance, compliance]
+title: 'Creating a Comprehensive Manual for Sikkim Local Fund Audit: A Practical Guide
+  for Auditors'
+date: '2026-08-05T10:00:00+05:30'
+categories:
+- audit
+- government
+tags:
+- sikkim
+- local-fund-audit
+- auditing
+- finance
+- government
+- manual
+- public-finance
+- compliance
 ---
 # Creating a Comprehensive Manual for Sikkim Local Fund Audit
 

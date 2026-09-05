@@ -1,8 +1,20 @@
 ---
-title: "Building an Audit Report Analysis System with GitHub Pages, JavaScript, GitHub Actions, and Python"
-date: 2026-08-05T03:09:00+00:00
-categories: [tech, github]
-tags: [audit, github-pages, javascript, python, markdown, github-actions, automation, data-analysis, jekyll]
+title: Building an Audit Report Analysis System with GitHub Pages, JavaScript, GitHub
+  Actions, and Python
+date: '2026-08-05T03:09:00+05:30'
+categories:
+- tech
+- github
+tags:
+- audit
+- github-pages
+- javascript
+- python
+- markdown
+- github-actions
+- automation
+- data-analysis
+- jekyll
 ---
 # Building an Audit Report Analysis System with GitHub Pages
 

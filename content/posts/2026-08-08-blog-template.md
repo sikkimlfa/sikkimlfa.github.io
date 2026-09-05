@@ -1,9 +1,16 @@
 ---
-title: "Your Engaging Post Title Goes Here"
-date: "2026-08-08 10:00:00 +0530"
-categories: ["Technology", "Tutorials"]
-tags: ["github-pages", "jekyll", "markdown", "web-development"]
-description: "A short, compelling summary of what this post covers for SEO and post previews."
+title: Your Engaging Post Title Goes Here
+date: '2026-08-08T10:00:00+05:30'
+categories:
+- Technology
+- Tutorials
+tags:
+- github-pages
+- jekyll
+- markdown
+- web-development
+description: A short, compelling summary of what this post covers for SEO and post
+  previews.
 ---
 A strong, concise opening paragraph that hooks the reader. Briefly explain the problem you are solving or what the reader will gain from reading this post.
 

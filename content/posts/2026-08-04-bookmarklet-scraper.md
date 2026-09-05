@@ -1,8 +1,18 @@
 ---
-title: "Building a High-Speed Parallel Bookmarklet Scraper for eGramSwaraj and Sikkim LFA Portals"
-date: 2026-08-04
-categories: ["Web Scraping", "JavaScript", "Data Extraction"]
-tags: ["eGramSwaraj", "Sikkim LFA", "Bookmarklet", "Async JS", "Regex", "DOM Mining"]
+title: Building a High-Speed Parallel Bookmarklet Scraper for eGramSwaraj and Sikkim
+  LFA Portals
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Web Scraping
+- JavaScript
+- Data Extraction
+tags:
+- eGramSwaraj
+- Sikkim LFA
+- Bookmarklet
+- Async JS
+- Regex
+- DOM Mining
 ---
 # Deep-Dive Engineering: Scraping Government Accounting Portals at Scale
 

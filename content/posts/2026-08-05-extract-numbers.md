@@ -1,8 +1,16 @@
 ---
-title: "Extracting Numbers in Excel and Converting PDFs to Markdown on Ubuntu"
-date: 2026-08-05T10:55:00+00:00
-categories: [tech]
-tags: [excel, ubuntu, linux, pdf, markdown, pandoc, pdftotext]
+title: Extracting Numbers in Excel and Converting PDFs to Markdown on Ubuntu
+date: '2026-08-05T10:55:00+05:30'
+categories:
+- tech
+tags:
+- excel
+- ubuntu
+- linux
+- pdf
+- markdown
+- pandoc
+- pdftotext
 ---
 # Extracting Numbers in Excel and Converting PDF Files to Markdown on Ubuntu
 

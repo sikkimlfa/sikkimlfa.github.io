@@ -1,9 +1,19 @@
 ---
 layout: post
-title: "Local Fund Audit and Internal Audit in Sikkim: A Complete Beginner's Guide for Accounts Officers"
-date: 2026-08-05T18:27:00+05:30
-categories: [audit, finance]
-tags: [local-fund-audit, internal-audit, sikkim, finance-department, accounts-officer, training, government]
+title: 'Local Fund Audit and Internal Audit in Sikkim: A Complete Beginner''s Guide
+  for Accounts Officers'
+date: '2026-08-05T18:27:00+05:30'
+categories:
+- audit
+- finance
+tags:
+- local-fund-audit
+- internal-audit
+- sikkim
+- finance-department
+- accounts-officer
+- training
+- government
 ---
 # Local Fund Audit and Internal Audit in Sikkim
 ## A Complete Beginner's Guide for Newly Appointed Accounts Officers

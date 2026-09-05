@@ -1,9 +1,21 @@
 ---
-title: "Creating Standardized Audit Observation Prompts for Local Fund Audit Reports"
-date: 2026-08-05T08:45:00+05:30
-categories: [audit, local-government, prompt-engineering]
-tags: [local-fund-audit, gram-panchayat, zilla-parishad, municipality, audit-observation, report-writing, ai-prompts]
-description: "A detailed guide for creating professional audit observation prompts for Local Fund Audit of Gram Panchayats, Zilla Parishads, Nagar Panchayats, and Municipalities using structured Markdown templates."
+title: Creating Standardized Audit Observation Prompts for Local Fund Audit Reports
+date: '2026-08-05T08:45:00+05:30'
+categories:
+- audit
+- local-government
+- prompt-engineering
+tags:
+- local-fund-audit
+- gram-panchayat
+- zilla-parishad
+- municipality
+- audit-observation
+- report-writing
+- ai-prompts
+description: A detailed guide for creating professional audit observation prompts
+  for Local Fund Audit of Gram Panchayats, Zilla Parishads, Nagar Panchayats, and
+  Municipalities using structured Markdown templates.
 ---
 # Creating Standardized Audit Observation Prompts for Local Fund Audit Reports
 

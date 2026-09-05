@@ -1,8 +1,17 @@
 ---
-title: "The Ultimate Guide to Local Body Audits: Comprehensive Requisition Checklists, Financial Formats, and Compliance Frameworks for GPUs, ZPs, and Municipalities"
-date: "2026-08-04"
-categories: ["Public Finance", "Audit and Governance"]
-tags: ["Local Fund Audit", "Panchayati Raj", "Municipal Audit", "DCB Statement", "Financial Compliance", "Gram Panchayat"]
+title: 'The Ultimate Guide to Local Body Audits: Comprehensive Requisition Checklists,
+  Financial Formats, and Compliance Frameworks for GPUs, ZPs, and Municipalities'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Public Finance
+- Audit and Governance
+tags:
+- Local Fund Audit
+- Panchayati Raj
+- Municipal Audit
+- DCB Statement
+- Financial Compliance
+- Gram Panchayat
 ---
 Conducting a statutory or internal audit of local self-government institutions—such as Gram Panchayat Units (GPUs), Zilla Panchayats (ZPs), and Urban Local Bodies (ULBs) or Municipalities—requires a structured, systematic approach. Auditing these bodies involves verifying not only cash transactions and bank balances but also statutory compliance, public procurement guidelines, revenue realisations, and asset registers.
 

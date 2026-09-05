@@ -1,0 +1,12 @@
+﻿{{ $id := .Get "id" }}
+{{ $title := .Get "title" | default "Google Drive Folder" }}
+{{ $view := .Get "view" | default "list" }}
+<div class="gdrive-folder-container" style="width: 100%; margin: 1.5rem 0; border: 1px solid var(--border); border-radius: 8px; overflow: hidden;">
+  <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; background: var(--theme); border-bottom: 1px solid var(--border);">
+    <span style="font-weight: 600; font-size: 0.95rem;">{{ $title }}</span>
+    <a href="https://drive.google.com/drive/folders/{{ $id }}?usp=sharing" target="_blank" rel="noopener noreferrer" style="font-size: 0.8rem; padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; text-decoration: none;">Open in Drive ↗</a>
+  </div>
+  <div style="width: 100%; height: 600px;">
+    <iframe src="https://drive.google.com/embeddedfolderview?id={{ $id }}#{{ $view }}" title="{{ $title }}" width="100%" height="100%" style="border: none;" allow="autoplay" loading="lazy"></iframe>
+  </div>
+</div>

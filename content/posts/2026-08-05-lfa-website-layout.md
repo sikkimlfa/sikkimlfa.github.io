@@ -1,9 +1,20 @@
 ---
 layout: post
-title: "How to Build a Comprehensive Government Website for the Sikkim Local Fund Audit Directorate (SLFA)"
-date: 2026-08-05T13:35:00+00:00
-categories: [technology, government]
-tags: [github-pages, jekyll, website, slfa, rti, proactive-disclosure, audit, sikkim]
+title: How to Build a Comprehensive Government Website for the Sikkim Local Fund Audit
+  Directorate (SLFA)
+date: '2026-08-05T13:35:00+05:30'
+categories:
+- technology
+- government
+tags:
+- github-pages
+- jekyll
+- website
+- slfa
+- rti
+- proactive-disclosure
+- audit
+- sikkim
 ---
 # How to Build a Comprehensive Government Website for the Sikkim Local Fund Audit Directorate (SLFA)
 

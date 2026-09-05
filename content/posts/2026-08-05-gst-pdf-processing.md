@@ -1,10 +1,22 @@
 ---
 layout: post
-title: "Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale"
-date: 2026-08-05T08:40:00+05:30
-categories: [tech, auditing]
-tags: [python, gst, pdf, csv, tabula, pdfplumber, automation, github-pages, audit]
-description: "Learn how to build Python scripts using tabula-py and pdfplumber to extract structured tables and text from GST return PDFs at scale."
+title: 'Automating GST Return PDF Audits with Python: Extract Tables and Text at Scale'
+date: '2026-08-05T08:40:00+05:30'
+categories:
+- tech
+- auditing
+tags:
+- python
+- gst
+- pdf
+- csv
+- tabula
+- pdfplumber
+- automation
+- github-pages
+- audit
+description: Learn how to build Python scripts using tabula-py and pdfplumber to extract
+  structured tables and text from GST return PDFs at scale.
 ---
 # Automating GST Return PDF Audits with Python
 

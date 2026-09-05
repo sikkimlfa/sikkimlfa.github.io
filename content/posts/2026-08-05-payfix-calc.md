@@ -1,9 +1,22 @@
 ---
 layout: post
-title: "Build an Excel Pay Fixation Calculator Under CCS (Revised Pay) Rules Using a Pay Matrix"
-date: 2026-08-05T18:29:00+05:30
-categories: [excel, government]
-tags: [excel, pay-fixation, pay-matrix, promotion, salary, government, lookup, xlookup, vlookup, office]
+title: Build an Excel Pay Fixation Calculator Under CCS (Revised Pay) Rules Using
+  a Pay Matrix
+date: '2026-08-05T18:29:00+05:30'
+categories:
+- excel
+- government
+tags:
+- excel
+- pay-fixation
+- pay-matrix
+- promotion
+- salary
+- government
+- lookup
+- xlookup
+- vlookup
+- office
 ---
 # Build an Excel Pay Fixation Calculator Using the Pay Matrix
 

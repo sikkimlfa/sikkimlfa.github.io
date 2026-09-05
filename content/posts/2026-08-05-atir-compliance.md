@@ -1,9 +1,18 @@
 ---
-title: "Understanding 'No. of Units Which First Compliance Not Furnished' in AG ATIR"
-date: 2026-08-05T18:22:00+05:30
-categories: [audit]
-tags: [AG, ATIR, audit, compliance, inspection report, government audit, local fund audit]
-description: "A detailed explanation of the audit term 'No. of Units Which First Compliance Not Furnished' as used in Accountant General's Audit and Inspection Reports."
+title: Understanding 'No. of Units Which First Compliance Not Furnished' in AG ATIR
+date: '2026-08-05T18:22:00+05:30'
+categories:
+- audit
+tags:
+- AG
+- ATIR
+- audit
+- compliance
+- inspection report
+- government audit
+- local fund audit
+description: A detailed explanation of the audit term 'No. of Units Which First Compliance
+  Not Furnished' as used in Accountant General's Audit and Inspection Reports.
 ---
 # Understanding "No. of Units Which First Compliance Not Furnished" in AG ATIR
 

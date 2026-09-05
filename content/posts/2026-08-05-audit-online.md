@@ -1,9 +1,19 @@
 ---
 layout: post
-title: "Key Takeaways from the National Conference on Strengthening Panchayat Audit Systems"
-date: 2026-08-05T18:33:00+05:30
-categories: [governance, audit]
-tags: [panchayat, auditonline, egramswaraj, local-fund-audit, ministry-of-panchayati-raj, cag, audit]
+title: Key Takeaways from the National Conference on Strengthening Panchayat Audit
+  Systems
+date: '2026-08-05T18:33:00+05:30'
+categories:
+- governance
+- audit
+tags:
+- panchayat
+- auditonline
+- egramswaraj
+- local-fund-audit
+- ministry-of-panchayati-raj
+- cag
+- audit
 ---
 # Key Takeaways from the National Conference on Strengthening Panchayat Audit Systems
 

@@ -1,9 +1,20 @@
 ---
 layout: post
-title: "Designing an End-to-End Local Fund Audit Workflow: Tasks, Stages, and Process Flow"
-date: 2026-08-05T12:58:00+00:00
-categories: [audit, governance]
-tags: [local-fund-audit, workflow, process-flow, audit-management, panchayat, auditonline, documentation, internal-audit]
+title: 'Designing an End-to-End Local Fund Audit Workflow: Tasks, Stages, and Process
+  Flow'
+date: '2026-08-05T12:58:00+05:30'
+categories:
+- audit
+- governance
+tags:
+- local-fund-audit
+- workflow
+- process-flow
+- audit-management
+- panchayat
+- auditonline
+- documentation
+- internal-audit
 ---
 # Designing an End-to-End Local Fund Audit Workflow
 

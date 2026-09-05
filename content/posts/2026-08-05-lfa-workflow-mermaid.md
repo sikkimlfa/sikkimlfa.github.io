@@ -1,9 +1,20 @@
 ---
 layout: post
-title: "Designing a Workflow for Local Fund Audit: Village Panchayat Audit Process Using Mermaid Flowcharts"
-date: 2026-08-05T18:29:00+05:30
-categories: [audit, github-pages]
-tags: [local-fund-audit, village-panchayat, mermaid, flowchart, markdown, workflow, sikkim, auditonline]
+title: 'Designing a Workflow for Local Fund Audit: Village Panchayat Audit Process
+  Using Mermaid Flowcharts'
+date: '2026-08-05T18:29:00+05:30'
+categories:
+- audit
+- github-pages
+tags:
+- local-fund-audit
+- village-panchayat
+- mermaid
+- flowchart
+- markdown
+- workflow
+- sikkim
+- auditonline
 ---
 # Designing a Workflow for Local Fund Audit: Village Panchayat Audit Process Using Mermaid Flowcharts
 

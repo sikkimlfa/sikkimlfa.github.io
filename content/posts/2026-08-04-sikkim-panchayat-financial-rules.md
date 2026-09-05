@@ -1,8 +1,16 @@
 ---
-title: "Sikkim Panchayat Financial Rules: A Comprehensive Overview"
-date: "2026-08-04"
-categories: ["Governance", "Financial Rules", "Sikkim Panchayati Raj"]
-tags: ["Sikkim", "Gram Panchayat", "Zilla Panchayat", "Financial Rules", "Local Governance"]
+title: 'Sikkim Panchayat Financial Rules: A Comprehensive Overview'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Governance
+- Financial Rules
+- Sikkim Panchayati Raj
+tags:
+- Sikkim
+- Gram Panchayat
+- Zilla Panchayat
+- Financial Rules
+- Local Governance
 ---
 # Sikkim Panchayat Financial Rules: A Comprehensive Overview
 

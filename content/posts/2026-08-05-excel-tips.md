@@ -1,9 +1,21 @@
 ---
 layout: post
-title: "20 Essential Microsoft Excel Tips & Tricks Every Analyst Should Know"
-date: 2026-08-05T18:27:00+00:00
-categories: [excel, productivity]
-tags: [excel, microsoft-excel, tutorial, tips, tricks, data-analysis, pivot-table, formulas, power-query, office]
+title: 20 Essential Microsoft Excel Tips & Tricks Every Analyst Should Know
+date: '2026-08-05T18:27:00+05:30'
+categories:
+- excel
+- productivity
+tags:
+- excel
+- microsoft-excel
+- tutorial
+- tips
+- tricks
+- data-analysis
+- pivot-table
+- formulas
+- power-query
+- office
 ---
 # 20 Essential Microsoft Excel Tips & Tricks Every Analyst Should Know
 

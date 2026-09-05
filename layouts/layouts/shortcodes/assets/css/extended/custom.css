@@ -1,0 +1,57 @@
+/* Google Drive Folder Embed */
+.gdrive-folder-container {
+  width: 100%;
+  margin: 1.5rem 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--entry);
+}
+
+.gdrive-folder-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: var(--theme);
+  border-bottom: 1px solid var(--border);
+}
+
+.folder-title {
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 0.95rem;
+}
+
+.folder-open-btn {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--entry);
+  color: var(--primary) !important;
+  text-decoration: none !important;
+}
+
+.folder-open-btn:hover {
+  background: var(--tertiary);
+}
+
+.gdrive-folder-frame-wrap {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.gdrive-folder-frame-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .gdrive-folder-frame-wrap {
+    height: 65vh;
+    min-height: 400px;
+  }
+}

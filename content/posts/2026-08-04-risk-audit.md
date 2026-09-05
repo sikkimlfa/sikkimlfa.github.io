@@ -1,8 +1,18 @@
 ---
-title: "Mastering Risk-Based Internal Audit and Financial Compliance: A Complete Practical Guide"
-date: "2026-08-04"
-categories: ["Internal Audit", "Public Financial Management", "Risk Management"]
-tags: ["RBIA", "Audit Risk Model", "Financial Compliance", "GeM", "TDS", "Internal Controls"]
+title: 'Mastering Risk-Based Internal Audit and Financial Compliance: A Complete Practical
+  Guide'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Internal Audit
+- Public Financial Management
+- Risk Management
+tags:
+- RBIA
+- Audit Risk Model
+- Financial Compliance
+- GeM
+- TDS
+- Internal Controls
 ---
 Internal auditing in government departments and public institutions is undergoing a fundamental shift. The traditional approach—checking 100% of vouchers, invoices, and ledger entries—is no longer feasible or effective in complex operational environments. Modern public financial oversight demands a move toward **Risk-Based Internal Audit (RBIA)**. 
 

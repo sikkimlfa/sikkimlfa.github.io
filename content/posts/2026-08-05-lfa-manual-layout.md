@@ -1,9 +1,20 @@
 ---
 layout: post
-title: "Writing a Comprehensive Manual for Sikkim Local Fund Audit: A Complete Book Outline"
-date: 2026-08-05T18:32:00+05:30
-categories: [audit, governance]
-tags: [sikkim, local-fund-audit, government, finance, auditing, handbook, public-finance, transparency]
+title: 'Writing a Comprehensive Manual for Sikkim Local Fund Audit: A Complete Book
+  Outline'
+date: '2026-08-05T18:32:00+05:30'
+categories:
+- audit
+- governance
+tags:
+- sikkim
+- local-fund-audit
+- government
+- finance
+- auditing
+- handbook
+- public-finance
+- transparency
 ---
 # Writing a Comprehensive Manual for Sikkim Local Fund Audit
 

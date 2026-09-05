@@ -1,8 +1,16 @@
 ---
-title: "Sikkim Government Vehicle Procurement and Maintenance Rules, 2025: A Complete Overview"
-date: 2026-08-04
-categories: ["Government Notifications", "Sikkim Transport & Finance"]
-tags: ["Sikkim Gazette", "Vehicle Rules 2025", "Government Vehicles", "SNT Division", "Vehicle Maintenance"]
+title: 'Sikkim Government Vehicle Procurement and Maintenance Rules, 2025: A Complete
+  Overview'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Government Notifications
+- Sikkim Transport & Finance
+tags:
+- Sikkim Gazette
+- Vehicle Rules 2025
+- Government Vehicles
+- SNT Division
+- Vehicle Maintenance
 ---
 The Government of Sikkim's Finance Department officially issued Notification No. 03/FIN/ADM through Extraordinary Gazette No. 303. Enacted under clause (3) of Article 166 of the Constitution of India, the **Sikkim Government Vehicle Procurement and Maintenance Rules, 2025** establish clear procedures, financial ceilings, entitlements, and operational guidelines governing all official state vehicles.
 

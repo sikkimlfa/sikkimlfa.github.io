@@ -1,8 +1,17 @@
 ---
-title: "Mastering Municipal Accounting: A Complete Guide to Cash Book Entries and Supplier Payments"
-date: 2026-08-04
-categories: ["Accounting", "Public Finance", "Municipal Governance"]
-tags: ["Cash Book", "Double Entry", "Journal Entries", "Financial Accounting", "Public Sector"]
+title: 'Mastering Municipal Accounting: A Complete Guide to Cash Book Entries and
+  Supplier Payments'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Accounting
+- Public Finance
+- Municipal Governance
+tags:
+- Cash Book
+- Double Entry
+- Journal Entries
+- Financial Accounting
+- Public Sector
 ---
 Accurate bookkeeping is the backbone of financial transparency in public administration and municipal bodies. Maintaining proper accounting records ensures accountability, prevents fraud, and keeps municipal operations running smoothly. Below is a comprehensive guide based on our discussions covering the essential procedures for writing Cash Book entries, processing supplier payments, and enforcing daily financial controls under the national municipal accounting framework.
 

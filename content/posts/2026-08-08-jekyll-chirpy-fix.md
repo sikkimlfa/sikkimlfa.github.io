@@ -1,8 +1,16 @@
 ---
-title: "Fixing Jekyll Chirpy on GitHub Pages: Resolving Node 24 Runner Deprecations, Slugify Exceptions, and 404 Category Errors"
-date: "2026-08-08 10:00:00 +0530"
-categories: ["Technology", "GitHub Pages"]
-tags: ["jekyll", "chirpy", "github-actions", "ci-cd", "troubleshooting"]
+title: 'Fixing Jekyll Chirpy on GitHub Pages: Resolving Node 24 Runner Deprecations,
+  Slugify Exceptions, and 404 Category Errors'
+date: '2026-08-08T10:00:00+05:30'
+categories:
+- Technology
+- GitHub Pages
+tags:
+- jekyll
+- chirpy
+- github-actions
+- ci-cd
+- troubleshooting
 ---
 Deploying a Jekyll site with the popular **Chirpy** theme on GitHub Pages offers a clean, ultra-responsive blogging setup. However, configuring custom workflows, taxonomies, and GitHub Actions runners can occasionally throw cryptic build errors, Liquid exceptions, or broken 404 links on tag and category pages.
 
@@ -53,23 +61,6 @@ Override `_layouts/tags.html` in your repository root to cast all tag variables 
 ---
 layout: page
 ---
-
-
-
-
-
-  
-    
-    
-      
-        
-      
-    
-  
-
-
-
-
 <div id="tags" class="d-flex flex-wrap mx-xl-2">
   
     

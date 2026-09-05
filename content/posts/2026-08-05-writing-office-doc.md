@@ -1,10 +1,20 @@
 ---
 layout: post
-title: "Writing Better Official Documents with AI: A Practical Guide for ChatGPT and Gemini"
-date: 2026-08-05T18:11:00+05:30
-categories: [Productivity, Writing]
-tags: [chatgpt, gemini, official-writing, government, drafting, markdown]
-description: "Learn how to use ChatGPT or Gemini to draft professional official notings, letters, memoranda, circulars, and office documents using clear and effective prompting."
+title: 'Writing Better Official Documents with AI: A Practical Guide for ChatGPT and
+  Gemini'
+date: '2026-08-05T18:11:00+05:30'
+categories:
+- Productivity
+- Writing
+tags:
+- chatgpt
+- gemini
+- official-writing
+- government
+- drafting
+- markdown
+description: Learn how to use ChatGPT or Gemini to draft professional official notings,
+  letters, memoranda, circulars, and office documents using clear and effective prompting.
 ---
 # Writing Better Official Documents with AI: A Practical Guide for ChatGPT and Gemini
 

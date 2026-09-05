@@ -1,9 +1,20 @@
 ---
-title: "Drafting Professional Feedback for AuditOnline ATR Process Configuration"
-date: 2026-08-05T12:45:00+00:00
-categories: [audit, documentation]
-tags: [auditonline, atr, local-fund-audit, government, official-writing, email, sikkim]
-description: "A guide to preparing professional feedback on the AuditOnline ATR workflow, highlighting organizational hierarchy issues and recommended system configuration improvements."
+title: Drafting Professional Feedback for AuditOnline ATR Process Configuration
+date: '2026-08-05T12:45:00+05:30'
+categories:
+- audit
+- documentation
+tags:
+- auditonline
+- atr
+- local-fund-audit
+- government
+- official-writing
+- email
+- sikkim
+description: A guide to preparing professional feedback on the AuditOnline ATR workflow,
+  highlighting organizational hierarchy issues and recommended system configuration
+  improvements.
 ---
 # Drafting Professional Feedback for AuditOnline ATR Process Configuration
 

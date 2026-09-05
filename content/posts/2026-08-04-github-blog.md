@@ -1,8 +1,17 @@
 ---
-title: "How to Create a Blog Using GitHub Pages and Jekyll: A Complete Guide"
-date: 2026-08-04
-categories: ["blogging", "github", "jekyll", "web development"]
-tags: ["GitHub Pages", "Jekyll", "blog setup", "static site", "tutorial"]
+title: 'How to Create a Blog Using GitHub Pages and Jekyll: A Complete Guide'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- blogging
+- github
+- jekyll
+- web development
+tags:
+- GitHub Pages
+- Jekyll
+- blog setup
+- static site
+- tutorial
 ---
 # How to Create a Blog Using GitHub Pages and Jekyll: A Complete Guide
 

@@ -1,8 +1,16 @@
 ---
-title: "Understanding the Double Entry System of Accounting with Local Government Examples"
-date: 2026-08-05T10:58:00+00:00
-categories: [accounting, local-government]
-tags: [double-entry, bookkeeping, accounting, local-fund-audit, municipalities, panchayat]
+title: Understanding the Double Entry System of Accounting with Local Government Examples
+date: '2026-08-05T10:58:00+05:30'
+categories:
+- accounting
+- local-government
+tags:
+- double-entry
+- bookkeeping
+- accounting
+- local-fund-audit
+- municipalities
+- panchayat
 ---
 # Understanding the Double Entry System of Accounting with Local Government Examples
 

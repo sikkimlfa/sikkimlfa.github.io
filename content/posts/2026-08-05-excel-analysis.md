@@ -1,9 +1,18 @@
 ---
 layout: post
-title: "How to Audit and Correct Financial Statements in Microsoft Excel Using AI"
-date: 2026-08-05T13:00:00+00:00
-categories: [excel]
-tags: [microsoft-excel, financial-statement, auditing, accounting, error-detection, excel-formulas, automation, ai]
+title: How to Audit and Correct Financial Statements in Microsoft Excel Using AI
+date: '2026-08-05T13:00:00+05:30'
+categories:
+- excel
+tags:
+- microsoft-excel
+- financial-statement
+- auditing
+- accounting
+- error-detection
+- excel-formulas
+- automation
+- ai
 ---
 # How to Audit and Correct Financial Statements in Microsoft Excel Using AI
 

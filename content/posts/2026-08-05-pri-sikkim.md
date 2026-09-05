@@ -1,9 +1,20 @@
 ---
 layout: post
-title: "Genesis and Evolution of Panchayati Raj in Sikkim: From Traditional Governance to Constitutional Democracy"
-date: 2026-08-05T12:58:00+00:00
-categories: [sikkim, governance]
-tags: [panchayati-raj, sikkim, local-government, rural-development, 73rd-amendment, gram-panchayat, zilla-panchayat, history]
+title: 'Genesis and Evolution of Panchayati Raj in Sikkim: From Traditional Governance
+  to Constitutional Democracy'
+date: '2026-08-05T12:58:00+05:30'
+categories:
+- sikkim
+- governance
+tags:
+- panchayati-raj
+- sikkim
+- local-government
+- rural-development
+- 73rd-amendment
+- gram-panchayat
+- zilla-panchayat
+- history
 ---
 # Genesis and Evolution of Panchayati Raj in Sikkim
 

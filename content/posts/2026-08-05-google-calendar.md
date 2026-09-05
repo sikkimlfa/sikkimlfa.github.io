@@ -1,9 +1,17 @@
 ---
 layout: post
-title: "Creating a Google Calendar (.ICS) from a Holiday List: A Practical Guide"
-date: 2026-08-05T18:31:00+05:30
-categories: [productivity]
-tags: [google-calendar, ics, calendar, holidays, csv, scheduling, github-pages]
+title: 'Creating a Google Calendar (.ICS) from a Holiday List: A Practical Guide'
+date: '2026-08-05T18:31:00+05:30'
+categories:
+- productivity
+tags:
+- google-calendar
+- ics
+- calendar
+- holidays
+- csv
+- scheduling
+- github-pages
 ---
 # Creating a Google Calendar (.ICS) from a Holiday List: A Practical Guide
 

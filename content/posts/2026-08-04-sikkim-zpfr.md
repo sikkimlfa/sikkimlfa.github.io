@@ -1,8 +1,17 @@
 ---
-title: "Understanding the Sikkim Zilla Panchayat (Financial) Rules: A Comprehensive Guide"
-date: "2026-08-04"
-categories: ["Governance", "Sikkim Local Self-Government", "Financial Regulations"]
-tags: ["Sikkim", "Zilla Panchayat", "Financial Rules", "Rural Development", "Panchayati Raj"]
+title: 'Understanding the Sikkim Zilla Panchayat (Financial) Rules: A Comprehensive
+  Guide'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Governance
+- Sikkim Local Self-Government
+- Financial Regulations
+tags:
+- Sikkim
+- Zilla Panchayat
+- Financial Rules
+- Rural Development
+- Panchayati Raj
 ---
 The **Sikkim Zilla Panchayat (Financial) Rules, 2001**—along with its subsequent amendment in **2004**—forms the primary framework governing financial operations, budget preparation, fund management, and expenditure approvals for Zilla Panchayats across Sikkim. 
 

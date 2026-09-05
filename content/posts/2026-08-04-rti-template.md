@@ -1,8 +1,17 @@
 ---
-title: "Standardizing Transparency: A Complete Guide to Proactive Disclosure Under Section 4 of the RTI Act"
-date: "2026-08-04"
-categories: ["Governance", "Right to Information", "Public Administration"]
-tags: ["RTI Act", "Proactive Disclosure", "Section 4", "Transparency", "Government Templates"]
+title: 'Standardizing Transparency: A Complete Guide to Proactive Disclosure Under
+  Section 4 of the RTI Act'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Governance
+- Right to Information
+- Public Administration
+tags:
+- RTI Act
+- Proactive Disclosure
+- Section 4
+- Transparency
+- Government Templates
 ---
 Transparency in public administration forms the cornerstone of accountability and public trust. Section 4(1)(b) of the Right to Information (RTI) Act, 2005, mandates every public authority to proactively disclose detailed organizational data. This statutory requirement ensures that citizens have seamless access to routine administrative records without having to repeatedly file individual RTI requests.
 

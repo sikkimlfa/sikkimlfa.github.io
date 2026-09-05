@@ -1,8 +1,18 @@
 ---
-title: "Understanding PACS in Sikkim: Schemes, Loan Processes, Eligibility, and Exhaustive Audit Framework"
-date: "2026-08-04"
-categories: ["Cooperative Sector", "Sikkim Economy", "Banking & Finance"]
-tags: ["PACS", "Sikkim Cooperation Department", "Kisan Credit Card", "SIBCO", "Cooperative Audit", "Sikkim Cooperative Societies Act 1978"]
+title: 'Understanding PACS in Sikkim: Schemes, Loan Processes, Eligibility, and Exhaustive
+  Audit Framework'
+date: '2026-08-04T00:00:00+05:30'
+categories:
+- Cooperative Sector
+- Sikkim Economy
+- Banking & Finance
+tags:
+- PACS
+- Sikkim Cooperation Department
+- Kisan Credit Card
+- SIBCO
+- Cooperative Audit
+- Sikkim Cooperative Societies Act 1978
 ---
 The cooperative sector in Sikkim has evolved into a vital pillar for rural development, agricultural credit, and economic empowerment. Governed by the **Sikkim Co-operative Societies Act, 1978** and the **Rules of 1981**, the Cooperation Department of the Government of Sikkim oversees a network of primary cooperatives, marketing bodies, and apex credit institutions. At the grassroots level of this system sits the **Primary Agricultural Credit Society (PACS)**.
 
