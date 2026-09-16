@@ -58,7 +58,9 @@ params:
   description: "Directorate of Local Fund Audit, Finance Department, Government of Sikkim."
   author: "Directorate of Local Fund Audit"
   math: true # Enables PaperMod's built-in KaTeX assets globally or as default  
- 
+  ShowToc: true
+  TocOpen: false
+  
   defaultTheme: "auto"
   disableThemeToggle: false
 
@@ -98,3 +100,7 @@ markup:
             - ["$$", "$$"]
           inline:
             - ["$", "$"]
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
