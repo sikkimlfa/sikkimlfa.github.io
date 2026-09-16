@@ -574,7 +574,7 @@ Municipal responsibility does not end when waste is collected. It includes the c
 
 ### Important indicators
 
-$$\text{Collection Coverage} = \frac{\text{Households Served}}{\text{Total Households}}\times 100\]$$
+$$\text{Collection Coverage}=\frac{\text{Households Served}}{\text{Total Households}}\times 100\]$$
 
 $$\text{Segregation Rate}=\frac{\text{Segregated Waste}}{\text{Total Waste Collected}}\times 100$$
 
