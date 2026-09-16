@@ -13,8 +13,9 @@ tags:
   - urban development
 categories:
   - Public Administration
-  - Urban Local Government
+  - ;Urban Local Government
   - Sikkim
+math: true
 ---
 
 # Municipalities in Sikkim: History, Structure and Current Situation
