@@ -13,7 +13,7 @@ tags:
   - urban development
 categories:
   - Public Administration
-  - ;Urban Local Government
+  - Urban Local Government
   - Sikkim
 math: true
 ---
