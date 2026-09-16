@@ -573,21 +573,12 @@ Solid-waste management includes:
 Municipal responsibility does not end when waste is collected. It includes the complete waste chain.
 
 ### Important indicators
+
 $$\text{Collection Coverage} = \frac{\text{Households Served}}{\text{Total Households}}\times 100\]$$
 
-$$
-\text{Segregation Rate}
-=
-\frac{\text{Segregated Waste}}{\text{Total Waste Collected}}
-\times 100
-$$
+$$\text{Segregation Rate}=\frac{\text{Segregated Waste}}{\text{Total Waste Collected}}\times 100$$
 
-$$
-\text{Processing Rate}
-=
-\frac{\text{Waste Processed}}{\text{Total Waste Collected}}
-\times 100
-$$
+$$\text{Processing Rate}=\frac{\text{Waste Processed}}{\text{Total Waste Collected}}\times 100$$
 
 The CAG’s earlier review of Sikkim ULBs identified service-level benchmarks for waste management, including coverage, segregation, recovery and cost recovery. [cag.gov](https://cag.gov.in/webroot/uploads/download_audit_report/2016/Chapter%204-062f8ed5db4b4d6.60637334.pdf)
 
