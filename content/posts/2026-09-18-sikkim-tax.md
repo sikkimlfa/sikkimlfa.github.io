@@ -914,13 +914,13 @@ A payment voucher should be cleared only after the DDO verifies the legal or con
 
 ## References
 
-1. [Sikkim Financial Rules, 2025](https://www.google.com/search?q=https://sikkimfred.gov.in&utm_source=gemini)
-2. [Sikkim Public Works Manual, 2009](https://www.google.com/search?q=https://sikkim-roadsandbridges.gov.in&utm_source=gemini)
-3. [Government of Sikkim, Standard Tender Conditions and Statutory GST Deductions](https://sikkim.gov.in?utm_source=gemini)
-4. [Comptroller and Auditor General of India, Audit Report for the Year Ended March 2022, Government of Sikkim](https://cag.gov.in?utm_source=gemini)
-5. [Government of Sikkim, Finance Department, Guidelines on Building and Other Construction Workers Welfare Cess](https://www.google.com/search?q=https://sikkimfred.gov.in&utm_source=gemini)
-6. Central Goods and Services Tax Act, 2017, Section 51.
-7. Sikkim Goods and Services Tax Act, 2017, Section 51.
-8. Income-tax Act, 1961, Section 194C, Section 200, Section 203A and Section 206AA.
+1. [Sikkim Financial Rules, 2025](http://www.sikkimfred.gov.in/Gazette/Documents/Sikkim%20Financial%20Rules%202025%20Gazette%20No.%2066.pdf).[^19_8]
+2. [Sikkim Public Works Manual, 2009](http://www.sikkim-roadsandbridges.gov.in/images/MANUAL-2009-1-to-102.pdf).[^19_1]
+3. [Sikkim Government tender conditions and GST deductions](https://www.sikkim.gov.in/uploads/SikkimHerald/July_19_0_20220720.pdf).[^19_7]
+4. Comptroller and Auditor General of India, *Report for the year ended March 2022, Government of Sikkim*.[^19_5]
+5. Government of Sikkim, Finance Department, materials on Building and Other Construction Workers Welfare Cess.[^19_2]
+6. Government of Sikkim, *Sikkim Goods and Services Tax Act, 2017*.
+7. Central Goods and Services Tax Act, 2017, Section 51.
+8. Income-tax Act, 1961, Sections 194C and related provisions.
 9. Building and Other Construction Workers’ Welfare Cess Act, 1996.
-10. Finance Department, Government of Sikkim, Circulars on Tax Deduction at Source and Statutory Recoveries.
+10. Sikkim Government Finance Department circulars on TDS and statutory deductions.[^19_9]
