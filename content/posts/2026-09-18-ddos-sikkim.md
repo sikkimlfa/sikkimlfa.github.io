@@ -1208,14 +1208,14 @@ A DDO must never rely on a single signature or an isolated certificate. Every pa
 
 ## References
 
-1. [Sikkim Financial Rules, 2025](https://www.google.com/search?q=https://sikkimfred.gov&utm_source=gemini)
-2. [Instructions on the Sikkim Integrated Financial Management System (SIFMS)](https://www.google.com/search?q=https://sikkimfred.gov&utm_source=gemini)
-3. [Government of Sikkim, Finance Department Guidelines on Bill Passing and Statutory Deductions](https://www.google.com/search?q=https://sikkimfred.gov&utm_source=gemini)
-4. [Comptroller and Auditor General of India, State Finances Audit Report for Sikkim for the Year Ended 31 March 2023](https://www.google.com/search?q=https://cag.gov&utm_source=gemini)
-5. Government of Sikkim, Finance Department Orders on Budget Appropriation, Treasury Rules and Delegated Financial Powers.
-6. Government of Sikkim, Departmental Public Works and Procurement Manuals.
-7. Central Goods and Services Tax Act, 2017, Sections 31, 36 and 51.
-8. Central Goods and Services Tax Rules, 2017, Rules 12 and 66.
-9. Income-tax Act, 1961, Sections 194C, 200, 203 and 203A.
-10. Comptroller and Auditor General of India, *Regulations on Audit and Accounts*.
-11. Comptroller and Auditor General of India, *Manual of Local Bodies (Audit)*.
+1. [Sikkim Financial Rules, 2025](http://www.sikkimfred.gov.in/Gazette/Documents/Sikkim%20Financial%20Rules%202025%20Gazette%20No.%2066.pdf).[^18_1]
+2. [Instructions on Sikkim Integrated Financial Management System](http://www.sikkimfred.gov.in/SIFMS/Documents/Sikkim_Integrated_Financial_Management_System.pdf).[^18_2]
+3. [Sikkim Financial Department rules and instructions](http://www.sikkimfred.gov.in/user/ALL_RULES.aspx).[^18_4]
+4. [CAG State Finances Audit Report for Sikkim for the year ended March 2023](https://cag.gov.in/webroot/uploads/download_audit_report/2024/SFAR_ENGLISH_Sikkim-for-the-year-ended-March-2023-066b9a597d0fc45.02181555.pdf).[^18_3]
+5. Government of Sikkim, Finance Department orders on budget, treasury, bill processing and appropriation.
+6. Government of Sikkim, applicable procurement rules and departmental manuals.
+7. Central Goods and Services Tax Act, 2017.
+8. Income-tax Act, 1961.
+9. Comptroller and Auditor General of India, *Regulations on Audit and Accounts*.
+10. Comptroller and Auditor General of India, *Manual of Local Bodies*.
+
