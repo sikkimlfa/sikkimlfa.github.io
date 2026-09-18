@@ -621,14 +621,12 @@ Reconcile Accounts and Retain Audit Dossier
 
 ## References
 
-1. [Central Goods and Services Tax Act, 2017, Section 51: Tax Deduction at Source](https://taxinformation.cbic.gov.in?utm_source=gemini)
-2. [Central Goods and Services Tax Rules, 2017, Rule 66: Form and Manner of Submission of Return by a Person Paying Tax under Section 51](https://taxinformation.cbic.gov.in?utm_source=gemini)
-3. [Government of India, Ministry of Finance, Guidelines for Deduction and Deposit of TDS by DDOs under GST](https://upload.indiacode.nic.in?utm_source=gemini)
-4. [Government of Sikkim, Sikkim Goods and Services Tax Act, 2017](https://gstcouncil.gov.in?utm_source=gemini)
-5. [Government of Sikkim, Commercial Taxes Division, Finance Department](https://sikkimtax.gov.in?utm_source=gemini)
-6. Central Goods and Services Tax Act, 2017, Section 24 and Section 36.
-7. Central Goods and Services Tax Rules, 2017, Rule 12.
-8. Government of Sikkim, *Sikkim Financial Rules, 2025*, Finance Department, Gangtok.
-9. Income-tax Act, 1961, Sections 194C, 200, 203, and 206AA.
-10. Central Board of Indirect Taxes and Customs (CBIC), *Standard Operating Procedure (SOP) for Tax Deductors at Source under GST*.
-11. Goods and Services Tax Network (GSTN), *User Manual: Filing Return in Form GSTR-7 and Viewing Form GSTR-7A*.
+1. [GST Portal User Guide: Tax Deductor Registration](https://tutorial.gst.gov.in/userguide/registration/Tax_Deductor.htm).[^17_2]
+2. [CGST Rules, Rule 12: Registration of Tax Deductors](https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/rules/cgst_rules/active/chapter3/rule12_v1.00.html).[^17_1]
+3. [CGST Rules, Rule 66: Return by GST-TDS Deductor](https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/rules/cgst_rules/active/chapter8/rule66_v1.00.html).[^17_3]
+4. [Government of India guidelines for GST-TDS by DDOs](https://upload.indiacode.nic.in/showfile?actid=AC_UP_88_448_00001_00001_1601884306960&type=circular&filename=circular_no_1819049_english.pdf).[^17_5]
+5. [Commercial Taxes Division, Government of Sikkim](http://www.sikkimtax.gov.in/).[^17_6]
+6. Government of Sikkim, *Sikkim Goods and Services Tax Act, 2017*.
+7. Central Goods and Services Tax Act, 2017, especially Section 51.
+8. Central Goods and Services Tax Rules, 2017.
+9. Government of Sikkim, *Sikkim Financial Rules, 2025*.
