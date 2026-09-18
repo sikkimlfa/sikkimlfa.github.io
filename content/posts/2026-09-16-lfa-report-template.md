@@ -1,11 +1,9 @@
 ---
-
-## title: "Sikkim Local Fund Audit Report Template for GPUs, ZPs and Municipalities"
+title: "Sikkim Local Fund Audit Report Template for GPUs, ZPs and Municipalities"
 date: "2026-09-16"
 categories: ["Public Sector Audit", "Local Government"]
 tags: ["Sikkim", "Local Fund Audit", "Gram Panchayat", "Zilla Panchayat", "municipality", "DLFA", "audit report", "2026"]
 description: "A detailed and practical Sikkim Local Fund Audit report template for Gram Panchayat Units, Zilla Panchayats and Municipalities, explained in simple language."
-
 ---
 
 # Sikkim Local Fund Audit Report Template for GPUs, ZPs and Municipalities
@@ -147,7 +145,6 @@ Copies of the final audit report are issued to:
 
 ### 4.1 Cover Page Structure
 
-```markdown
 # Audit Report
 
 ## [Name of Local Body]
@@ -173,7 +170,7 @@ Copies of the final audit report are issued to:
 ### Date of Report
 [YYYY-MM-DD]
 
-```
+
 
 ### 4.2 Audit Certification and Transmittal
 
@@ -184,7 +181,6 @@ Copies of the final audit report are issued to:
 
 ### 4.3 Executive Summary
 
-```markdown
 ## 1. Executive Summary
 
 The audit covered [name of local body] for the period [period].
@@ -208,7 +204,6 @@ The principal findings were:
 3. [Finding 3]
 4. [Finding 4]
 
-```
 
 #### Financial Impact Summary
 
@@ -261,7 +256,6 @@ The audit was conducted to determine whether:
 
 ### 4.6 Audit Scope
 
-```markdown
 ## 4. Audit Scope
 
 ### Period covered
@@ -290,7 +284,7 @@ The audit was conducted to determine whether:
 ### Areas not covered
 [List any exclusions and reasons]
 
-```
+
 
 ### 4.7 Audit Methodology
 
@@ -534,7 +528,6 @@ The audit examined:
 
 ### 7.1 Gram Panchayat Unit Report Template
 
-```markdown
 # Sikkim Local Fund Audit Report
 
 ## Audit of [Name] Gram Panchayat Unit
@@ -609,11 +602,10 @@ The audit examined:
 ## 16. Annexures
 [List of supporting schedules and statements]
 
-```
+
 
 ### 7.2 Zilla Panchayat Report Template
 
-```markdown
 # Sikkim Local Fund Audit Report
 
 ## Audit of [Name] Zilla Panchayat
@@ -691,11 +683,10 @@ The audit examined:
 ## 16. Annexures
 [Supporting data tables]
 
-```
+
 
 ### 7.3 Municipality Report Template
 
-```markdown
 # Sikkim Local Fund Audit Report
 
 ## Audit of [Name] Municipality
@@ -774,13 +765,11 @@ The audit examined:
 ## 13. Annexures
 [Detailed schedules and statements]
 
-```
 
 ## 8. Standard Audit Observation Format
 
 Every material audit observation must follow this structure:
 
-```markdown
 ### Audit Observation No. [Number]: [Descriptive Title]
 
 #### Criteria
@@ -819,7 +808,6 @@ Every material audit observation must follow this structure:
 - Evidence required: [Document / Challan / Register]
 - Current status: [Open / Partly settled / Settled / Referred]
 
-```
 
 ## 9. Sample Audit Observations
 
@@ -1057,7 +1045,6 @@ Auditors must apply precise definitions when classifying questioned transactions
 
 ## 13. Standard Annexures
 
-```markdown
 ## Annexure I: Statement of Receipts
 | Date | Source | Receipt number | Amount | Deposit date |
 |---|---|---|---:|---|
@@ -1093,7 +1080,7 @@ Auditors must apply precise definitions when classifying questioned transactions
 ## Annexure IX: Management Response
 [Detailed written replies and supporting documentation]
 
-```
+
 
 ## 14. Audit Quality Checklist
 
@@ -1162,7 +1149,6 @@ Follow-Up and Closure (Has verified compliance been achieved?)
 
 ## 17. Compact One-Page Audit Report Format
 
-```markdown
 # Sikkim Local Fund Audit Report: [Name of Local Body]
 
 ## 1. Audit Details
@@ -1238,7 +1224,6 @@ Follow-Up and Closure (Has verified compliance been achieved?)
 ## 18. Annexures
 [List of supporting financial schedules and statements]
 
-```
 
 ## References
 
