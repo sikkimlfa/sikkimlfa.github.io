@@ -1,11 +1,9 @@
 ---
-
-## title: "Audit Report Templates for Gram Panchayats, Zilla Panchayats and Municipalities in Sikkim"
+title: "Audit Report Templates for Gram Panchayats, Zilla Panchayats and Municipalities in Sikkim"
 date: "2026-09-16"
 categories: ["Public Sector Audit", "Local Government"]
 tags: ["Sikkim", "Gram Panchayat", "Zilla Panchayat", "municipality", "audit report", "DLFA", "CAG", "2026"]
 description: "A practical, detailed and reusable audit-report structure for Sikkim Panchayats and Municipalities, explained in simple language with templates, checklists, facts and references."
-
 ---
 
 # Audit Report Templates for Sikkim Local Bodies
@@ -99,7 +97,6 @@ While the basic reporting structure remains common, the operational focus differ
 
 A formal cover page should identify the engagement parameters:
 
-```markdown
 # Audit Report
 
 ## Name of Local Body
@@ -120,7 +117,7 @@ A formal cover page should identify the engagement parameters:
 ### Date of Report
 [YYYY-MM-DD]
 
-```
+
 
 The cover page confirms:
 
@@ -134,7 +131,6 @@ The cover page confirms:
 
 This section establishes statutory jurisdiction and audit criteria:
 
-```markdown
 ## 1. Authority and Legal Basis
 
 The audit was conducted under:
@@ -146,7 +142,6 @@ The audit was conducted under:
 6. [Applicable scheme guidelines]
 7. [CAG standards or audit instructions, where applicable]
 
-```
 
 ### Example for a Gram Panchayat
 
@@ -160,7 +155,6 @@ The audit was conducted under:
 
 The executive summary provides an overview of key audit outcomes:
 
-```markdown
 ## 2. Executive Summary
 
 The audit covered the accounts and activities of [name of local body] for the period [period].
@@ -189,7 +183,6 @@ The total financial impact identified was ₹[amount], comprising:
 - Unspent or misreported grants: ₹[amount]
 - Other financial exposure: ₹[amount]
 
-```
 
 ## 6. Profile of the Audited Local Body
 
@@ -230,7 +223,6 @@ The audit was conducted to determine whether:
 
 The scope defines parameters, coverage and explicit limitations:
 
-```markdown
 ## 5. Audit Scope
 
 The audit covered:
@@ -247,7 +239,7 @@ The following areas were outside the scope of this audit:
 - [Area excluded and reason]
 - [Area excluded and reason]
 
-```
+
 
 ## 9. Audit Methodology
 
@@ -561,7 +553,6 @@ The audit examined sanctions, stated purposes, age analysis of outstandings, sub
 
 ## 21. Entity-Specific Template: Gram Panchayat Unit
 
-```markdown
 # Audit Report of [Name] Gram Panchayat Unit
 
 ## 1. Authority and Audit Period
@@ -627,11 +618,9 @@ The audit examined sanctions, stated purposes, age analysis of outstandings, sub
 - Annexure V: Outstanding advances
 - Annexure VI: Audit objection register
 
-```
 
 ## 22. Entity-Specific Template: Zilla Panchayat
 
-```markdown
 # Audit Report of [Name] Zilla Panchayat
 
 ## 1. Authority and Audit Period
@@ -679,11 +668,9 @@ The audit examined sanctions, stated purposes, age analysis of outstandings, sub
 ## 10. Recommendations and Conclusion
 [Actionable recommendations and overall audit conclusion]
 
-```
 
 ## 23. Entity-Specific Template: Municipality
 
-```markdown
 # Audit Report of [Name] Municipality
 
 ## 1. Authority and Audit Period
@@ -738,13 +725,12 @@ The audit examined sanctions, stated purposes, age analysis of outstandings, sub
 ## 11. Annexures
 [Detailed financial statements and inspection notes]
 
-```
+
 
 ## 24. Standard Audit Observation Structure
 
 Every significant finding must follow the standard audit paragraph structure:
 
-```markdown
 ### Audit Observation No. [Number]: [Descriptive Title]
 
 #### Criteria
@@ -779,7 +765,7 @@ Every significant finding must follow the standard audit paragraph structure:
 - Due date: [ ]
 - Current status: [Open / Partly settled / Settled / Referred]
 
-```
+
 
 ## 25. Core Elements of an Observation
 
@@ -1020,7 +1006,6 @@ Recommendations should be actionable, time-bound and assigned to a specific auth
 
 ## 31. Standard Annexures
 
-```markdown
 ## Annexure I: Statement of Receipts
 | Date | Source | Receipt number | Amount | Bank deposit date |
 |---|---|---|---:|---|
@@ -1052,7 +1037,6 @@ Recommendations should be actionable, time-bound and assigned to a specific auth
 ## Annexure VIII: Management Response
 [Complete text of official replies received from the local body]
 
-```
 
 ## 32. Audit Quality Checklist
 
@@ -1113,7 +1097,6 @@ Audit reports should therefore incorporate a dedicated objection-tracking sectio
 
 ## 34. One-Page Summary Audit Report Format
 
-```markdown
 # Audit Report: [Name of Local Body]
 
 ## 1. Audit Details
@@ -1166,7 +1149,6 @@ Audit reports should therefore incorporate a dedicated objection-tracking sectio
 ## 11. Annexures
 [Index of attached supporting statements]
 
-```
 
 ## 35. Key Audit Principles
 
