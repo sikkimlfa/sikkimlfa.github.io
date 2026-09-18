@@ -1179,14 +1179,52 @@ Follow-Up (Was the issue corrected?)
 
 ## References
 
-1. Government of Sikkim, [The Sikkim Panchayat Act, 1993](https://www.prsindia.org), Act No. 6 of 1993.
-2. Government of Sikkim, [The Sikkim Municipalities Act, 2007](https://www.prsindia.org), Act No. 5 of 2007.
-3. Government of Sikkim, [The Sikkim Local Fund Audit Act, 2012](https://sikkim.gov.in), Act No. 22 of 2012.
-4. Comptroller and Auditor General of India, [Annual Technical Inspection Report on Panchayati Raj Institutions and Urban Local Bodies, Sikkim, for the year ended 31 March 2017](https://cag.gov.in).
-5. Comptroller and Auditor General of India, [Chapter IV: Overview of Urban Local Bodies in Sikkim](https://cag.gov.in).
-6. Comptroller and Auditor General of India, [Annual Technical Inspection Report on Panchayati Raj Institutions and Urban Local Bodies, Sikkim, 2015–16](https://cag.gov.in).
-7. Comptroller and Auditor General of India, Regulations on Audit and Accounts.
-8. Comptroller and Auditor General of India, Manual of Local Bodies.
-9. Government of Sikkim, Sikkim Gram Panchayat Financial Rules, 2003, as amended.
-10. Government of Sikkim, Sikkim Zilla Panchayat Financial Rules, 2001, as amended.
-11. Government of India, The Comptroller and Auditor General’s (Duties, Powers and Conditions of Service) Act, 1971.
+1. Government of Sikkim, *The Sikkim Panchayat Act, 1993*, Act No. 6 of 1993.[^11_5]
+2. Government of Sikkim, *The Sikkim Municipalities Act, 2007*, Act No. 5 of 2007.[^11_2]
+3. Government of Sikkim, *The Sikkim Local Fund Audit Act, 2012*, Act No. 22 of 2012.[^11_6]
+4. Comptroller and Auditor General of India, *Annual Technical Inspection Report on Panchayati Raj Institutions and Urban Local Bodies, Sikkim, for the year ended 31 March 2017*.[^11_1]
+5. Comptroller and Auditor General of India, *Chapter IV: Overview of Urban Local Bodies in Sikkim*.[^11_3]
+6. Comptroller and Auditor General of India, *Annual Technical Inspection Report on Panchayati Raj Institutions and Urban Local Bodies, Sikkim, 2015–16*.[^11_7]
+7. Comptroller and Auditor General of India, *Regulations on Audit and Accounts*.
+8. Comptroller and Auditor General of India, *Manual of Local Bodies*.
+9. Government of Sikkim, *Sikkim Gram Panchayat Financial Rules, 2003*, as amended.
+10. Government of Sikkim, *Sikkim Zilla Panchayat Financial Rules, 2001*, as amended.
+11. Government of India, *The Comptroller and Auditor General’s Duties, Powers and Conditions of Service Act, 1971*.
+
+[^11_1]: https://cag.gov.in/webroot/uploads/download_audit_report/2017/Annual%20Technical%20Inspection%20Report%20on%20Panchayati%20Raj%20Institutions%20\&%20Urban%20Local%20Bodies%202016-17%20Sikkim-062f8f0160f3001.41801280.pdf
+
+[^11_2]: https://prsindia.org/files/bills_acts/acts_states/sikkim/2007/2007Sikkim5.pdf
+
+[^11_3]: https://cag.gov.in/webroot/uploads/download_audit_report/2017/Chapter%204-062f9163092c0b5.90386419.pdf
+
+[^11_4]: https://cag.gov.in/en/audit-report/details/10853
+
+[^11_5]: https://prsindia.org/files/bills_acts/acts_states/sikkim/1993/1993SK6.pdf
+
+[^11_6]: https://www.sikkim.gov.in/uploads/Gazette/2012_THE_SIKKIM_LOCAL_FUND_AUDIT_ACT_20210908.pdf
+
+[^11_7]: https://cag.gov.in/webroot/uploads/download_audit_report/2016/Annual%20Technical%20Inspection%20Report%20on%20Panchayati%20Raj%20Institutions%20\&%20Urban%20Local%20Bodies%202015-16%20Sikkim-062f8ed5cc82dd2.82417692.pdf
+
+[^11_8]: https://cag.gov.in/ag/sikkim/en/audit-report/details/10594
+
+[^11_9]: https://sfc.sikkim.gov.in/otherdoc/otherdoc-Ew93soT5gw0mRQ8UZlPSheOJ3Ji8IfeK0omCu2YV.pdf
+
+[^11_10]: https://cag.gov.in/webroot/uploads/download_audit_report/2016/Chapter%204-062f8ed5db4b4d6.60637334.pdf
+
+[^11_11]: https://cag.gov.in/uploads/download_audit_report/2017/Annual%20Technical%20Inspection%20Report%20on%20Panchayati%20Raj%20Institutions%20\&%20Urban%20Local%20Bodies%202016-17%20Sikkim-062f8f0160f3001.41801280.pdf
+
+[^11_12]: https://cag.gov.in/webroot/uploads/download_audit_report/2015/Chapter%203-062f8e9e65a0bb9.77164614.pdf
+
+[^11_13]: https://cag.gov.in/uploads/download_audit_report/2017/Chapter%204-062f9163092c0b5.90386419.pdf
+
+[^11_14]: https://cag.gov.in/uploads/download_audit_report/2016/Chapter%204-062f8ed5db4b4d6.60637334.pdf
+
+[^11_15]: https://cag.gov.in/uploads/download_audit_report/2004/Chapter%203-062f8a391490876.66988095.pdf
+
+[^11_16]: https://cag.gov.in/webroot/uploads/download_audit_report/2022/Annual-Technical-Inspection-Report-on-Panchayati-Raj-Institutions-and-Urban-Local-Bodies-for-the-year-ended-31-March-2022-English-069d33f4eb5e975.71683870.pdf
+
+[^11_17]: https://prsindia.org/files/bills_acts/acts_states/sikkim/2012/2012Sikkim22.pdf
+
+[^11_18]: https://prsindia.org/files/bills_acts/acts_states/sikkim/1993/1993Sikkim6.pdf
+
+[^11_19]: https://policycommons.net/artifacts/1681338/the-sikkim-local-fund-audit-act-2012/2412986/
