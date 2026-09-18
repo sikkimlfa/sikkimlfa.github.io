@@ -879,15 +879,45 @@ Accounts officers must follow a consistent review order: verify the contractor, 
 
 ## References
 
-1. Central Board of Indirect Taxes and Customs (CBIC), *CGST Act, 2017, Section 51: Tax Deduction at Source*, Government of India.
-2. Central Board of Indirect Taxes and Customs (CBIC), *Standard Operating Procedure (SOP) for DDOs and Other GST-TDS Deductors*, Government of India.
-3. Income Tax Department, *Tax Deducted at Source (TDS) Manual and Guidelines*, Ministry of Finance, Government of India.
-4. Income Tax Department, *Frequently Asked Questions on TDS Provisions under Section 194C*, Government of India.
-5. Central Goods and Services Tax Act, 2017, Sections 9, 24, 31, 51 and related statutory provisions.
-6. Central Goods and Services Tax Rules, 2017, Rules 12 and 66.
-7. Income-tax Act, 1961, Sections 194C, 197, 200, 203, 203A and 206AA.
-8. Government of Sikkim, *The Sikkim Local Fund Audit Act, 2012*, Law Department, Gangtok.
-9. Government of Sikkim, *The Sikkim Panchayat Act, 1993*, Rural Development Department, Gangtok.
-10. Government of Sikkim, *The Sikkim Municipalities Act, 2007*, Urban Development Department, Gangtok.
-11. Directorate of Local Fund Audit, Government of Sikkim, *Audit Manual and Guidelines for Local Authorities*.
-12. Finance Department, Government of Sikkim, *Treasury Rules and Financial Instructions on Works Bills Passing and Statutory Deductions*.
+1. [CBIC Tax Information, CGST Act, Section 51: Tax deduction at source](https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/2017_CGST_act/active/chapter10/section51_v1.00.html).[^13_2]
+2. [CBIC GST, Standard Operating Procedure for DDOs and Other GST-TDS Deductors](https://cbic-gst.gov.in/pdf/SOP-TDS-AS-ON-18-February-2019.pdf).[^13_3]
+3. [Income Tax Department, Tax Deducted at Source](https://www.incometaxindia.gov.in/w/tax-deduction-at-source-tds-).[^13_1]
+4. [Income Tax Department, FAQs on Tax Deducted at Source](https://www.incometaxindia.gov.in/documents/d/guest/faqs-on-tax-deducted-source).[^13_4]
+5. Central Goods and Services Tax Act, 2017, especially Sections 24, 31 and 51.
+6. Central Goods and Services Tax Rules, 2017, especially Rules 12 and 66.
+7. Income-tax Act, 1961, especially Sections 194C, 197, 200 and 203.
+8. Government of Sikkim, *The Sikkim Local Fund Audit Act, 2012*.
+9. Government of Sikkim, *The Sikkim Panchayat Act, 1993*.
+10. Government of Sikkim, *The Sikkim Municipalities Act, 2007*.
+11. Directorate of Local Fund Audit, Sikkim, applicable audit instructions and local-body audit procedures.
+12. Government of Sikkim, Finance Department, applicable bill-passing, treasury and tax-deduction instructions.
+
+[^13_1]: https://www.incometaxindia.gov.in/w/tax-deduction-at-source-tds-
+
+[^13_2]: https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/2017_CGST_act/active/chapter10/section51_v1.00.html
+
+[^13_3]: https://cbic-gst.gov.in/pdf/SOP-TDS-AS-ON-18-February-2019.pdf
+
+[^13_4]: https://www.incometaxindia.gov.in/documents/d/guest/faqs-on-tax-deducted-source
+
+[^13_5]: https://jkcomtax.gov.in/pdf/tds.pdf
+
+[^13_6]: https://taxes.tripura.gov.in/sites/default/files/2024-01/TDS FAQ.pdf
+
+[^13_7]: https://cbic-gst.gov.in/pdf/SOP-TDS-AS-ON-27-DEC.pdf
+
+[^13_8]: https://www.taxtmi.com/article/detailed?id=7619
+
+[^13_9]: https://d23z1tp9il9etb.cloudfront.net/download/pdf26/Handbook on Government Supplies under GST (IncludingTDS Provisions).pdf
+
+[^13_10]: https://d23z1tp9il9etb.cloudfront.net/download/knowledgeShare18-19/Tax-Deduction-Source-under-GST.pdf
+
+[^13_11]: https://www.taxtmi.com/tmi_blog_details?id=491776
+
+[^13_12]: https://www.taxbuddy.com/blog/tan-registration-for-salary-contractor-rent-and-property-payments
+
+[^13_13]: https://disytax.com/tds-under-gst-section-51-applicability-gstr7/
+
+[^13_14]: https://web.lawcrux.com/newversion/web/Assets/data5t/ar/mscart/article_100625.htm
+
+[^13_15]: https://taxguru.in/goods-and-service-tax/practical-checklist-tds-tcs-gst.html
