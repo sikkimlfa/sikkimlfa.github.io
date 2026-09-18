@@ -575,13 +575,17 @@ Before initiating Form GST REG-07, verify the assigned State tax circle (e.g., G
 
 ## References
 
-1. [GST Portal User Guide: Tax Deductor Registration](https://tutorial.gst.gov.in?utm_source=gemini)
-2. [Central Goods and Services Tax Rules, 2017, Rule 12: Grant of Registration to Persons Required to Deduct Tax at Source](https://taxinformation.cbic.gov.in?utm_source=gemini)
-3. [Central Goods and Services Tax Rules, 2017, Rule 66: Form and Manner of Submission of Return by a Person Paying Tax under Section 51](https://taxinformation.cbic.gov.in?utm_source=gemini)
-4. [Ministry of Finance, Government of India, Guidelines for Deduction and Deposit of TDS by DDOs under GST](https://upload.indiacode.nic.in?utm_source=gemini)
-5. [Commercial Taxes Division, Finance Department, Government of Sikkim](http://www.sikkimtax.gov.in/?utm_source=gemini)
-6. Central Goods and Services Tax Act, 2017, Section 24, Section 36 and Section 51.
-7. Government of Sikkim, Sikkim Goods and Services Tax Act, 2017.
-8. Government of Sikkim, Sikkim Financial Rules, 2025.
-
+1. [Sikkim Financial Rules, 2025](http://www.sikkimfred.gov.in/Gazette/Documents/Sikkim%20Financial%20Rules%202025%20Gazette%20No.%2066.pdf).[^15_1]
+2. [Sikkim Rules: Chapter III, Withdrawal of Money from Government Account](http://www.sikkimfred.gov.in/Rules/Documents/CH3.pdf).[^15_9]
+3. [CGST Act, Section 36: Period of Retention of Accounts](https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/2017_CGST_act/active/chapter8/section36_v1.00.html).[^15_7]
+4. [CGST Act, Section 51: Tax Deduction at Source](https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/2017_CGST_act/active/chapter10/section51_v1.00.html).[^15_2]
+5. [CBIC GST Accounts and Records Rules](https://cbic-gst.gov.in/aces/Documents/accounts-and-records-rules.pdf).[^15_10]
+6. [CBIC Standard Operating Procedure for GST-TDS Deductors](https://cbic-gst.gov.in/pdf/SOP-TDS-AS-ON-18-February-2019.pdf).[^15_11]
+7. [Income Tax Department: Tax Deducted at Source](https://www.incometaxindia.gov.in/w/tax-deduction-at-source-tds-).[^15_4]
+8. [Income Tax Department: TDS FAQs](https://www.incometaxindia.gov.in/documents/d/guest/faqs-on-tax-deduction-source).[^15_3]
+9. Government of Sikkim, *The Sikkim Panchayat Act, 1993*.
+10. Government of Sikkim, *The Sikkim Municipalities Act, 2007*.
+11. Government of Sikkim, *The Sikkim Local Fund Audit Act, 2012*.
+12. Comptroller and Auditor General of India, *Manual of Local Bodies*.
+13. Comptroller and Auditor General of India, *Regulations on Audit and Accounts*.
 ```
