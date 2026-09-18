@@ -1123,18 +1123,16 @@ Accounts officers must follow a structured review: classify the supply, verify v
 
 ## References
 
-1. [CBIC GST Rates Resource](https://www.google.com/search?q=https://cbic-gst.gov&utm_source=gemini)
-2. [CBIC CGST Act, Section 51: Tax Deduction at Source](https://www.google.com/search?q=https://taxinformation.cbic.gov&utm_source=gemini)
-3. [CBIC Standard Operating Procedure for GST-TDS Deductors](https://www.google.com/search?q=https://cbic-gst.gov&utm_source=gemini)
-4. [CBIC Notification No. 11/2017-Central Tax (Rate)](https://www.google.com/search?q=https://cbic-gst.gov&utm_source=gemini)
-5. [CBIC Circular No. 177/09/2022-TRU](https://www.google.com/search?q=https://cbic-gst.gov&utm_source=gemini)
-6. [CBIC Notification No. 12/2017-Central Tax (Rate)](https://www.google.com/search?q=https://cbic-gst.gov&utm_source=gemini)
-7. [Income Tax Department, Tax Deducted at Source Overview](https://www.google.com/search?q=https://incometaxindia.gov&utm_source=gemini)
-8. [Income Tax Department, Frequently Asked Questions on TDS](https://www.google.com/search?q=https://incometaxindia.gov&utm_source=gemini)
-9. Government of Sikkim, *The Sikkim Panchayat Act, 1993*, Rural Development Department, Gangtok.
-10. Government of Sikkim, *The Sikkim Municipalities Act, 2007*, Urban Development Department, Gangtok.
-11. Government of Sikkim, *The Sikkim Local Fund Audit Act, 2012*, Law Department, Gangtok.
-12. Finance Department, Government of Sikkim, *Instructions and Guidelines on Bill Passing, Public Contracts and Statutory Deductions*.
-13. Directorate of Local Fund Audit, Government of Sikkim, *Local Fund Audit Manual and Circulars*.
-
-> **Research Note:** GST rates, exemptions, reverse-charge provisions, TDS rates, thresholds, forms and filing deadlines undergo periodic legislative and administrative updates. Before issuing a formal bill objection, audit paragraph or payment sanction, verify the applicable financial year, current statutory notifications, circulars, portal guidelines and Sikkim Government Finance Department orders.
+1. [CBIC GST Rates](https://cbic-gst.gov.in/gst-goods-services-rates.html).[^14_1]
+2. [CBIC CGST Act, Section 51](https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/2017_CGST_act/active/chapter10/section51_v1.00.html).[^14_4]
+3. [CBIC Standard Operating Procedure for GST-TDS Deductors](https://cbic-gst.gov.in/pdf/SOP-TDS-AS-ON-18-February-2019.pdf).[^14_5]
+4. [CBIC Notification No. 11/2017-Central Tax (Rate)](https://cbic-gst.gov.in/hindi/pdf/central-tax-rate/Notification11-CGST.pdf).[^14_2]
+5. [CBIC Circular No. 177/09/2022-TRU](https://cbic-gst.gov.in/pdf/cir-177-08-2022-cgst.pdf).[^14_3]
+6. [CBIC Notification No. 12/2017-Central Tax (Rate)](https://cbic-gst.gov.in/hindi/pdf/central-tax-rate/Notification12-CGST.pdf).[^14_8]
+7. [Income Tax Department, Tax Deducted at Source](https://www.incometaxindia.gov.in/w/tax-deduction-at-source-tds-).[^14_7]
+8. [Income Tax Department, TDS FAQs](https://www.incometaxindia.gov.in/documents/d/guest/faqs-on-tax-deduction-source).[^14_6]
+9. Government of Sikkim, *The Sikkim Panchayat Act, 1993*.
+10. Government of Sikkim, *The Sikkim Municipalities Act, 2007*.
+11. Government of Sikkim, *The Sikkim Local Fund Audit Act, 2012*.
+12. Government of Sikkim, Finance Department instructions on Government bills, contracts and statutory deductions.
+13. Directorate of Local Fund Audit, Sikkim, applicable audit manuals and circulars.
